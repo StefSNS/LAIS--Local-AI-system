@@ -1,95 +1,156 @@
-# MARK XXXV — Personal AI Assistant
+# LAIS — Local AI System
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/downloads/)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows_10%2F11-blue)](https://www.microsoft.com/windows)
 
-> **A real-time, voice-driven personal AI assistant for your desktop.**
-> Speak to it like J.A.R.V.I.S. — it listens, responds, controls your computer, searches the web, manages files, runs code, and remembers what matters to you.
+> **Three autonomous agents, one shared brain.**
+> JARVIS (voice AI) + AI Engine (plugin orchestrator) + OpenCode (CLI coder) running simultaneously with unified memory, cross-agent task routing, and a shared knowledge vault.
 
 ---
 
-## Features
+## The Three Agents
 
-| Capability | Description |
-|---|---|
-| 🎤 **Real-Time Voice** | Speak naturally, get spoken responses via Gemini Live API streaming audio |
-| 👁️ **Screen Vision** | Captures and analyzes screen/webcam via Gemini Vision |
-| 🖥️ **Desktop Control** | Open apps, manage files, run commands, control volume/brightness |
-| 🖱️ **GUI Automation** | Click, type, scroll, find elements on screen via PyAutoGUI |
-| 🌐 **Web Search** | Google + DuckDuckGo fallback, comparison mode |
-| 🧠 **Persistent Memory** | Remembers your name, preferences, projects, relationships across sessions |
-| 📱 **Messaging** | Send WhatsApp / Telegram messages hands-free |
-| ⏰ **Reminders** | Windows Task Scheduler integration |
-| 🎮 **Game Management** | Steam & Epic Games install/update/list/schedule |
-| 🎵 **YouTube Control** | Play, summarize, trending, video info |
-| ✈️ **Flight Search** | Google Flights integration |
-| 🔧 **Code Assistant** | Write, edit, run, explain code autonomously |
-| 🏗️ **Dev Agent** | Build complete multi-file projects from scratch |
-| 🛡️ **Security Grid** | 9-agent adaptive defense system with randomized countermeasures |
-| 📊 **System Diagnostics** | CPU, memory, disk, network health monitoring |
+LAIS runs three independent agents that communicate through a shared unified layer. Each is designed for a different interaction mode:
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                   UNIFIED LAYER                           │
+│        Shared Memory · Cross-Agent Routing · Sync        │
+├──────────────────────────────────────────────────────────┤
+│           │                    │                         │
+│    ┌──────┴──────┐    ┌──────┴──────┐    ┌─────────────┐│
+│    │   JARVIS    │    │  AI ENGINE  │    │   OPENCODE   ││
+│    │  (Voice AI) │    │ (Orchestr.) │    │  (CLI Agent) ││
+│    ├─────────────┤    ├─────────────┤    ├─────────────┤│
+│    │ Voice I/O   │    │ GUI Desktop │    │ CLI Terminal ││
+│    │ Gemini Live │    │ 40+ Plugins │    │ 30+ Skills   ││
+│    │ Screen Vis. │    │ RAG Pipeline│    │ File Ops     ││
+│    │ Desktop Ctrl│    │ Local LLM   │    │ Code Gen     ││
+│    │ Security    │    │ Multi-agent │    │ Refactoring  ││
+│    │ Diagnostics │    │ Orchestrat. │    │ Code Review  ││
+│    └─────────────┘    └─────────────┘    └─────────────┘│
+└──────────────────────────────────────────────────────────┘
+```
+
+### How Tasks Flow Between Agents
+
+| Trigger | Routed To | Why |
+|---------|-----------|-----|
+| Voice command ("open Chrome") | **JARVIS** | Fast action, low latency |
+| Complex request ("research X and draft a report") | **AI Engine** | Plugin orchestration, RAG, multi-step |
+| Code task ("refactor this function") | **OpenCode** | File-based operations, skill execution |
+| Plugin call ("send email") | **AI Engine** | Has the email plugin |
+| Security/threat detected | **JARVIS** Has the security sub-agent grid |
+| Self-improvement loop | **AI Engine** | Autonomy engine, benchmarking |
+| "What's in my memory about X?" | **All three** | Shared unified memory, same answer |
+
+The **Unified Layer** (`models/ai_engine/unified_layer/`) handles cross-agent communication, memory sync, task delegation, and channel routing. Agents share the same memory store, so JARVIS remembers what OpenCode did and vice versa.
 
 ---
 
-## Architecture
+## Agent Capabilities
+
+### JARVIS (Mark-XXXV) — Voice AI Assistant
+
+- **Real-time voice** via Gemini Live API streaming audio
+- **Screen vision** — captures and analyzes screen/webcam
+- **Desktop control** — open apps, manage files, run commands, volume/brightness
+- **GUI automation** — click, type, scroll via PyAutoGUI
+- **Web search** — Google + DuckDuckGo with comparison
+- **Persistent memory** — extracts facts across sessions
+- **Messaging** — WhatsApp / Telegram hands-free
+- **Reminders** — Windows Task Scheduler integration
+- **Game management** — Steam & Epic Games
+- **YouTube** — play, summarize, trending
+- **Flight search** — Google Flights
+- **Security Grid** — 9 adaptive defense sub-agents (network_shield, code_sentry, file_watchdog, input_sanitizer, auth_gate, anomaly_detector, crypto_guard, audit_logger, decoy_engine)
+- **System diagnostics** — CPU, memory, disk, network health
+
+### AI Engine — Plugin Orchestrator & LLM Gateway
+
+- **Desktop GUI** — customTkinter interface with dark theme
+- **40+ plugins** hot-loaded dynamically:
+  - Browser automation, web scraping, semantic search
+  - File management, code editing, system control
+  - Email (SMTP/IMAP), reminders, cloud sync
+  - Knowledge retrieval, document ingestion, research
+  - Hardware detection, RAM management, screen processing
+  - Task presets, intent routing, agent dispatching
+  - YouTube, weather, flight finder, dictionary
+- **RAG pipeline** — SQLite FTS5 search, txtai embeddings, vault curation
+- **Local LLM inference** — llama.cpp server for Qwen, RWKV, SmolLM models
+- **Multi-agent orchestration** — routes tasks to the right agent
+- **Memory tiers** — hot (full context), warm (summarized), cold (metadata), archive (compressed)
+- **Background consciousness** — runs autonomous reflection loops
+- **Self-improvement engine** — benchmarks, cross-session learning
+- **Unified memory** — shared across all three agents via sync layer
+
+### OpenCode — CLI Coding Agent
+
+- **Terminal-based** — runs in any shell, no GUI needed
+- **30+ skills** loaded from skill files:
+  - Brainstorming, architecture design, API design
+  - Code review, debugging, testing (TDD)
+  - Refactoring, documentation, migrations
+  - Security audit, file organization, git workflows
+  - Plan mode, multi-modal workflows, RAG implementation
+- **CLI tools** — file ops, code generation, project scaffolding
+- **Works alongside JARVIS and AI Engine** — tasks can be delegated to it
+- **Skill registry** — auto-discovers and loads skills from `knowledge/central_skills/`
+
+---
+
+## What Makes This Different
+
+| Feature | LAIS | ChatGPT Desktop | Alexa/Siri | Copilot |
+|---------|------|----------------|------------|---------|
+| **3 simultaneous agents** | ✅ Voice + GUI + CLI | ❌ | ❌ | ❌ |
+| **Real-time voice streaming** | ✅ Full duplex | ❌ Turn-based | ✅ | ❌ |
+| **Screen/webcam vision** | ✅ | ❌ | ❌ | ❌ |
+| **Full computer control** | ✅ Mouse, keyboard, apps, files | ❌ | ❌ | ❌ |
+| **Offline local models** | ✅ GGUF (Qwen, RWKV, SmolLM) | ❌ | ❌ | ❌ |
+| **Plugin ecosystem** | ✅ 40+ hot-loaded plugins | ✅ (GPTs) | ❌ | ❌ |
+| **Skill system** | ✅ 30+ skills via OpenCode | ❌ | ❌ | ❌ |
+| **Cross-agent memory** | ✅ Shared unified memory | ❌ | ❌ | ❌ |
+| **Autonomous agent** | ✅ Plan + Execute + Error recovery | ❌ | ❌ | ❌ |
+| **Self-improvement** | ✅ Benchmarks + cross-session learning | ❌ | ❌ | ❌ |
+| **Security grid** | ✅ 9-agent adaptive defense | ❌ | ❌ | ❌ |
+| **Open source** | ✅ CC BY-NC 4.0 | ❌ | ❌ | ❌ |
+
+Instead of one monolithic assistant, LAIS is **three collaborating agents** that each excel at their interaction mode. You can talk to JARVIS, watch AI Engine process complex workflows in its GUI, and invoke OpenCode for precise code operations — all sharing the same memory and context.
+
+---
+
+## Directory Structure
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                    MAIN.PY                           │
-│         Gemini Live API Session Manager              │
-│         Tool Dispatch & Orchestration                │
-├─────────────────────────────────────────────────────┤
-│                       │                              │
-│         ┌─────────────┴─────────────┐               │
-│         ▼                           ▼               │
-│  ┌──────────┐               ┌──────────┐            │
-│  │  ACTIONS │               │  AGENTS  │            │
-│  │  ─────── │               │  ─────── │            │
-│  │  • open_app              │  • planner│            │
-│  │  • web_search            │  • executor            │
-│  │  • file_controller       │  • error_handler       │
-│  │  • cmd_control           │  • task_queue          │
-│  │  • browser_control       │  • SECURITY (9 agents) │
-│  │  • computer_control      └──────────┘            │
-│  │  • code_helper                                     │
-│  │  • dev_agent              ┌──────────┐            │
-│  │  • send_message           │  MEMORY  │            │
-│  │  • +10 more...            │  ─────── │            │
-│  └──────────┘               │  • manager             │
-│                              │  • config             │
-│                              └──────────┘            │
-├─────────────────────────────────────────────────────┤
-│                    UI.PY                              │
-│            Animated Tkinter Interface                 │
-│         Status: LISTENING / SPEAKING / THINKING      │
-└─────────────────────────────────────────────────────┘
+LAIS/
+├── install.py                 # Bootstrap installer
+├── README.md                  # This file
+├── QUICK_START.md             # Setup guide
+├── USER_GUIDE.md              # Full command reference
+├── SECURITY.md                # Security considerations
+├── models/
+│   ├── Mark-XXXV/             # JARVIS voice AI
+│   │   ├── main.py            # Entry point
+│   │   ├── actions/           # 19+ action modules
+│   │   ├── agent/             # Planner, executor, security
+│   │   ├── memory/            # Memory manager
+│   │   └── utils/             # API keys, helpers
+│   ├── ai_engine/             # AI Engine orchestrator
+│   │   ├── main.py            # Desktop GUI entry
+│   │   ├── llm_engine.py      # LLM inference gateway
+│   │   ├── plugin_manager.py  # Hot-loads 40+ plugins
+│   │   ├── plugins/           # Plugin modules
+│   │   ├── unified_layer/     # Cross-agent bridge
+│   │   ├── knowledge/         # RAG, memory, skills
+│   │   └── memory_lais.py     # Shared memory backend
+│   ├── llama-bin/             # llama.cpp binaries
+│   └── *.gguf                 # Local LLM models
+├── config/system.json         # Shared agent configuration
+└── launch/start_all.ps1       # Launch all agents
 ```
-
-### How It Works
-
-1. **Voice Input** → Microphone stream sent to Gemini Live API
-2. **AI Processing** → Gemini decides which tool to call based on context
-3. **Tool Execution** → Python module performs the action (search, file, command, etc.)
-4. **Voice Output** → Response streamed back as audio
-5. **Memory Update** → Personal facts extracted and saved asynchronously
-
-### Security Grid (Optional)
-
-When threats are detected, the assistant can deploy up to **9 specialized defense sub-agents**:
-
-| Agent | Target |
-|---|---|
-| `network_shield` | SSRF, MITM, unauthorized egress |
-| `code_sentry` | RCE, eval/exec abuse, unsafe imports |
-| `file_watchdog` | Path traversal, sensitive system files |
-| `input_sanitizer` | SQLi, XSS, command injection |
-| `auth_gate` | Rate limiting, brute force protection |
-| `anomaly_detector` | Behavioral patterns, escalation chains |
-| `crypto_guard` | Key validation, secret redaction |
-| `audit_logger` | Integrity-protected security event logging |
-| `decoy_engine` | Honeypots, fake credentials, misdirection |
-
-Each agent deploys **randomized defenses** that rotate in real time when the attacker adapts. [Learn more](SECURITY.md).
 
 ---
 
@@ -97,181 +158,49 @@ Each agent deploys **randomized defenses** that rotate in real time when the att
 
 ### Prerequisites
 
-- **Windows 10 or 11** (primary platform)
-- **Python 3.11 or 3.12** ([download](https://www.python.org/downloads/))
-- **Google Gemini API key** ([get one free](https://aistudio.google.com/apikey))
-- **~5GB free disk space** (models + dependencies)
+- **Windows 10 or 11** (primary)
+- **Python 3.11 or 3.12**
+- **~5GB free disk space**
 
-### One-Step Install (Recommended)
-
-```powershell
-pip install localclaw
-```
-
-Or run the bootstrap installer directly:
+### One-Step Install
 
 ```powershell
 python install.py
 ```
 
-> This will (automatically):
-> 1. ✅ Clone MARK XXXV (voice AI), OpenCode (CLI agent), and build the AI Engine
-> 2. ✅ Install all Python dependencies + Playwright browser automation
-> 3. ✅ Create an Obsidian **"Shared Brain"** vault with full folder structure
-> 4. ✅ Install coding language templates (Python, JS/TS, Rust, Go, Shell, SQL)
-> 5. ✅ Build a skills registry from all system components
-> 6. ✅ Create unified integration config linking all agents together
-> 7. ✅ Generate launch scripts, user guides, and prompt templates
-> 8. ✅ Run validation tests to verify everything works
-> 9. ✅ Download Obsidian and create desktop shortcut
+This bootstraps the entire system: dependencies, plugins, skills, Obsidian vault, and integration config.
 
-### Manual Install
+### Manual Start
 
 ```powershell
-# 1. Clone the repository
-git clone https://github.com/JARVIS-Systems/Mark-XXXV.git
-cd Mark-XXXV
+# Launch all three agents
+.\launch\start_all.ps1
 
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Install browser automation
-playwright install chromium
-
-# 4. Set up your API key
-# Create a .env file in the project root with:
-# GEMINI_API_KEY=your_key_here
-
-# 5. Run the assistant
-python main.py
-```
-
-### First Launch
-
-1. On first launch, a UI prompt will ask for your **Gemini API key**
-2. The assistant will connect and say **"At your service, sir."**
-3. Start with: *"What can you do?"* or *"Introduce yourself"*
-
----
-
-## What Makes This Different
-
-| Feature | MARK XXXV | ChatGPT Desktop | Alexa/Siri | Copilot |
-|---|---|---|---|---|
-| **Real-time voice streaming** | ✅ Full duplex | ❌ Turn-based | ✅ | ❌ |
-| **Screen/webcam vision** | ✅ Gemini Vision | ❌ | ❌ | ❌ |
-| **Full computer control** | ✅ Mouse, keyboard, apps, files | ❌ | ❌ | ❌ |
-| **Offline models** | ✅ GGUF (Qwen, RWKV, SmolLM) | ❌ | ❌ | ❌ |
-| **Autonomous agent** | ✅ Plan + Execute + Error recovery | ❌ | ❌ | ❌ |
-| **Persistent memory** | ✅ Extracts facts automatically | ❌ | ❌ | ❌ |
-| **Self-healing diagnostics** | ✅ System health + auto-repair | ❌ | ❌ | ❌ |
-| **Active security grid** | ✅ 9-agent adaptive defense | ❌ | ❌ | ❌ |
-| **Game management** | ✅ Steam + Epic Games | ❌ | ❌ | ❌ |
-| **Open source** | ✅ CC BY-NC 4.0 | ❌ | ❌ | ❌ |
-
----
-
-## Ecosystem: Repos, Skills & Plugins
-
-### Core Repositories
-
-| Repository | Purpose |
-|---|---|
-| [Mark-XXXV](https://github.com/JARVIS-Systems/Mark-XXXV) | Voice-driven personal AI assistant |
-| [OpenCode](https://github.com/anomalyco/opencode) | Local CLI coding agent (skills-based) |
-| [AI Engine](models/ai_engine/) | Local LLM inference + Gemini API orchestration |
-| [Obsidian](https://obsidian.md) | Knowledge management (the "Shared Brain") |
-
-### Skills & Plugins by Component
-
-| Component | Skills Location | Count |
-|-----------|---------------|-------|
-| **JARVIS** | `agent/planner.py`, `agent/executor.py`, `agent/security/` | 9 security sub-agents + planner/executor |
-| **OpenCode** | `models/opencode/skills/` | 30+ skill files (installer auto-discovers) |
-| **AI Engine** | `models/ai_engine/plugins/` | 15+ plugins (search, memory, analytics, etc.) |
-| **Shared Vault** | `010_AGENTS/Skills/` | User-defined skills registry |
-
-### Recommended Obsidian Plugins
-
-| Plugin | Purpose |
-|---|---|
-| [Obsidian Git](https://github.com/denolehov/obsidian-git) | Auto-backup vault to GitHub |
-| [Dataview](https://github.com/blacksmithgu/obsidian-dataview) | Query and aggregate notes like a database |
-| [Templater](https://github.com/SilentVoid13/Templater) | Advanced templates with variables and JS |
-| [Kanban](https://github.com/mgmeyers/obsidian-kanban) | Visual project management boards |
-| [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) | Daily note calendar view |
-| [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) | Full task management with dates |
-
-### Suggested Add-Ons
-
-| Tool | Link | Why |
-|---|---|---|
-| **Ollama** | https://ollama.ai | Run additional local models with simple API |
-| **LM Studio** | https://lmstudio.ai | GUI for browsing/testing GGUF models |
-| **Docker Desktop** | https://docker.com | Containerized dev environments |
-| **Windows Terminal** | Microsoft Store | Better terminal for PowerShell/WSL |
-| **GitHub Desktop** | https://desktop.github.com | GUI git client for managing repos |
-
----
-
-## First Things to Try
-
-Once running, try these commands to see what it can do:
-
-```text
-"What's on my screen?"
-"Open Chrome and search for the weather today"
-"Check my disk space"
-"Remember that my favorite color is blue"
-"Set a reminder for 30 minutes"
-"Search for flights from New York to London next Friday"
-"What's the latest news in technology?"
-"Play the top trending video on YouTube"
-"Send a message to John on WhatsApp saying I'm on my way"
-"Install the game Cyberpunk 2077 from Steam"
-"Run a full system diagnostic"
+# Or individually:
+python models\Mark-XXXV\main.py      # JARVIS voice AI
+python models\ai_engine\main.py       # AI Engine GUI
+# OpenCode runs from terminal (global install)
 ```
 
 ---
 
-## User Guide
+## Use Cases
 
-See [QUICK_START.md](QUICK_START.md) for detailed setup instructions, personalization steps, and troubleshooting.
-
-See [USER_GUIDE.md](USER_GUIDE.md) for complete command reference, workflow guide, and advanced usage.
-
-See [SECURITY.md](SECURITY.md) for security considerations and recommended mitigations.
-
----
-
-## Requirements
-
-- **OS:** Windows 10/11 (primary), partial macOS/Linux
-- **Python:** 3.11 or 3.12
-- **RAM:** 8GB minimum (16GB recommended)
-- **Storage:** 5GB free
-- **Microphone:** Required for voice interaction
-- **Internet:** Required for Gemini API (offline models available as fallback)
+| Scenario | How LAIS Handles It |
+|----------|-------------------|
+| **"Research quantum computing and build a demo"** | AI Engine RAG-searches knowledge base → drafts report → delegates code to OpenCode |
+| **"What's on my screen? Open that file."** | JARVIS captures screen via Gemini Vision → identifies file → opens it |
+| **"Review and refactor this module"** | OpenCode runs code review skill → applies refactoring → JARVIS announces completion |
+| **"I need a reminder about the meeting"** | JARVIS captures voice → AI Engine schedules Windows task → confirmation spoken |
+| **"Optimize my system memory"** | AI Engine's RAM manager checks model usage → unloads idle models → reports savings |
+| **"Find that email about the API key from last week"** | AI Engine's semantic search across memory + email plugin → returns result |
 
 ---
 
 ## License
 
-This project is licensed under **Creative Commons Attribution-NonCommercial 4.0** — see [LICENSE](LICENSE) for details.
-
-**Personal and non-commercial use only.** You are free to share and adapt the material for non-commercial purposes with appropriate attribution.
-
----
+**CC BY-NC 4.0** — Personal and non-commercial use only. See [LICENSE](LICENSE).
 
 ## Security
 
-⚠️ **This assistant has full access to your computer.** It can read/write files, execute commands, browse the web, and run AI-generated code. Please review [SECURITY.md](SECURITY.md) for important security considerations before deployment.
-
----
-
-## Acknowledgements
-
-- Built with [Google Gemini API](https://deepmind.google/technologies/gemini/)
-- Local inference via [llama.cpp](https://github.com/ggml-org/llama.cpp)
-- GGUF models from [Hugging Face](https://huggingface.co/)
-- Original concept by FatihMakes
+⚠️ **This system has full access to your computer.** Review [SECURITY.md](SECURITY.md) before deployment.
