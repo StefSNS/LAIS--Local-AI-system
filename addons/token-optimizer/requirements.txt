@@ -1,0 +1,6 @@
+# Token Optimization Pack v1.0.0
+# Install: pip install -r addons/token-optimizer/requirements.txt
+claw-compactor>=7.1.0
+llmlingua>=0.2.2
+shekel>=1.1.0
+tokenpruner>=1.0.0

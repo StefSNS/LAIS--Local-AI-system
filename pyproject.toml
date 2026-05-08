@@ -14,12 +14,6 @@ authors = [
 ]
 
 dependencies = [
-    # Token optimization & compression
-    "claw-compactor>=7.1.0",
-    "llmlingua>=0.2.2",
-    "shekel>=1.1.0",
-    "tokenpruner>=1.0.0",
-    # Core
     "sounddevice>=0.5.1",
     "google-genai>=1.0.0",
     "google-generativeai>=0.8.0",
