@@ -1,0 +1,121 @@
+{
+  "type": "weekly",
+  "period": "2026-05-04",
+  "generated": "2026-05-05T10:56:45.115613",
+  "logs_processed": 8,
+  "stats": {
+    "total": 44,
+    "done": 39,
+    "in_progress": 0,
+    "blocked": 0,
+    "pending": 5,
+    "completion_rate": 88.6
+  },
+  "top_insights": [
+    "- Crystallize important info",
+    "| `notes` | Important info |"
+  ],
+  "metrics": {},
+  "goals_summary": [
+    {
+      "text": "RAM check: <85% usage",
+      "status": "pending",
+      "source": "log"
+    },
+    {
+      "text": "Required model loaded (or can be loaded)",
+      "status": "pending",
+      "source": "log"
+    },
+    {
+      "text": "Vault accessible",
+      "status": "pending",
+      "source": "log"
+    },
+    {
+      "text": "Skills loaded",
+      "status": "pending",
+      "source": "log"
+    },
+    {
+      "text": "Unified layer connected",
+      "status": "pending",
+      "source": "log"
+    },
+    {
+      "text": "- `cybersecurity_best_practices.md` \u2014 Already comprehensive \u2705",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "- `language_comparison.md` \u2014 Already comprehensive \u2705",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**RAG Integration**: `rag_query()` method searches knowledge base",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Skill Usage Tracking**: `track_skill_usage()`, `get_unused_skills()`",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Agent Registry**: Multi-agent support (Omnis, Jarvis, OpenCode)",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Keyword Extraction**: `extract_keywords()` for better relevance",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Enhanced Compression**: 3-level compression (0.4, 0.7, 0.85 ratios)",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Context Injection**: `inject_context_prompt()` generates XML prompt (~150 tokens)",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Session Statistics**: `get_stats()` returns memory health metrics",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Dynamic Discovery**: Auto-detects knowledge files and skills",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Cross-Agent Sync Check**: Detects missing skills in Omnis/Jarvis/OpenCode",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Memory Analysis**: Checks long_term.json, crystallized, sessions cleanup",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Roadmap Gap Analysis**: Identifies missing topics from roadmap.sh",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Auto-Fix**: Attempts high-priority sync issues automatically",
+      "status": "done",
+      "source": "log"
+    },
+    {
+      "text": "**Agent Registry**: Tracks all 3 agents, their skill versions, last sync",
+      "status": "done",
+      "source": "log"
+    }
+  ]
+}

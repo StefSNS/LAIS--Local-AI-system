@@ -1,0 +1,631 @@
+{
+  "entries": [
+    {
+      "id": "omnis_user_pref_theme_1777664317",
+      "agent": "omnis",
+      "key": "user_pref_theme",
+      "value": "User prefers dark mode",
+      "category": "preference",
+      "created": "2026-05-01T21:38:37.489328",
+      "updated": "2026-05-01T21:38:51.126273",
+      "ttl": null,
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "priority": "low",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "jarvis_user_schedule_1777664317",
+      "agent": "jarvis",
+      "key": "user_schedule",
+      "value": "User has meeting at 3pm",
+      "category": "context",
+      "created": "2026-05-01T21:38:37.490677",
+      "updated": "2026-05-01T21:38:51.136187",
+      "ttl": null,
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "priority": "low",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_project_status_1777664317",
+      "agent": "opencode",
+      "key": "project_status",
+      "value": "Unified layer complete",
+      "category": "project",
+      "created": "2026-05-01T21:38:37.500755",
+      "updated": "2026-05-01T21:38:51.144513",
+      "ttl": null,
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "priority": "low",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_last_topic_20260505_091504_1777965305",
+      "agent": "opencode",
+      "key": "last_topic_20260505_091504",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T09:15:05.354397",
+      "updated": "2026-05-05T09:15:05.354397",
+      "ttl": 7200,
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "priority": "high",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_last_topic_20260505_092253_1777965773",
+      "agent": "opencode",
+      "key": "last_topic_20260505_092253",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T09:22:53.673563",
+      "updated": "2026-05-05T09:22:53.673563",
+      "ttl": 7200,
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "priority": "high",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_last_topic_20260505_092335_1777965815",
+      "agent": "opencode",
+      "key": "last_topic_20260505_092335",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T09:23:35.396895",
+      "updated": "2026-05-05T09:23:35.396895",
+      "ttl": 7200,
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "priority": "high",
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "omnis_urgent_fix_1777966661",
+      "agent": "omnis",
+      "key": "urgent_fix",
+      "value": "Critical security patch needed",
+      "category": "alert",
+      "created": "2026-05-05T09:37:41.199700",
+      "updated": "2026-05-05T09:37:41.199700",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "omnis": 5,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "jarvis_meeting_note_1777966661",
+      "agent": "jarvis",
+      "key": "meeting_note",
+      "value": "Discussed project timeline",
+      "category": "context",
+      "created": "2026-05-05T09:37:41.217446",
+      "updated": "2026-05-05T09:37:41.217446",
+      "ttl": null,
+      "priority": "medium",
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "jarvis": 5,
+        "omnis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_code_ref_1777966661",
+      "agent": "opencode",
+      "key": "code_ref",
+      "value": "Use pattern X for Y",
+      "category": "reference",
+      "created": "2026-05-05T09:37:41.234338",
+      "updated": "2026-05-05T09:37:41.234338",
+      "ttl": null,
+      "priority": "low",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 5,
+        "omnis": 4,
+        "jarvis": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "omnis_test_omnis_high_1777966732",
+      "agent": "omnis",
+      "key": "test_omnis_high",
+      "value": "Urgent: Fix security bug now",
+      "category": "alert",
+      "created": "2026-05-05T09:38:52.509840",
+      "updated": "2026-05-05T10:56:58.363172",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "omnis": 5,
+        "jarvis": 8,
+        "opencode": 12
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "jarvis_test_jarvis_medium_1777966732",
+      "agent": "jarvis",
+      "key": "test_jarvis_medium",
+      "value": "Meeting about project timeline",
+      "category": "context",
+      "created": "2026-05-05T09:38:52.523752",
+      "updated": "2026-05-05T10:56:58.376300",
+      "ttl": null,
+      "priority": "medium",
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "jarvis": 5,
+        "omnis": 12,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_test_opencode_low_1777966732",
+      "agent": "opencode",
+      "key": "test_opencode_low",
+      "value": "Code reference for later",
+      "category": "reference",
+      "created": "2026-05-05T09:38:52.539049",
+      "updated": "2026-05-05T10:56:58.389132",
+      "ttl": null,
+      "priority": "low",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 5,
+        "omnis": 4,
+        "jarvis": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "omnis_auto_high_1777966732",
+      "agent": "omnis",
+      "key": "auto_high",
+      "value": "Critical system crash needs immediate fix",
+      "category": "general",
+      "created": "2026-05-05T09:38:52.561973",
+      "updated": "2026-05-05T10:56:58.399815",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "omnis": 5,
+        "jarvis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "jarvis_auto_medium_1777966732",
+      "agent": "jarvis",
+      "key": "auto_medium",
+      "value": "Update the design pattern for better architecture",
+      "category": "general",
+      "created": "2026-05-05T09:38:52.591148",
+      "updated": "2026-05-05T10:56:58.411965",
+      "ttl": null,
+      "priority": "medium",
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "jarvis": 5,
+        "omnis": 4,
+        "opencode": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_auto_low_1777966732",
+      "agent": "opencode",
+      "key": "auto_low",
+      "value": "Random note about something",
+      "category": "general",
+      "created": "2026-05-05T09:38:52.626498",
+      "updated": "2026-05-05T10:56:58.424704",
+      "ttl": null,
+      "priority": "low",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 5,
+        "omnis": 4,
+        "jarvis": 4
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "omnis_search_test_1_1777966732",
+      "agent": "omnis",
+      "key": "search_test_1",
+      "value": "Project Alpha needs funding",
+      "category": "project",
+      "created": "2026-05-05T09:38:52.662841",
+      "updated": "2026-05-05T10:56:58.443922",
+      "ttl": null,
+      "priority": "low",
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 3,
+        "opencode": 3
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "jarvis_search_test_2_1777966732",
+      "agent": "jarvis",
+      "key": "search_test_2",
+      "value": "Project Beta is on hold",
+      "category": "project",
+      "created": "2026-05-05T09:38:52.685107",
+      "updated": "2026-05-05T10:56:58.456597",
+      "ttl": null,
+      "priority": "low",
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "jarvis": 4,
+        "omnis": 3,
+        "opencode": 3
+      },
+      "auto_crystallized": false
+    },
+    {
+      "id": "opencode_search_test_3_1777966732",
+      "agent": "opencode",
+      "key": "search_test_3",
+      "value": "Project Alpha codebase refactored",
+      "category": "project",
+      "created": "2026-05-05T09:38:52.706889",
+      "updated": "2026-05-05T10:56:58.467329",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "omnis_vault_test_critical_1777966732",
+      "agent": "omnis",
+      "key": "vault_test_critical",
+      "value": "Critical security vulnerability in auth system",
+      "category": "alert",
+      "created": "2026-05-05T09:38:52.728204",
+      "updated": "2026-05-05T10:56:58.480375",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "omnis",
+        "jarvis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "omnis": 4,
+        "jarvis": 3,
+        "opencode": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "jarvis_trigger_test_1777966734",
+      "agent": "jarvis",
+      "key": "trigger_test",
+      "value": "Urgent: This should trigger",
+      "category": "alert",
+      "created": "2026-05-05T09:38:54.779476",
+      "updated": "2026-05-05T10:57:00.510685",
+      "ttl": null,
+      "priority": "high",
+      "accessed_by": [
+        "jarvis",
+        "omnis",
+        "opencode"
+      ],
+      "access_patterns": {
+        "jarvis": 4,
+        "omnis": 3,
+        "opencode": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "opencode_opencode_session_start_1777968343",
+      "agent": "opencode",
+      "key": "opencode_session_start",
+      "value": "Session started at 20260508_124833",
+      "category": "session",
+      "created": "2026-05-05T10:05:43.884392",
+      "updated": "2026-05-08T12:48:33.583918",
+      "ttl": 3600,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "opencode_last_topic_20260505_100543_1777968344",
+      "agent": "opencode",
+      "key": "last_topic_20260505_100543",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T10:05:44.085787",
+      "updated": "2026-05-05T10:05:44.085787",
+      "ttl": 7200,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "opencode_last_topic_20260505_100725_1777968445",
+      "agent": "opencode",
+      "key": "last_topic_20260505_100725",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T10:07:25.234153",
+      "updated": "2026-05-05T10:07:25.234153",
+      "ttl": 7200,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "opencode_last_topic_20260505_100827_1777968507",
+      "agent": "opencode",
+      "key": "last_topic_20260505_100827",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T10:08:27.651989",
+      "updated": "2026-05-05T10:08:27.651989",
+      "ttl": 7200,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "opencode_last_topic_20260505_100922_1777968562",
+      "agent": "opencode",
+      "key": "last_topic_20260505_100922",
+      "value": "User asked about: What is the current project status?",
+      "category": "context",
+      "created": "2026-05-05T10:09:22.737240",
+      "updated": "2026-05-05T10:09:22.737240",
+      "ttl": 7200,
+      "priority": "high",
+      "accessed_by": [
+        "opencode",
+        "omnis",
+        "jarvis"
+      ],
+      "access_patterns": {
+        "opencode": 4,
+        "omnis": 3,
+        "jarvis": 3
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "jarvis_jarvis_session_start_1778048013",
+      "agent": "jarvis",
+      "key": "jarvis_session_start",
+      "value": "Session started at 20260506_081405",
+      "category": "session",
+      "created": "2026-05-06T08:13:33.373209",
+      "updated": "2026-05-06T08:14:05.873078",
+      "ttl": 3600,
+      "priority": "high",
+      "accessed_by": [
+        "jarvis"
+      ],
+      "access_patterns": {
+        "jarvis": 1
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "omnis_omnis_session_start_1778058160",
+      "agent": "omnis",
+      "key": "omnis_session_start",
+      "value": "Session started at 20260508_132146",
+      "category": "session",
+      "created": "2026-05-06T11:02:40.325951",
+      "updated": "2026-05-08T13:21:46.049492",
+      "ttl": 3600,
+      "priority": "high",
+      "accessed_by": [
+        "omnis"
+      ],
+      "access_patterns": {
+        "omnis": 1
+      },
+      "auto_crystallized": true
+    },
+    {
+      "id": "test_test_session_start_1778058600",
+      "agent": "test",
+      "key": "test_session_start",
+      "value": "Session started at 20260508_124835",
+      "category": "session",
+      "created": "2026-05-06T11:10:00.440334",
+      "updated": "2026-05-08T12:48:35.287660",
+      "ttl": 3600,
+      "priority": "high",
+      "accessed_by": [
+        "test"
+      ],
+      "access_patterns": {
+        "test": 1
+      },
+      "auto_crystallized": true
+    }
+  ],
+  "last_sync": "2026-05-08T13:21:46.051458",
+  "agents": {
+    "omnis": {
+      "first_seen": "2026-05-01T21:38:37.489328",
+      "last_active": "2026-05-08T13:21:46.049492",
+      "entries_stored": 7
+    },
+    "jarvis": {
+      "first_seen": "2026-05-01T21:38:37.490677",
+      "last_active": "2026-05-06T08:14:05.873078",
+      "entries_stored": 7
+    },
+    "opencode": {
+      "first_seen": "2026-05-01T21:38:37.500755",
+      "last_active": "2026-05-08T12:48:33.583918",
+      "entries_stored": 13
+    },
+    "test": {
+      "first_seen": "2026-05-02T15:40:49.266860",
+      "last_active": "2026-05-08T12:48:35.287660",
+      "entries_stored": 1
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "session_start": {
+    "enabled": true,
+    "script": "%USERPROFILE%/Desktop/AI projects/Projects/Omnis/knowledge/protocol/session_start.py",
+    "auto_run": true,
+    "description": "Auto-executed at session start - loads memory context (~130 tokens)"
+  },
+  "models": {
+    "qwen": {
+      "path": "models/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "default": true,
+      "context_size": 4096
+    },
+    "phi3": {
+      "path": "models/phi-3-mini-4k-instruct-q4.gguf",
+      "context_size": 4096
+    },
+    "phi3_hybrid": {
+      "path": "models/phi_3_memory_hybrid_specialized.gguf",
+      "context_size": 4096
+    }
+  },
+  "active_model": "qwen",
+  "n_threads": 4,
+  "n_ctx": 4096,
+  "model_type": "qwen",
+  "sync_folder": "D:/OmnisBackup",
+  "email": {
+    "smtp": "smtp.gmail.com",
+    "imap": "imap.gmail.com",
+    "user": "",
+    "app_password": ""
+  },
+  "search": {
+    "serper_api_key": "ENV:SERPER_API_KEY",
+    "brave_api_key": "YOUR_BRAVE_KEY_HERE",
+    "primary": "serper",
+    "fallback": "brave",
+    "final_fallback": "wikipedia"
+  },
+  "memory": {
+    "protocol_enabled": true,
+    "protocol_script": "%USERPROFILE%/Desktop/AI projects/Projects/Omnis/knowledge/protocol/session_start.py",
+    "auto_inject": true,
+    "token_budget": 200
+  }
+}

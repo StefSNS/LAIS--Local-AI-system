@@ -1,0 +1,27 @@
+[
+  {
+    "key": "omnis_project_state",
+    "value": "Major implementations complete - skills, memory, knowledge base, model improvements done. E-commerce paused waiting for cloud setup.",
+    "updated": "2026-04-26T16:30:00Z"
+  },
+  {
+    "key": "skills_available",
+    "value": "12 skills in central_skills: code-review, test-generator, debug-assist, refactor, documentation, security-audit, plan-mode, model-switch, file-organizer, git-helper, api-design, migrations, architecture",
+    "updated": "2026-04-26T16:30:00Z"
+  },
+  {
+    "key": "config_improvements",
+    "value": "n_ctx increased to 4096, n_threads to 4, 3 models available (qwen, phi3, phi3_hybrid)",
+    "updated": "2026-04-26T16:30:00Z"
+  },
+  {
+    "key": "ecommerce_status",
+    "value": "Workflow built (automation.py, products.py). Paused - needs cloud hosting (Render.com), Stripe, Gmail SMTP, dropship supplier",
+    "updated": "2026-04-26T16:30:00Z"
+  },
+  {
+    "key": "opencode_capabilities",
+    "value": "Can manage e-commerce integration when user provides API keys. Can switch models, run skills, access knowledge base.",
+    "updated": "2026-04-26T16:30:00Z"
+  }
+]

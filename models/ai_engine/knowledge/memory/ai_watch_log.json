@@ -1,0 +1,169 @@
+[
+  {
+    "timestamp": "2026-05-02T15:39:09.786343",
+    "findings": [
+      {
+        "source": "huggingface_trending",
+        "model_id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "downloads": 2001316,
+        "likes": 887,
+        "modified": null,
+        "tags": [],
+        "action": "INVESTIGATE - trending small model"
+      },
+      {
+        "source": "huggingface_trending",
+        "model_id": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+        "downloads": 37663,
+        "likes": 91,
+        "modified": null,
+        "tags": [],
+        "action": "INVESTIGATE - trending small model"
+      },
+      {
+        "source": "huggingface_trending",
+        "model_id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "downloads": 766075,
+        "likes": 523,
+        "modified": null,
+        "tags": [],
+        "action": "INVESTIGATE - trending small model"
+      },
+      {
+        "source": "huggingface_trending",
+        "model_id": "hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "downloads": 190110,
+        "likes": 217,
+        "modified": null,
+        "tags": [],
+        "action": "INVESTIGATE - trending small model"
+      },
+      {
+        "source": "huggingface_trending",
+        "model_id": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-GGUF",
+        "downloads": 32632,
+        "likes": 46,
+        "modified": null,
+        "tags": [],
+        "action": "INVESTIGATE - trending small model"
+      },
+      {
+        "source": "nous_research",
+        "model_id": "NousResearch/moe-10b-a1b-8k-wsd-lr3e4-1t",
+        "downloads": 399,
+        "likes": 10,
+        "modified": "2026-04-01",
+        "days_ago": 30,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "MONITOR"
+      },
+      {
+        "source": "google_gemma",
+        "model_id": "google/gemma-4-31B-it",
+        "downloads": 7776034,
+        "likes": 2471,
+        "modified": "2026-04-28",
+        "days_ago": 3,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "google_gemma",
+        "model_id": "google/gemma-4-E2B-it",
+        "downloads": 3307386,
+        "likes": 560,
+        "modified": "2026-04-28",
+        "days_ago": 3,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "google_gemma",
+        "model_id": "google/gemma-4-E2B",
+        "downloads": 250993,
+        "likes": 242,
+        "modified": "2026-04-02",
+        "days_ago": 29,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "MONITOR"
+      },
+      {
+        "source": "google_gemma",
+        "model_id": "google/gemma-4-31B",
+        "downloads": 500657,
+        "likes": 350,
+        "modified": "2026-04-02",
+        "days_ago": 29,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "MONITOR"
+      },
+      {
+        "source": "qwen",
+        "model_id": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100",
+        "downloads": 0,
+        "likes": 5,
+        "modified": "2026-04-30",
+        "days_ago": 2,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "qwen",
+        "model_id": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+        "downloads": 0,
+        "likes": 3,
+        "modified": "2026-04-30",
+        "days_ago": 2,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "qwen",
+        "model_id": "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
+        "downloads": 0,
+        "likes": 7,
+        "modified": "2026-04-30",
+        "days_ago": 2,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "qwen",
+        "model_id": "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100",
+        "downloads": 0,
+        "likes": 2,
+        "modified": "2026-04-30",
+        "days_ago": 2,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      },
+      {
+        "source": "qwen",
+        "model_id": "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50",
+        "downloads": 0,
+        "likes": 2,
+        "modified": "2026-04-30",
+        "days_ago": 2,
+        "has_gguf": false,
+        "is_small": true,
+        "action": "INVESTIGATE"
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "total_scanned": 15,
+      "investigate": 7,
+      "monitor": 3,
+      "errors": 0
+    }
+  }
+]

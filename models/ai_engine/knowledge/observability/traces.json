@@ -1,0 +1,20 @@
+[
+  {
+    "trace_id": "40d38317-0a8",
+    "span_type": "test",
+    "model": "x",
+    "prompt_preview": "p",
+    "response_preview": "r",
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "total_tokens": 0,
+    "latency_ms": 0.0,
+    "cost": 0.0,
+    "agent": "",
+    "session_id": "",
+    "tags": [],
+    "quality_score": 0.0,
+    "error": "",
+    "timestamp": "2026-05-08T12:08:58.679810"
+  }
+]

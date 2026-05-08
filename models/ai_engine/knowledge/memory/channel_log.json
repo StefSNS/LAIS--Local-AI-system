@@ -1,0 +1,1022 @@
+[
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-02T13:06:19.127833"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-02T13:06:19.128626"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-02T13:06:19.137404"
+  },
+  {
+    "event": "message_routed",
+    "detail": "omnis_gui/session_001: user",
+    "timestamp": "2026-05-02T13:06:19.147329"
+  },
+  {
+    "event": "message_routed",
+    "detail": "omnis_gui/session_001: assistant",
+    "timestamp": "2026-05-02T13:06:19.155243"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_cli/session_002: user",
+    "timestamp": "2026-05-02T13:06:19.166296"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_cli/session_002: assistant",
+    "timestamp": "2026-05-02T13:06:19.176232"
+  },
+  {
+    "event": "message_routed",
+    "detail": "jarvis_text/session_003: user",
+    "timestamp": "2026-05-02T13:06:19.185035"
+  },
+  {
+    "event": "message_routed",
+    "detail": "jarvis_text/session_003: assistant",
+    "timestamp": "2026-05-02T13:06:19.194517"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-02T15:40:49.219876"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-02T15:40:49.228086"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-02T15:40:49.238527"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-03T16:32:44.317691"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-03T16:32:44.327925"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-03T16:32:44.335825"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-03T16:38:32.245544"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-03T16:38:32.246361"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-03T16:38:32.258238"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-03T16:41:42.416431"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-03T16:41:42.428233"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-03T16:41:42.436653"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-04T09:40:17.824524"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-04T09:40:17.826636"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-04T09:40:17.844227"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-04T11:19:04.271545"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-04T11:19:04.272396"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-04T11:19:04.282288"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-04T11:27:44.006614"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-04T11:27:44.020401"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-04T11:27:44.029850"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:19:54.778779"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:19:54.790421"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:19:54.803108"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:30:18.290337"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:30:18.305264"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:30:18.318603"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:34:42.569976"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:34:42.571061"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:34:42.586508"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:35:22.302016"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:35:22.319659"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:35:22.334984"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:36:37.676464"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:36:37.693504"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:36:37.708761"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T08:37:21.989560"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T08:37:22.006470"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T08:37:22.022406"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:10:01.490460"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:10:01.491474"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:10:01.505409"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-05T09:10:01.518061"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:15:04.794116"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:15:04.805039"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:15:04.817614"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T09:15:04.830213"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:15:05.054029"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:15:05.068342"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:15:05.084110"
+  },
+  {
+    "event": "message_routed",
+    "detail": "omnis_gui/test_session_1: user",
+    "timestamp": "2026-05-05T09:15:05.098070"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: user",
+    "timestamp": "2026-05-05T09:15:05.111945"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: assistant",
+    "timestamp": "2026-05-05T09:15:05.124054"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_091504: user",
+    "timestamp": "2026-05-05T09:15:05.413718"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_091504: assistant",
+    "timestamp": "2026-05-05T09:15:05.431815"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:22:53.151668"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:22:53.162337"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:22:53.174859"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T09:22:53.187148"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:22:53.431245"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:22:53.443122"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:22:53.456654"
+  },
+  {
+    "event": "message_routed",
+    "detail": "omnis_gui/test_session_1: user",
+    "timestamp": "2026-05-05T09:22:53.470210"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: user",
+    "timestamp": "2026-05-05T09:22:53.484802"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: assistant",
+    "timestamp": "2026-05-05T09:22:53.498219"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_092253: user",
+    "timestamp": "2026-05-05T09:22:53.720600"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_092253: assistant",
+    "timestamp": "2026-05-05T09:22:53.741707"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:23:34.861852"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:23:34.874354"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:23:34.886864"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T09:23:34.897465"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:23:35.156657"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:23:35.170166"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:23:35.183357"
+  },
+  {
+    "event": "message_routed",
+    "detail": "omnis_gui/test_session_1: user",
+    "timestamp": "2026-05-05T09:23:35.195178"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: user",
+    "timestamp": "2026-05-05T09:23:35.209012"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/test_session_2: assistant",
+    "timestamp": "2026-05-05T09:23:35.222579"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_092335: user",
+    "timestamp": "2026-05-05T09:23:35.442006"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_092335: assistant",
+    "timestamp": "2026-05-05T09:23:35.458775"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:28:52.968827"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:28:52.989731"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:28:53.009706"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T09:28:53.033036"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T09:30:30.774280"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T09:30:30.787800"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T09:30:30.801402"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T09:30:30.813123"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T10:05:43.683790"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T10:05:43.696174"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T10:05:43.708904"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T10:05:43.720714"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100543: user",
+    "timestamp": "2026-05-05T10:05:44.183000"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100543: assistant",
+    "timestamp": "2026-05-05T10:05:44.219438"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T10:07:24.928889"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T10:07:24.938066"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T10:07:24.948973"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T10:07:24.959774"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100725: user",
+    "timestamp": "2026-05-05T10:07:25.286839"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100725: assistant",
+    "timestamp": "2026-05-05T10:07:25.314119"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T10:08:26.869337"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T10:08:26.893758"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T10:08:26.918062"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T10:08:26.943934"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100827: user",
+    "timestamp": "2026-05-05T10:08:27.714029"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100827: assistant",
+    "timestamp": "2026-05-05T10:08:27.782012"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-05T10:09:22.407721"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-05T10:09:22.418218"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-05T10:09:22.430238"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-05T10:09:22.442023"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100922: user",
+    "timestamp": "2026-05-05T10:09:22.779996"
+  },
+  {
+    "event": "message_routed",
+    "detail": "opencode_channel/20260505_100922: assistant",
+    "timestamp": "2026-05-05T10:09:22.802856"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T08:13:32.587717"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T08:13:32.606155"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T08:13:32.633551"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_channel",
+    "timestamp": "2026-05-06T08:13:32.649523"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T08:14:05.356256"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T08:14:05.372952"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T08:14:05.395592"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_channel",
+    "timestamp": "2026-05-06T08:14:05.404240"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T11:02:28.961077"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T11:02:28.982216"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T11:02:29.000076"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T11:02:29.020302"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T11:09:51.244566"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T11:09:51.266054"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T11:09:51.280574"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-06T11:09:51.295586"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T11:09:58.400549"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T11:09:58.417607"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T11:09:58.434742"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T11:09:58.452258"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T11:15:56.119741"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T11:15:56.133717"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T11:15:56.147198"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-06T11:15:56.161965"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T11:16:01.930979"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T11:16:01.946847"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T11:16:01.962527"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T11:16:01.979057"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:03:53.731716"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:03:53.744923"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:03:53.792460"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-06T12:03:53.831915"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:03:59.445700"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:03:59.465172"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:03:59.479871"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T12:03:59.494518"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:04:46.550870"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:04:46.563499"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:04:46.576244"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-06T12:04:46.589111"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:04:51.308321"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:04:51.322870"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:04:51.335012"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T12:04:51.348783"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:06:46.525354"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:06:46.538040"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:06:46.549329"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-06T12:06:46.562613"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-06T12:06:51.407068"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-06T12:06:51.421424"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-06T12:06:51.433932"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-06T12:06:51.448169"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:26:37.268005"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:26:37.269402"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:26:37.283228"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-08T12:26:37.296916"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:26:45.541219"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:26:45.556005"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:26:45.570981"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-08T12:26:45.586012"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:35:06.233250"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:35:06.234794"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:35:06.252641"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-08T12:35:06.268927"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:35:11.468899"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:35:11.485537"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:35:11.501458"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-08T12:35:11.517333"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:48:26.808710"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:48:26.822533"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:48:26.836785"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_channel",
+    "timestamp": "2026-05-08T12:48:26.853051"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:48:31.804403"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:48:31.820984"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:48:31.835395"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-08T12:48:31.850300"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T12:48:33.870747"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T12:48:33.886089"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T12:48:33.901794"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "test_channel",
+    "timestamp": "2026-05-08T12:48:33.917518"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_gui",
+    "timestamp": "2026-05-08T13:21:40.300920"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "jarvis_text",
+    "timestamp": "2026-05-08T13:21:40.304064"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "opencode_cli",
+    "timestamp": "2026-05-08T13:21:40.322358"
+  },
+  {
+    "event": "channel_registered",
+    "detail": "omnis_channel",
+    "timestamp": "2026-05-08T13:21:40.336220"
+  }
+]

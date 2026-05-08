@@ -1,0 +1,56 @@
+{
+  "protocol": "omnis_continuity_v1.0",
+  "description": "Consolidated continuity protocol for OpenCode - combines Claude, Grok, and Z.ai best practices",
+  "design": {
+    "sessions_dir": "%USERPROFILE%/Desktop/AI projects/Projects/Omnis/knowledge/sessions",
+    "memory_dir": "%USERPROFILE%/Desktop/AI projects/Projects/Omnis/knowledge/memory"
+  },
+  "memory_tiers": {
+    "tier_1_hot": {
+      "description": "Active working memory - full context",
+      "compression": 0,
+      "retention": "current session only",
+      "max_messages": 10,
+      "auto_promote": true
+    },
+    "tier_2_warm": {
+      "description": "Recent context - summarized",
+      "compression": 0.4,
+      "retention": "last 50 messages",
+      "auto_promote": "on inactivity > 20 messages"
+    },
+    "tier_3_cold": {
+      "description": "Historical - metadata only",
+      "compression": 0.7,
+      "retention": "last 200 messages",
+      "auto_promote": "on topic completion"
+    },
+    "tier_4_crystallized": {
+      "description": "Permanent learnings",
+      "compression": 0.85,
+      "retention": "forever",
+      "auto_promote": "validated insight"
+    }
+  },
+  "compression_methods": {
+    "hot": "none",
+    "warm": "summarize_to_key_points",
+    "cold": "extract_keywords_metadata",
+    "crystallized": "distill_to_insights"
+  },
+  "relevance_scoring": {
+    "high_keywords": ["current", "active", "now", "working", "focus", "session", "continuity", "protocol", "automated", "code", "fix", "bug", "error", "implement", "create"],
+    "medium_keywords": ["method", "approach", "technique", "specification", "insight", "system", "function", "class", "file"],
+    "low_keywords": ["background", "history", "archive", "example", "test", "demo", "old", "previous"]
+  },
+  "session_triggers": {
+    "auto_compress": 12,
+    "auto_archive": 50,
+    "quota_warning": "when_api_near_limit",
+    "topic_shift": "detect_new_objective"
+  },
+  "export_format": {
+    "include": ["session_metadata", "tier_1_hot", "tier_2_warm", "compressed_messages", "crystallized_knowledge"],
+    "continuity_instructions": "Copy this JSON and paste at session start to restore context"
+  }
+}

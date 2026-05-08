@@ -1,0 +1,128 @@
+{
+  "network_shield": {
+    "defenses": [
+      {"name": "url_allowlist", "params": {"mode": "strict"}, "description": "Only allow pre-approved URL patterns, block everything else"},
+      {"name": "internal_ip_block", "params": {"block_private": true, "block_cloud_metadata": true}, "description": "Block requests to private/loopback/link-local ranges and cloud metadata IPs"},
+      {"name": "dns_rebind_protection", "params": {"validate_twice": true}, "description": "Validate resolved IP matches expected range before connecting"},
+      {"name": "redirect_sandbox", "params": {"max_redirects": 0}, "description": "Disable HTTP redirect following to prevent SSRF chains"},
+      {"name": "tls_verify_enforce", "params": {"verify_cert": true, "min_tls": "1.2"}, "description": "Enforce TLS certificate verification and minimum TLS version"},
+      {"name": "rate_limit_egress", "params": {"max_per_minute": 30, "max_per_hour": 200}, "description": "Rate limit outbound connections per destination"},
+      {"name": "protocol_restrict", "params": {"allowed": ["https"]}, "description": "Only allow HTTPS protocol, block HTTP and others"},
+      {"name": "dns_allowlist", "params": {"approved_domains": ["googleapis.com", "duckduckgo.com", "github.com"]}, "description": "Only allow DNS resolution for approved domains"},
+      {"name": "request_signing", "params": {"sign_headers": true}, "description": "Cryptographically sign all outbound request headers"},
+      {"name": "connection_timeout", "params": {"connect_s": 5, "total_s": 30}, "description": "Aggressive connection and total request timeouts"}
+    ]
+  },
+  "code_sentry": {
+    "defenses": [
+      {"name": "eval_block", "params": {"block_all": true}, "description": "Block all eval/exec/compile calls at runtime"},
+      {"name": "import_allowlist", "params": {"approved": ["os.path", "json", "re", "pathlib", "datetime"]}, "description": "Only allow imports from approved module list"},
+      {"name": "subprocess_sandbox", "params": {"block_shell": true, "max_cpu_s": 30, "max_mem_mb": 200}, "description": "Sandbox all subprocess calls with resource limits"},
+      {"name": "file_write_restrict", "params": {"allowed_dirs": ["desktop", "downloads", "documents"]}, "description": "Restrict file writes to safe directories only"},
+      {"name": "network_call_block", "params": {"block": true}, "description": "Block all network calls from generated/executed code"},
+      {"name": "syscall_monitor", "params": {"alert_on": ["CreateProcess", "WinExec", "ShellExecute"]}, "description": "Monitor and alert on dangerous Windows syscalls"},
+      {"name": "output_sanitize", "params": {"strip_secrets": true, "max_length": 10000}, "description": "Sanitize code output to prevent secret leakage"},
+      {"name": "timeout_enforce", "params": {"default_s": 30, "max_s": 120}, "description": "Enforce execution timeouts on all generated code"},
+      {"name": "code_pattern_block", "params": {"patterns": ["socket", "requests.get", "urllib", "curl"]}, "description": "Block code containing blacklisted patterns"},
+      {"name": "loop_guard", "params": {"max_iterations": 10000, "max_recursion": 50}, "description": "Prevent infinite loops and excessive recursion"}
+    ]
+  },
+  "file_watchdog": {
+    "defenses": [
+      {"name": "path_normalize", "params": {"resolve_symlinks": true}, "description": "Normalize and resolve all paths before access"},
+      {"name": "traversal_detect", "params": {"block_patterns": ["..", "~", "//"]}, "description": "Detect and block path traversal attempts"},
+      {"name": "extension_allowlist", "params": {"block_executables": true, "allowed": [".txt", ".md", ".json", ".py", ".js", ".html", ".css", ".csv", ".log", ".ini", ".cfg", ".yaml", ".yml", ".xml", ".bat", ".ps1"]}, "description": "Only allow operations on approved file types"},
+      {"name": "size_limit", "params": {"max_read_mb": 50, "max_write_mb": 10}, "description": "Limit file read/write sizes to prevent abuse"},
+      {"name": "sensitive_path_guard", "params": {"protected": ["windows", "system32", "program files", "appdata"]}, "description": "Block access to sensitive system directories"},
+      {"name": "delete_confirm", "params": {"require_approval": true, "max_files": 5}, "description": "Require confirmation for bulk or sensitive deletions"},
+      {"name": "backup_before_write", "params": {"auto_backup": true, "backup_dir": ".backups"}, "description": "Auto-backup files before overwriting"},
+      {"name": "symlink_check", "params": {"block_symlinks": true}, "description": "Block access through symlinks to prevent directory escape"},
+      {"name": "hidden_file_guard", "params": {"block_hidden": true}, "description": "Block access to hidden/system files unless explicitly needed"},
+      {"name": "write_quota", "params": {"max_writes_per_min": 20, "max_total_mb_per_hour": 100}, "description": "Rate limit file write operations"}
+    ]
+  },
+  "input_sanitizer": {
+    "defenses": [
+      {"name": "strip_control_chars", "params": {"strip": true}, "description": "Remove control characters and escape sequences from input"},
+      {"name": "max_length_enforce", "params": {"max_chars": 5000}, "description": "Enforce maximum input length limits"},
+      {"name": "sql_pattern_block", "params": {"block_patterns": ["' OR", "'--", "UNION SELECT", "DROP TABLE", "';"]}, "description": "Block SQL injection patterns in input"},
+      {"name": "xss_escape", "params": {"escape_html": true, "escape_script": true}, "description": "Escape HTML/JS injection vectors in input"},
+      {"name": "command_injection_block", "params": {"block_chars": ["|", ";", "&&", "||", "`", "$("]}, "description": "Block command injection special characters"},
+      {"name": "noop_detect", "params": {"block_repeated": true}, "description": "Detect and block input that's attempting to probe responses"},
+      {"name": "unicode_normalize", "params": {"form": "NFKC"}, "description": "Normalize unicode to prevent homoglyph attacks"},
+      {"name": "json_injection_block", "params": {"strip_proto": true}, "description": "Block JSON prototype pollution attempts"},
+      {"name": "template_injection_detect", "params": {"block_patterns": ["{{", "}}", "{%", "%}"]}, "description": "Detect template injection (SSTI) attempts"},
+      {"name": "path_traversal_block", "params": {"block_encoded": true}, "description": "Block encoded path traversal attempts (%2e%2e%2f, etc.)"}
+    ]
+  },
+  "auth_gate": {
+    "defenses": [
+      {"name": "rate_limit", "params": {"max_attempts_per_min": 5, "lockout_minutes": 15}, "description": "Rate limit authentication attempts with lockout"},
+      {"name": "key_rotation_warn", "params": {"warn_days": 7, "max_age_days": 30}, "description": "Warn when API key is approaching expiry or age limit"},
+      {"name": "session_timeout", "params": {"idle_minutes": 15, "absolute_hours": 8}, "description": "Enforce session timeouts with idle and absolute limits"},
+      {"name": "anomaly_detect", "params": {"geo_check": false, "device_check": true}, "description": "Detect anomalous access patterns"},
+      {"name": "credential_stuffing_block", "params": {"block_common": true, "check_haveibeenpwned": false}, "description": "Block credential stuffing with known password lists"},
+      {"name": "device_fingerprint", "params": {"require_consistent": true}, "description": "Require consistent device fingerprinting"},
+      {"name": "mfa_prompt", "params": {"require_for_sensitive": true}, "description": "Require additional verification for sensitive operations"},
+      {"name": "token_binding", "params": {"bind_to_session": true}, "description": "Bind auth tokens to specific session parameters"},
+      {"name": "jitter_delay", "params": {"min_ms": 100, "max_ms": 500}, "description": "Add random delay to auth responses to prevent timing attacks"},
+      {"name": "audit_trail", "params": {"log_all_auth": true}, "description": "Log all authentication attempts with metadata"}
+    ]
+  },
+  "anomaly_detector": {
+    "defenses": [
+      {"name": "frequency_analysis", "params": {"window_minutes": 5, "threshold": 50}, "description": "Detect abnormal command frequency spikes"},
+      {"name": "tool_usage_pattern", "params": {"learn_baseline": true, "deviation_threshold": 3.0}, "description": "Detect deviation from normal tool usage patterns"},
+      {"name": "time_anomaly", "params": {"unusual_hours": [0, 6]}, "description": "Alert on activity during unusual hours"},
+      {"name": "escalation_detect", "params": {"block_chain": ["open_app->cmd_control->file_controller->code_helper"]}, "description": "Detect privilege escalation tool chains"},
+      {"name": "input_entropy", "params": {"high_entropy_threshold": 4.5}, "description": "Detect abnormally high-entropy (likely automated/encoded) input"},
+      {"name": "repetition_detect", "params": {"max_identical": 3, "window_seconds": 60}, "description": "Detect repetitive commands indicative of probing"},
+      {"name": "parallel_attack_detect", "params": {"max_concurrent": 5}, "description": "Detect parallel attack patterns from different angles"},
+      {"name": "behavioral_baseline", "params": {"learn_days": 7}, "description": "Build user behavioral baseline over time"},
+      {"name": "known_bad_ip", "params": {"check_threat_intel": false}, "description": "Check destinations against known threat intelligence feeds"},
+      {"name": "honeypot_trigger", "params": {"alert_on_access": true}, "description": "Alert when deliberately placed honeypot files/endpoints are accessed"}
+    ]
+  },
+  "crypto_guard": {
+    "defenses": [
+      {"name": "key_validate", "params": {"check_format": true, "check_revoked": false}, "description": "Validate API key format and check revocation status"},
+      {"name": "encrypt_at_rest", "params": {"algorithm": "AES-256-GCM", "memory_file": true}, "description": "Encrypt sensitive files (memory, config) at rest"},
+      {"name": "key_scramble_memory", "params": {"zero_on_idle": true, "idle_seconds": 300}, "description": "Scramble API key in memory when idle for extended periods"},
+      {"name": "tls_enforce", "params": {"min_version": "TLSv1.2", "reject_self_signed": true}, "description": "Enforce minimum TLS version for all connections"},
+      {"name": "secret_redact_logs", "params": {"redact_patterns": ["AIza", "sk-", "ghp_", "gho_"]}, "description": "Redact secrets from all log output"},
+      {"name": "key_boundary", "params": {"never_log": true, "never_cache_to_disk": true}, "description": "Ensure API keys never touch disk in plaintext except .env"},
+      {"name": "checksum_verify", "params": {"verify_downloads": true}, "description": "Verify checksums of downloaded dependencies"},
+      {"name": "memory_guard", "params": {"mlock": true}, "description": "Prevent sensitive data from being swapped to disk"},
+      {"name": "random_delay_jitter", "params": {"auth_delay_ms": [50, 200]}, "description": "Add random jitter to cryptographic operations timing"},
+      {"name": "key_partition", "params": {"split_parts": 3, "min_required": 2}, "description": "Split keys into shards requiring multiple parts to reconstruct"}
+    ]
+  },
+  "audit_logger": {
+    "defenses": [
+      {"name": "log_all_tools", "params": {"log_args": true, "log_result": true}, "description": "Log every tool invocation with arguments and results"},
+      {"name": "log_security_events", "params": {"log_level": "INFO", "include_context": true}, "description": "Log all security-relevant events with full context"},
+      {"name": "log_integrity", "params": {"hmac_sign": true, "hash_chain": true}, "description": "Cryptographically sign log entries to prevent tampering"},
+      {"name": "real_time_alert", "params": {"channels": ["ui", "speak"], "min_severity": "HIGH"}, "description": "Real-time alerts for high-severity security events"},
+      {"name": "log_rotation", "params": {"max_size_mb": 10, "max_files": 5, "compress": true}, "description": "Rotate and compress audit logs to manage disk usage"},
+      {"name": "timestamp_utc", "params": {"precision": "microsecond", "timezone": "UTC"}, "description": "Standardized UTC timestamps for forensic accuracy"},
+      {"name": "anonymize_pii", "params": {"anonymize": true, "patterns": ["email", "phone", "ssn"]}, "description": "Anonymize PII in logs while retaining event structure"},
+      {"name": "separate_channel_alert", "params": {"critical_only": true, "output": "console_highlight"}, "description": "Send critical alerts through a separate high-visibility channel"},
+      {"name": "replay_protect", "params": {"sequence_numbers": true}, "description": "Add sequence numbers to detect log injection/replay"},
+      {"name": "forensic_snapshot", "params": {"on_alert": true, "capture": ["processes", "connections", "open_files"]}, "description": "Capture forensic snapshot on security alerts"}
+    ]
+  },
+  "decoy_engine": {
+    "defenses": [
+      {"name": "fake_credentials", "params": {"deploy": true, "rotate_minutes": 10}, "description": "Deploy fake credential files to trap attackers"},
+      {"name": "honeypot_endpoints", "params": {"simulate_api": true, "log_access": true}, "description": "Deploy honeypot API endpoints that log all access"},
+      {"name": "fake_file_system", "params": {"deploy_fake_files": true, "dirs": ["secrets", "backups", "config"]}, "description": "Deploy fake directory structures with enticing filenames"},
+      {"name": "misdirection_response", "params": {"return_fake_data": true, "delay_response": true}, "description": "Return deliberately misleading data to probing queries"},
+      {"name": "tarpit", "params": {"slow_response": true, "delay_seconds": [5, 30]}, "description": "Slow-respond to suspected attackers to waste their time"},
+      {"name": "fake_process_list", "params": {"inject_fake_processes": true}, "description": "Inject fake processes into system listings to confuse reconnaissance"},
+      {"name": "decoy_network_traffic", "params": {"generate_noise": true, "pattern": "random"}, "description": "Generate decoy network traffic to obscure real communication patterns"},
+      {"name": "fake_error_messages", "params": {"return_plausible_errors": true}, "description": "Return convincing but fake error messages to hide real system state"},
+      {"name": "environment_mimic", "params": {"mimic": "production", "include_fake_data": true}, "description": "Mimic a production environment with fake data to trap attackers"},
+      {"name": "honeytoken_deploy", "params": {"tokens": ["api_key", "database_url", "ssh_key"], "alert_on_use": true}, "description": "Deploy honeytokens that trigger alerts when accessed or used"}
+    ]
+  }
+}

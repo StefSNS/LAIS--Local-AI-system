@@ -1,0 +1,40 @@
+[
+  {
+    "server_id": "mcp_filesystem",
+    "name": "filesystem",
+    "transport": "stdio",
+    "config": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/vault"
+      ]
+    },
+    "connected": false,
+    "capabilities": [],
+    "last_seen": null
+  },
+  {
+    "server_id": "mcp_web_search",
+    "name": "web_search",
+    "transport": "http",
+    "config": {
+      "url": "http://localhost:3001"
+    },
+    "connected": false,
+    "capabilities": [],
+    "last_seen": null
+  },
+  {
+    "server_id": "mcp_test_server",
+    "name": "test_server",
+    "transport": "stdio",
+    "config": {
+      "command": "test"
+    },
+    "connected": false,
+    "capabilities": [],
+    "last_seen": null
+  }
+]

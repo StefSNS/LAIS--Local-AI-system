@@ -1,0 +1,741 @@
+[
+  {
+    "timestamp": "2026-05-01T21:38:37.490699",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "user_schedule"
+  },
+  {
+    "timestamp": "2026-05-01T21:38:37.500775",
+    "agent": "opencode",
+    "action": "store",
+    "key": "project_status"
+  },
+  {
+    "timestamp": "2026-05-01T21:38:51.126319",
+    "agent": "omnis",
+    "action": "store",
+    "key": "user_pref_theme"
+  },
+  {
+    "timestamp": "2026-05-01T21:38:51.136221",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "user_schedule"
+  },
+  {
+    "timestamp": "2026-05-01T21:38:51.144538",
+    "agent": "opencode",
+    "action": "store",
+    "key": "project_status"
+  },
+  {
+    "timestamp": "2026-05-02T15:40:49.266876",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start"
+  },
+  {
+    "timestamp": "2026-05-03T16:32:44.393452",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-03T16:38:32.272903",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-03T16:41:42.456436",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-04T09:40:23.049211",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-04T11:19:08.640448",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-04T11:27:47.009565",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:19:55.660343",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:30:18.509672",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:34:42.765836",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:35:22.616594",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:36:37.989444",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T08:37:22.305765",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:10:01.682126",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:15:04.999060",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:15:05.354433",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_091504"
+  },
+  {
+    "timestamp": "2026-05-05T09:22:53.376552",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:22:53.673610",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_092253"
+  },
+  {
+    "timestamp": "2026-05-05T09:23:35.097596",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:23:35.396933",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_092335"
+  },
+  {
+    "timestamp": "2026-05-05T09:28:53.373801",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:30:31.005619",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start"
+  },
+  {
+    "timestamp": "2026-05-05T09:37:41.199741",
+    "agent": "omnis",
+    "action": "store",
+    "key": "urgent_fix",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T09:37:41.217504",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "meeting_note",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T09:37:41.234367",
+    "agent": "opencode",
+    "action": "store",
+    "key": "code_ref",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.509879",
+    "agent": "omnis",
+    "action": "store",
+    "key": "test_omnis_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.523786",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "test_jarvis_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.539074",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_opencode_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.562007",
+    "agent": "omnis",
+    "action": "store",
+    "key": "auto_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.591204",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "auto_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.626549",
+    "agent": "opencode",
+    "action": "store",
+    "key": "auto_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.662876",
+    "agent": "omnis",
+    "action": "store",
+    "key": "search_test_1",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.685211",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "search_test_2",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.706932",
+    "agent": "opencode",
+    "action": "store",
+    "key": "search_test_3",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:52.728229",
+    "agent": "omnis",
+    "action": "store",
+    "key": "vault_test_critical",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:53.258216",
+    "agent": "test",
+    "action": "store",
+    "key": "expire_test",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T09:38:54.779494",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "trigger_test",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:05:43.884433",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:05:44.086015",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_100543",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:07:25.096472",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:07:25.118232",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_verification",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:07:25.234199",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_100725",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:08:27.351198",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:08:27.402991",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_verification",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:08:27.652081",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_100827",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:09:22.598166",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:09:22.625825",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_verification",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:09:22.737295",
+    "agent": "opencode",
+    "action": "store",
+    "key": "last_topic_20260505_100922",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:47.989311",
+    "agent": "omnis",
+    "action": "store",
+    "key": "test_omnis_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.002064",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "test_jarvis_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.014788",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_opencode_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.025964",
+    "agent": "omnis",
+    "action": "store",
+    "key": "auto_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.037238",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "auto_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.049538",
+    "agent": "opencode",
+    "action": "store",
+    "key": "auto_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.068194",
+    "agent": "omnis",
+    "action": "store",
+    "key": "search_test_1",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.081325",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "search_test_2",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.120102",
+    "agent": "opencode",
+    "action": "store",
+    "key": "search_test_3",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.151193",
+    "agent": "omnis",
+    "action": "store",
+    "key": "vault_test_critical",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:48.670027",
+    "agent": "test",
+    "action": "store",
+    "key": "expire_test",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:32:50.191000",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "trigger_test",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:17.992506",
+    "agent": "omnis",
+    "action": "store",
+    "key": "test_omnis_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.012816",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "test_jarvis_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.029087",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_opencode_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.045458",
+    "agent": "omnis",
+    "action": "store",
+    "key": "auto_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.062590",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "auto_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.089839",
+    "agent": "opencode",
+    "action": "store",
+    "key": "auto_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.119410",
+    "agent": "omnis",
+    "action": "store",
+    "key": "search_test_1",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.135989",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "search_test_2",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.152619",
+    "agent": "opencode",
+    "action": "store",
+    "key": "search_test_3",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.170143",
+    "agent": "omnis",
+    "action": "store",
+    "key": "vault_test_critical",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:18.688003",
+    "agent": "test",
+    "action": "store",
+    "key": "expire_test",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:44:20.206207",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "trigger_test",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.363208",
+    "agent": "omnis",
+    "action": "store",
+    "key": "test_omnis_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.376343",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "test_jarvis_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.389166",
+    "agent": "opencode",
+    "action": "store",
+    "key": "test_opencode_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.399852",
+    "agent": "omnis",
+    "action": "store",
+    "key": "auto_high",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.412011",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "auto_medium",
+    "priority": "medium"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.424748",
+    "agent": "opencode",
+    "action": "store",
+    "key": "auto_low",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.443965",
+    "agent": "omnis",
+    "action": "store",
+    "key": "search_test_1",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.456694",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "search_test_2",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.467368",
+    "agent": "opencode",
+    "action": "store",
+    "key": "search_test_3",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.480396",
+    "agent": "omnis",
+    "action": "store",
+    "key": "vault_test_critical",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-05T10:56:58.994403",
+    "agent": "test",
+    "action": "store",
+    "key": "expire_test",
+    "priority": "low"
+  },
+  {
+    "timestamp": "2026-05-05T10:57:00.510707",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "trigger_test",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T08:13:33.373209",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T08:14:05.873078",
+    "agent": "jarvis",
+    "action": "store",
+    "key": "jarvis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T11:02:40.326025",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T11:10:00.401099",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T11:10:00.440395",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T11:16:03.867154",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T11:16:03.896892",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T12:04:01.389289",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-06T12:04:01.416072",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start"
+  },
+  {
+    "timestamp": "2026-05-06T12:04:52.962363",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start"
+  },
+  {
+    "timestamp": "2026-05-06T12:04:52.990061",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start"
+  },
+  {
+    "timestamp": "2026-05-06T12:06:53.177628",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-06T12:06:53.204923",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:26:47.287112",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:26:47.301098",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:35:13.306436",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:35:13.321044",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:48:33.558136",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:48:33.583959",
+    "agent": "opencode",
+    "action": "store",
+    "key": "opencode_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T12:48:35.287695",
+    "agent": "test",
+    "action": "store",
+    "key": "test_session_start",
+    "priority": "high"
+  },
+  {
+    "timestamp": "2026-05-08T13:21:46.049550",
+    "agent": "omnis",
+    "action": "store",
+    "key": "omnis_session_start",
+    "priority": "high"
+  }
+]

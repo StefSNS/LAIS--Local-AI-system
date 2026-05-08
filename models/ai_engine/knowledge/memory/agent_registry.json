@@ -1,0 +1,56 @@
+[
+  {
+    "agent_id": "omnis",
+    "name": "Omnis Agent",
+    "description": "AI agent: omnis",
+    "capabilities": [
+      "gui",
+      "chat",
+      "search",
+      "vault_write",
+      "memory_read",
+      "visualization"
+    ],
+    "registered_at": "2026-05-08T13:21:40.293949"
+  },
+  {
+    "agent_id": "jarvis",
+    "name": "Jarvis Agent",
+    "description": "AI agent: jarvis",
+    "capabilities": [
+      "voice",
+      "text",
+      "search",
+      "memory_write",
+      "reminders",
+      "apps",
+      "web"
+    ],
+    "registered_at": "2026-05-06T08:14:05.331984"
+  },
+  {
+    "agent_id": "opencode",
+    "name": "Opencode Agent",
+    "description": "AI agent: opencode",
+    "capabilities": [
+      "code",
+      "shell",
+      "search",
+      "file_write",
+      "api",
+      "debug",
+      "git"
+    ],
+    "registered_at": "2026-05-08T12:48:26.791428"
+  },
+  {
+    "agent_id": "test",
+    "name": "Test Agent",
+    "description": "AI agent: test",
+    "capabilities": [
+      "chat",
+      "search"
+    ],
+    "registered_at": "2026-05-08T12:48:33.853567"
+  }
+]

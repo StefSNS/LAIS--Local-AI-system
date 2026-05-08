@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-05-01T21:42:51.926733",
+    "id": "587c0611",
+    "from": "omnis",
+    "to": "jarvis",
+    "type": "request"
+  },
+  {
+    "timestamp": "2026-05-01T21:42:51.928109",
+    "id": "37d8a28c",
+    "from": "jarvis",
+    "to": "opencode",
+    "type": "delegation"
+  },
+  {
+    "timestamp": "2026-05-01T21:42:51.939782",
+    "id": "8a44748c",
+    "from": "system",
+    "to": "all",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2026-05-01T21:42:51.952058",
+    "id": "c2d05f12",
+    "from": "omnis",
+    "to": "opencode",
+    "type": "delegation"
+  },
+  {
+    "timestamp": "2026-05-01T21:43:04.054380",
+    "id": "f84aece8",
+    "from": "omnis",
+    "to": "jarvis",
+    "type": "request"
+  },
+  {
+    "timestamp": "2026-05-01T21:43:04.065048",
+    "id": "03dcefe0",
+    "from": "jarvis",
+    "to": "opencode",
+    "type": "delegation"
+  },
+  {
+    "timestamp": "2026-05-01T21:43:04.075370",
+    "id": "389690ee",
+    "from": "system",
+    "to": "all",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2026-05-01T21:43:04.085934",
+    "id": "f9a09b55",
+    "from": "omnis",
+    "to": "opencode",
+    "type": "delegation"
+  }
+]

@@ -1,0 +1,18 @@
+name: minimal
+backend: local
+model_id: phi-4-mini
+description: Minimal resource usage - emergency mode
+parameters:
+  max_tokens: 1024
+  temperature: 0.3
+  top_p: 0.9
+  context_length: 2048
+  threads: 2
+  batch_size: 256
+  gpu_layers: 0
+  mmap: true
+tags:
+- slm
+- emergency
+- minimal
+- local

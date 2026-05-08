@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "user": "Stefa",
+    "assistant": "opencode (big-pickle model)",
+    "platform": "Windows 11"
+  },
+  "preferences": {
+    "favorite_food": "bacon",
+    "likes": ["Python"],
+    "editor": "VS Code / opencode TUI",
+    "os": "Windows 11"
+  },
+  "projects": {
+    "Omnis": {
+      "status": "active",
+      "description": "Desktop AI Assistant with local LLM, knowledge RAG, session continuity",
+      "location": "%USERPROFILE%/Desktop/AI projects/Projects/Omnis",
+      "models": ["qwen2.5-1.5b", "phi-3-mini", "phi-3-hybrid"],
+      "config": {"n_ctx": 4096, "n_threads": 4}
+    },
+    "LocalClaw": {
+      "status": "active",
+      "description": "Parent project containing Mark-XXXV model",
+      "location": "%USERPROFILE%/Desktop/AI projects/Projects/LocalClaw"
+    },
+    "Mark-XXXV": {
+      "status": "active",
+      "description": "Model with memory system (memory_manager.py)",
+      "location": "%USERPROFILE%/Desktop/AI projects/Projects/LocalClaw/models/Mark-XXXV"
+    },
+    "ecommerce": {
+      "status": "paused",
+      "description": "Dropship automation workflow built, waiting for cloud setup",
+      "needs": ["Render.com hosting", "Stripe account", "Gmail SMTP", "CJ Dropshipping/Spocket"],
+      "products": 10,
+      "automation": "automation.py"
+    }
+  },
+  "relationships": {
+    "projects_structure": "Omnis is main assistant, Mark-XXXV is model within LocalClaw, ecommerce is submodule in Omnis"
+  },
+  "wishes": {
+    "ecommerce": "Get cloud setup done to launch dropship automation",
+    "memory_system": "Fully utilize unified_memory.py for session continuity across opencode sessions"
+  },
+  "notes": {
+    "session_20260428": "User asked about memory system, scanned folders, found continuity protocols, implemented memory population",
+    "continuity_protocols": "Multiple versions exist: omnis_continuity_v1.0, universal_session_continuity_v2.0",
+    "opencode_info": "OpenCode is open source AI coding agent, 140K GitHub stars, 6.5M monthly users"
+  }
+}

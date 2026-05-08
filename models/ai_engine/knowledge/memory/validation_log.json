@@ -1,0 +1,61 @@
+[
+  {
+    "timestamp": "2026-05-05T10:56:24.566017",
+    "schema": "task_output",
+    "agent": "test",
+    "valid": true,
+    "errors": [],
+    "data_keys": [
+      "task_id",
+      "status",
+      "result",
+      "model_used",
+      "agent_used",
+      "tokens_used",
+      "duration_seconds"
+    ]
+  },
+  {
+    "timestamp": "2026-05-05T10:56:24.566902",
+    "schema": "task_output",
+    "agent": "test",
+    "valid": false,
+    "errors": [
+      "Error message required when status=failure"
+    ],
+    "data_keys": [
+      "task_id",
+      "status",
+      "model_used",
+      "agent_used"
+    ]
+  },
+  {
+    "timestamp": "2026-05-05T10:56:24.577897",
+    "schema": "vault_note",
+    "agent": "test",
+    "valid": true,
+    "errors": [],
+    "data_keys": [
+      "title",
+      "content",
+      "folder",
+      "tags"
+    ]
+  },
+  {
+    "timestamp": "2026-05-05T10:56:24.587182",
+    "schema": "vault_note",
+    "agent": "test",
+    "valid": false,
+    "errors": [
+      "Field 'folder' must be one of: ['00_Inbox', '10_Resources', '20_Skills', '30_Projects', '30_Research', '40_System', '50_Memory']",
+      "Title must not contain special characters"
+    ],
+    "data_keys": [
+      "title",
+      "content",
+      "folder"
+    ]
+  }
+]

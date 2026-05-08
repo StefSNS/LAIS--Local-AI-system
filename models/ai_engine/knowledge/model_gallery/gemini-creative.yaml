@@ -1,0 +1,17 @@
+name: gemini-creative
+backend: cloud
+model_id: gemini-2.5-flash
+description: Cloud model with higher temperature for creative tasks
+parameters:
+  max_tokens: 8192
+  temperature: 1.0
+  top_p: 0.95
+  context_length: 32768
+  threads: 4
+  batch_size: 512
+  gpu_layers: 0
+  mmap: true
+tags:
+- llm
+- creative
+- cloud

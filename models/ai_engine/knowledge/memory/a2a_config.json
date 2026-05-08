@@ -1,0 +1,120 @@
+[
+  {
+    "agent_id": "a2a_omnis_gui",
+    "name": "Omnis GUI",
+    "description": "GUI agent with customtkinter interface",
+    "capabilities": [
+      "gui",
+      "chat",
+      "search",
+      "vault_write"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293525"
+  },
+  {
+    "agent_id": "a2a_jarvis_voice/text",
+    "name": "Jarvis Voice/Text",
+    "description": "Voice and text-based agent",
+    "capabilities": [
+      "voice",
+      "text",
+      "search",
+      "memory_write"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293543"
+  },
+  {
+    "agent_id": "a2a_opencode_cli",
+    "name": "OpenCode CLI",
+    "description": "CLI agent with code execution",
+    "capabilities": [
+      "code",
+      "shell",
+      "search",
+      "file_write",
+      "api"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293550"
+  },
+  {
+    "agent_id": "a2a_hermes_research_agent",
+    "name": "Hermes Research Agent",
+    "description": "Web research and information gathering",
+    "capabilities": [
+      "research",
+      "web_search",
+      "summarization"
+    ],
+    "url": "http://localhost:8080/hermes",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293555"
+  },
+  {
+    "agent_id": "a2a_test_agent",
+    "name": "Test Agent",
+    "description": "AI agent: test",
+    "capabilities": [
+      "chat",
+      "search"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293559"
+  },
+  {
+    "agent_id": "a2a_opencode_agent",
+    "name": "Opencode Agent",
+    "description": "AI agent: opencode",
+    "capabilities": [
+      "code",
+      "shell",
+      "search",
+      "file_write",
+      "api",
+      "debug",
+      "git"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293562"
+  },
+  {
+    "agent_id": "a2a_jarvis_agent",
+    "name": "Jarvis Agent",
+    "description": "AI agent: jarvis",
+    "capabilities": [
+      "voice",
+      "text",
+      "search",
+      "memory_write",
+      "reminders",
+      "apps",
+      "web"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.293566"
+  },
+  {
+    "agent_id": "a2a_omnis_agent",
+    "name": "Omnis Agent",
+    "description": "AI agent: omnis",
+    "capabilities": [
+      "gui",
+      "chat",
+      "search",
+      "vault_write",
+      "memory_read",
+      "visualization"
+    ],
+    "url": "",
+    "online": true,
+    "last_seen": "2026-05-08T13:21:40.295693"
+  }
+]

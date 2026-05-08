@@ -1,0 +1,84 @@
+[
+  {
+    "id": "approval_omnis_1777715321",
+    "agent": "omnis",
+    "action_type": "file_delete",
+    "risk_level": "high",
+    "details": {
+      "path": "old_note.md"
+    },
+    "reason": "Approval required for 'file_delete' (risk: high)",
+    "timestamp": "2026-05-02T11:48:41.307574",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  },
+  {
+    "id": "approval_jarvis_1777715321",
+    "agent": "jarvis",
+    "action_type": "network_external",
+    "risk_level": "medium",
+    "details": {
+      "url": "https://api.example.com"
+    },
+    "reason": "Approval required for 'network_external' (risk: medium)",
+    "timestamp": "2026-05-02T11:48:41.314153",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  },
+  {
+    "id": "approval_opencode_1777715321",
+    "agent": "opencode",
+    "action_type": "process_kill",
+    "risk_level": "blocked",
+    "details": {
+      "command": "taskkill /f /pid 1234"
+    },
+    "reason": "Action 'process_kill' is blocked by security policy",
+    "timestamp": "2026-05-02T11:48:41.315855",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  },
+  {
+    "id": "approval_omnis_1777715342",
+    "agent": "omnis",
+    "action_type": "file_delete",
+    "risk_level": "high",
+    "details": {
+      "path": "old_note.md"
+    },
+    "reason": "Approval required for 'file_delete' (risk: high)",
+    "timestamp": "2026-05-02T11:49:02.571387",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  },
+  {
+    "id": "approval_jarvis_1777715342",
+    "agent": "jarvis",
+    "action_type": "network_external",
+    "risk_level": "medium",
+    "details": {
+      "url": "https://api.example.com"
+    },
+    "reason": "Approval required for 'network_external' (risk: medium)",
+    "timestamp": "2026-05-02T11:49:02.572507",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  },
+  {
+    "id": "approval_test_agent_1777715438",
+    "agent": "test_agent",
+    "action_type": "memory_write",
+    "risk_level": "low",
+    "details": {},
+    "reason": "Read-only mode: cannot perform 'memory_write'",
+    "timestamp": "2026-05-02T11:50:38.413847",
+    "status": "pending",
+    "resolved_at": null,
+    "resolved_by": null
+  }
+]

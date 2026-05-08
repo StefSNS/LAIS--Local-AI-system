@@ -1,0 +1,81 @@
+[
+  {
+    "id": "f84aece8",
+    "from": "omnis",
+    "to": "jarvis",
+    "type": "request",
+    "content": "Can you check user's schedule?",
+    "context": {
+      "context": "user asked about meetings"
+    },
+    "status": "unread",
+    "requires_response": false,
+    "response_to": null,
+    "created": "2026-05-01T21:43:04.054355",
+    "read": null,
+    "responded": null,
+    "ttl": 3600
+  },
+  {
+    "id": "03dcefe0",
+    "from": "jarvis",
+    "to": "opencode",
+    "type": "delegation",
+    "content": "Need to update auth module in project",
+    "context": {
+      "task_type": "coding",
+      "priority": "high"
+    },
+    "status": "unread",
+    "requires_response": false,
+    "response_to": null,
+    "created": "2026-05-01T21:43:04.065027",
+    "read": null,
+    "responded": null,
+    "ttl": 3600
+  },
+  {
+    "id": "389690ee",
+    "from": "system",
+    "to": "all",
+    "type": "notification",
+    "content": "Vault sync completed successfully",
+    "context": {},
+    "status": "responded",
+    "requires_response": false,
+    "response_to": null,
+    "created": "2026-05-01T21:43:04.075359",
+    "read": null,
+    "responded": "2026-05-01T21:43:04.085263",
+    "ttl": 3600
+  },
+  {
+    "id": "8e9463e9",
+    "from": "jarvis",
+    "to": "system",
+    "type": "response",
+    "content": "User has meeting at 3pm today",
+    "response_to": "389690ee",
+    "status": "unread",
+    "created": "2026-05-01T21:43:04.085297",
+    "ttl": 3600
+  },
+  {
+    "id": "f9a09b55",
+    "from": "omnis",
+    "to": "opencode",
+    "type": "delegation",
+    "content": "Review the unified layer code",
+    "context": {
+      "task_type": "review",
+      "priority": "normal"
+    },
+    "status": "unread",
+    "requires_response": true,
+    "response_to": null,
+    "created": "2026-05-01T21:43:04.085924",
+    "read": null,
+    "responded": null,
+    "ttl": 3600
+  }
+]

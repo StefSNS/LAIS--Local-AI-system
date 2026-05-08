@@ -1,0 +1,2704 @@
+{
+  "notes": {
+    "00_Map_of_Content.md": {
+      "path": "00_Map_of_Content.md",
+      "title": "00 Map Of Content",
+      "folder": "",
+      "content_preview": "---\ntitle: \"Dashboard - Home\"\ncreated: 2026-05-05T10:45:00\nupdated: 2026-05-06T12:00:00\nfolder: 00_Inbox\ntags: [dashboard, home, command-center, overview]\nsource: system\n---\n\n# \ud83e\udde0 Unified Brain \u2014 Dashboard\n\n## System Overview\n\n| Metric | Value | Trend |\n|--------|-------|-------|\n| Vault Notes | 186+",
+      "word_count": 750,
+      "wikilinks": [
+        "System Architecture",
+        "Protocols Reference",
+        "User Profile",
+        "Project States",
+        "Log - Decisions & Errors",
+        "Vision - Unified AI Agent System",
+        "Project - Goal Cascade",
+        "Agent Registry",
+        "Skill Engine System",
+        "SPEC - ClawHub Skill Format",
+        "OPENCODE_INTEGRATION",
+        "System Architecture Diagrams",
+        "Research - Top Vault & Agent Workflow Best Practices 2026",
+        "Research - AI Models for 3GB RAM",
+        "Research - Quantum Computing",
+        "Research - Intent Classification",
+        "AI Coding Automation 2026",
+        "AI Ecommerce Automation 2026",
+        "Competitor Tech Landscape 2026",
+        "AI Watch List",
+        "price_prediction_methods",
+        "Financial Agent Team - FinCore",
+        "Automated Trading System \u2014 Full Research & Architecture",
+        "AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows",
+        "Python_programming",
+        "rust_programming",
+        "go_programming",
+        "typescript_web_development",
+        "system_architecture_patterns",
+        "financial_planning_guide",
+        "business_automation_guide",
+        "financial-independence-roadmap"
+      ],
+      "tags": [
+        "dashboard",
+        "home",
+        "command-center",
+        "overview"
+      ],
+      "last_modified": "2026-05-06T09:06:43.917172"
+    },
+    "50_Memory.md": {
+      "path": "50_Memory.md",
+      "title": "50 Memory",
+      "folder": "",
+      "content_preview": "---\ntitle: 50 Memory\ncreated: 2026-05-02\ntags: [core/memory]\n---\n\n",
+      "word_count": 9,
+      "wikilinks": [],
+      "tags": [
+        "core/memory"
+      ],
+      "last_modified": "2026-05-05T10:08:37.195956"
+    },
+    "00_Inbox/AGENTS.md": {
+      "path": "00_Inbox\\AGENTS.md",
+      "title": "Agents",
+      "folder": "00_Inbox",
+      "content_preview": "# AGENTS - 00_Inbox\n\n## Purpose\nTemporary catch-all for unprocessed notes and quick captures. All items should be processed and routed to proper folders within 24 hours.\n\n## Agent Rules\n\n### Do\n- Create new notes here when uncertain about categorization\n- Add frontmatter to every note created\n- Proc",
+      "word_count": 154,
+      "wikilinks": [],
+      "tags": [],
+      "last_modified": "2026-05-05T10:54:12.104435"
+    },
+    "10_Resources/agent-protocol-spec.md": {
+      "path": "10_Resources\\agent-protocol-spec.md",
+      "title": "Agent-Protocol-Spec",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Agent Protocol Specification\ncreated: 2026-05-02\ntags: [system, protocol, mcp, a2a, agent, spec]\nstatus: active\n---\n\n# Agent Protocol Specification\n\n## Overview\nDocumentation for the communication protocols used between agents in the Unified Brain system. Covers MCP (Model Context Protoco",
+      "word_count": 604,
+      "wikilinks": [
+        "local_AI_agents_2024",
+        "unified_protocols",
+        "decision-framework",
+        "architecture_evolution_plan"
+      ],
+      "tags": [
+        "system",
+        "a2a",
+        "agent",
+        "protocol",
+        "mcp",
+        "spec"
+      ],
+      "last_modified": "2026-05-05T10:09:22.668391"
+    },
+    "10_Resources/AGENTS.md": {
+      "path": "10_Resources\\AGENTS.md",
+      "title": "Agents",
+      "folder": "10_Resources",
+      "content_preview": "# AGENTS - 10_Resources\n\n## Purpose\nReference materials, code snippets, documentation, and technical resources. Read-heavy folder for knowledge retrieval.\n\n## Agent Rules\n\n### Do\n- Add comprehensive frontmatter with source URLs\n- Tag notes with technology/language tags\n- Link related resources with ",
+      "word_count": 182,
+      "wikilinks": [
+        "AGENTS - 20_Skills",
+        "00_Map_of_Content"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:56:51.808752"
+    },
+    "10_Resources/ai_engineer_roadmap.md": {
+      "path": "10_Resources\\ai_engineer_roadmap.md",
+      "title": "Ai Engineer Roadmap",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Ai Engineer Roadmap\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# AI Engineer Roadmap (2026)\n\nSource: https://roadmap.sh/ai-engineer\n\n## Core Concepts\n\n### Working With LLMs\n- **Sampling Parameters**: Temperature, top_p, frequency penalty, presence penalty\n- **Fine-tuning**: When and how t",
+      "word_count": 381,
+      "wikilinks": [
+        "Protocol"
+      ],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:20.122109"
+    },
+    "10_Resources/anti_hacker_methods.md": {
+      "path": "10_Resources\\anti_hacker_methods.md",
+      "title": "Anti Hacker Methods",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Anti Hacker Methods\ncreated: 2026-05-02\ntags: [integration, resources, security]\n---\n\n# How to Combat Top 15 Hacker Methods\n\n## Attack Vectors & Defenses\n\n### 1. SQL Injection\n**Attack**: Malicious SQL in user input\n```\n' OR '1'='1' --\n```\n**Defense**:\n- Use parameterized queries\n- Input ",
+      "word_count": 498,
+      "wikilinks": [],
+      "tags": [
+        "security",
+        "integration",
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.936106"
+    },
+    "10_Resources/api_integration_patterns.md": {
+      "path": "10_Resources\\api_integration_patterns.md",
+      "title": "Api Integration Patterns",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Api Integration Patterns\ncreated: 2026-05-02\ntags: [integration, resources]\n---\n\n# API Integration Patterns\n\n## HTTP Request Patterns\n\n### Basic GET Request\n```python\nimport requests\n\ndef api_get(url, params=None, headers=None, timeout=10):\n    try:\n        resp = requests.get(url, params",
+      "word_count": 736,
+      "wikilinks": [],
+      "tags": [
+        "integration",
+        "resources"
+      ],
+      "last_modified": "2026-05-05T10:56:51.775011"
+    },
+    "10_Resources/artificial_intelligence.md": {
+      "path": "10_Resources\\artificial_intelligence.md",
+      "title": "Artificial Intelligence",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Artificial Intelligence\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: artificial intelligence\n\n### npj\u7cfb\u5217\u7b97\u4e0d\u7b97nature\u5b50\u520a? - \u77e5\u4e4e\nnpj\u7cfb\u5217\u5f71\u54cd\u56e0\u5b50\u6700\u9ad8\u7684\u662f\u6211\u6240\u5728\u9886\u57df\uff08medical informatics\uff09\u7684 npj digital medicine\uff0c\u5e38\u5e74\u7a33\u5b9a\u572815\u5206\u5de6\u53f3\uff0c\u5728\u8be5\u5206 \u2026\nSource: https://www.zhihu.com/question/15055775489\n\n### \u4eba\u5de5\u667a\u80fd - \u77e5\u4e4e\n",
+      "word_count": 80,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.938118"
+    },
+    "10_Resources/autonomy_manager.md": {
+      "path": "10_Resources\\autonomy_manager.md",
+      "title": "Autonomy Manager",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Autonomy Manager\ncreated: 2026-05-02\ntags: [system, autonomy, safety, agent, control]\nstatus: active\n---\n\n# Autonomy Manager\n\n## Overview\nControls how much agents can do without asking for permission. Three levels that balance safety with efficiency.\n\n## Autonomy Levels\n\n### 1. Read Only ",
+      "word_count": 282,
+      "wikilinks": [
+        "security_policy",
+        "security_policy",
+        "decision-framework",
+        "skill_system-diagnostic|system-diagnostic"
+      ],
+      "tags": [
+        "system",
+        "agent",
+        "autonomy",
+        "control",
+        "safety"
+      ],
+      "last_modified": "2026-05-02T16:39:33.908956"
+    },
+    "10_Resources/best_AI_frameworks_2024.md": {
+      "path": "10_Resources\\best_AI_frameworks_2024.md",
+      "title": "Best Ai Frameworks 2024",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Best Ai Frameworks 2024\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: best AI frameworks 2024\n\n### 5 \u6708 1 \u65e5\u5408\u80a5 BEST \u88c5\u7f6e\u63d0\u524d\u4e24\u4e2a\u6708\u542f\u52a8\u603b\u88c5\uff0c\u5176\u57fa\u4e8e EAST \u9996\u6b21\u6f14\u793a\u805a \u2026\nBEST \u5c06\u5728\u4e16\u754c\u4e0a\u7387\u5148\u5b9e\u73b0\u805a\u53d8\u80fd\u589e\u76ca\u7cfb\u6570 Q \u5927\u4e8e 1\uff0c\u5c06\u4ee5\u6570\u636e\u8bc1\u660e\u805a\u53d8\u53cd\u5e94\u5806\u5728\u53d1\u7535\u3001TBM \u7cfb\u7edf\u4ea7\u6c1a\u3001\u5b89\u5168\u3001\u73af\u4fdd\u7b49\u65b9\u9762\u5177\u6709\u53ef\u884c\u6027\uff0c\u5c06\u4e3a\u4e2d\u56fd\u805a\u53d8\u5de5\u7a0b\u793a\u8303\u5806\u7684\u8bbe\u8ba1\u63d0\u4f9b\u53c2\u6570\u3002 \u6211\u8ba4\u4e3a\u4ee5\u4e0a\u76ee\u6807\u662f\u6709 \u2026\nSource: https://www.zhihu",
+      "word_count": 133,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.940762"
+    },
+    "10_Resources/best_local_AI_tools_for_8GB_RAM_laptops_2024.md": {
+      "path": "10_Resources\\best_local_AI_tools_for_8GB_RAM_laptops_2024.md",
+      "title": "Best Local Ai Tools For 8Gb Ram Laptops 2024",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Best Local Ai Tools For 8Gb Ram Laptops 2024\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: best local AI tools for 8GB RAM laptops 2024\n\n",
+      "word_count": 28,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.942660"
+    },
+    "10_Resources/best_Python_intent_classification_methods.md": {
+      "path": "10_Resources\\best_Python_intent_classification_methods.md",
+      "title": "Best Python Intent Classification Methods",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Best [[Python Intent Classification]] Methods\ncreated: 2026-05-02\ntags: [core/memory, core/search, resources]\n---\n\n# Research: best Python intent classification methods\n\n> Status: No results found by search engine at this time.\n\n## Latest Updates\n\n### 2026-05-01\nHow does Python handle mem",
+      "word_count": 341,
+      "wikilinks": [
+        "Python Intent Classification"
+      ],
+      "tags": [
+        "core/memory",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-05T10:56:51.827128"
+    },
+    "10_Resources/best_Python_NLP_intent_classification_methods_2024.md": {
+      "path": "10_Resources\\best_Python_NLP_intent_classification_methods_2024.md",
+      "title": "Best Python Nlp Intent Classification Methods 2024",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Best Python Nlp Intent Classification Methods 2024\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: best Python NLP intent classification methods 2024\n\n> Status: No results found by search engine at this time.\n",
+      "word_count": 35,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.946681"
+    },
+    "10_Resources/business_automation_guide.md": {
+      "path": "10_Resources\\business_automation_guide.md",
+      "title": "Business Automation Guide",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Business Automation Guide\ncreated: 2026-05-05T14:30:00\ntags: [business, automation, workflow, ai, productivity, tools]\nsource: research\n---\n\n# Business Automation Guide\n\n## Automation Maturity Model\n\n| Level | Description | Tools | Impact |\n|-------|------------|-------|--------|\n| **1. M",
+      "word_count": 1240,
+      "wikilinks": [],
+      "tags": [
+        "tools",
+        "automation",
+        "ai",
+        "productivity",
+        "workflow",
+        "business"
+      ],
+      "last_modified": "2026-05-05T16:32:33.926744"
+    },
+    "10_Resources/code_snippets_library.md": {
+      "path": "10_Resources\\code_snippets_library.md",
+      "title": "Code Snippets Library",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Code Snippets Library\ncreated: 2026-05-02\ntags: [models/llm, resources]\n---\n\n# Code Snippets Library\n\n## Model Loading & Inference\n\n### Start llama-server for a model\n```python\nimport subprocess, time, requests\n\ndef start_model(model_path, port=8100, threads=4, ctx=4096):\n    server = r\"C",
+      "word_count": 604,
+      "wikilinks": [
+        "Quantum Computing"
+      ],
+      "tags": [
+        "resources",
+        "models/llm"
+      ],
+      "last_modified": "2026-05-02T12:30:20.248814"
+    },
+    "10_Resources/cybersecurity_best_practices.md": {
+      "path": "10_Resources\\cybersecurity_best_practices.md",
+      "title": "Cybersecurity Best Practices",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Cybersecurity Best Practices\ncreated: 2026-05-02\ntags: [resources, security]\n---\n\n# Cybersecurity Best Practices\n\n## Core Principles\n\n### 1. Defense in Depth\nMultiple layers of security - no single defense is foolproof.\n\n### 2. Least Privilege\nGrant minimum permissions needed to accomplis",
+      "word_count": 358,
+      "wikilinks": [],
+      "tags": [
+        "security",
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.948743"
+    },
+    "10_Resources/decision-framework.md": {
+      "path": "10_Resources\\decision-framework.md",
+      "title": "Decision-Framework",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Decision Framework\ncreated: 2026-05-02\ntags: [system, decision, orchestrator, routing, classification, transparency]\nstatus: active\n---\n\n# Decision Framework\n\n## Overview\nDocumentation of how the AI system classifies, routes, and executes tasks. Provides transparency into agent decision-m",
+      "word_count": 839,
+      "wikilinks": [
+        "security_policy",
+        "agent-protocol-spec",
+        "architecture_evolution_plan",
+        "decision_log",
+        "security_policy",
+        "autonomy_manager"
+      ],
+      "tags": [
+        "system",
+        "decision",
+        "orchestrator",
+        "classification",
+        "transparency",
+        "routing"
+      ],
+      "last_modified": "2026-05-02T16:08:25.695334"
+    },
+    "10_Resources/docker.md": {
+      "path": "10_Resources\\docker.md",
+      "title": "Docker",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Docker\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# Docker (from roadmap.sh)\n\nSource: https://roadmap.sh/docker\n\n## What is Docker?\nDocker is a platform for developing, shipping, and running applications in containers - lightweight, standalone, executable packages that include everything ",
+      "word_count": 389,
+      "wikilinks": [
+        "Setup"
+      ],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:20.277654"
+    },
+    "10_Resources/ecommerce_automation.md": {
+      "path": "10_Resources\\ecommerce_automation.md",
+      "title": "Ecommerce Automation",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Ecommerce Automation\ncreated: 2026-05-02\ntags: [automation, core/search, ecommerce, resources]\n---\n\n# E-Commerce Automation System\n\n## Trending Products (2026 Research)\n\n### Top Profitable Categories\n| Product | Category | Margin | Why |\n|---------|---------|-------|------|\n| Posture Corr",
+      "word_count": 507,
+      "wikilinks": [],
+      "tags": [
+        "ecommerce",
+        "automation",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-05T10:09:22.663434"
+    },
+    "10_Resources/ecommerce_playbook.md": {
+      "path": "10_Resources\\ecommerce_playbook.md",
+      "title": "Ecommerce Playbook",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Ecommerce Playbook\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, agent/opencode, core/search, core/vault, ecommerce, integration, resources, ui]\n---\n\n# E-Commerce Playbook\n\n## Overview\nWorkflows for building and running an AI-powered e-commerce operation using our agents (Omnis, J",
+      "word_count": 913,
+      "wikilinks": [
+        "Setup"
+      ],
+      "tags": [
+        "ecommerce",
+        "ui",
+        "integration",
+        "agent/opencode",
+        "core/vault",
+        "agent/omnis",
+        "core/search",
+        "agent/jarvis",
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:20.316660"
+    },
+    "10_Resources/efficient_RAM_management_for_AI_models.md": {
+      "path": "10_Resources\\efficient_RAM_management_for_AI_models.md",
+      "title": "Efficient Ram Management For Ai Models",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Efficient [[Ram Management]] For Ai Models\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: efficient RAM management for AI models\n\n> No results found from any source.\n",
+      "word_count": 29,
+      "wikilinks": [
+        "Ram Management"
+      ],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.325942"
+    },
+    "10_Resources/financial-independence-roadmap.md": {
+      "path": "10_Resources\\financial-independence-roadmap.md",
+      "title": "Financial-Independence-Roadmap",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Financial Independence Roadmap\ncreated: 2026-05-02\ntags: [finance, goals, roadmap, income, independence, planning]\nstatus: active\n---\n\n# Financial Independence Roadmap\n\n## Overview\nStrategic plan for achieving financial independence through AI-driven income generation. Tracks milestones, ",
+      "word_count": 528,
+      "wikilinks": [
+        "data-pipeline",
+        "income-tracker",
+        "market-research",
+        "ai_watch_list",
+        "market-research",
+        "income-tracker",
+        "ecommerce_automation",
+        "ecommerce_playbook",
+        "market-research",
+        "report-generator",
+        "decision-framework"
+      ],
+      "tags": [
+        "finance",
+        "roadmap",
+        "planning",
+        "income",
+        "goals",
+        "independence"
+      ],
+      "last_modified": "2026-05-02T16:06:53.964361"
+    },
+    "10_Resources/financial_planning_guide.md": {
+      "path": "10_Resources\\financial_planning_guide.md",
+      "title": "Financial Planning Guide",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Financial Planning Guide\ncreated: 2026-05-05T14:30:00\ntags: [finance, planning, budgeting, investing, retirement, automation]\nsource: research\n---\n\n# Financial Planning Guide\n\n## Personal Finance Framework\n\n### The 50/30/20 Rule (Starting Point)\n- **50% Needs** \u2014 Rent, food, utilities, in",
+      "word_count": 1174,
+      "wikilinks": [
+        "price_prediction_methods"
+      ],
+      "tags": [
+        "investing",
+        "finance",
+        "budgeting",
+        "automation",
+        "planning",
+        "retirement"
+      ],
+      "last_modified": "2026-05-05T16:30:44.123224"
+    },
+    "10_Resources/for_local_ai_agents.md": {
+      "path": "10_Resources\\for_local_ai_agents.md",
+      "title": "For Local Ai Agents",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: For Local Ai Agents\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: for local ai agents\n\n> Source: DuckDuckGo\n\n### Easy Recipes | Good Food\nKeep it easy with these simple but delicious recipes. From make-ahead lunches and midweek meals to fuss-free sides and moreish ca",
+      "word_count": 199,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.956249"
+    },
+    "10_Resources/for_python_intent_classification.md": {
+      "path": "10_Resources\\for_python_intent_classification.md",
+      "title": "For Python Intent Classification",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: For [[Python Intent Classification]]\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: for python intent classification\n\n> Source: DuckDuckGo\n\n### What does the \"at\" (@) symbol do in Python? - Stack Overflow\n97 What does the \u201cat\u201d (@) symbol do in Python? @ symbol is a sy",
+      "word_count": 192,
+      "wikilinks": [
+        "Python Intent Classification"
+      ],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.350437"
+    },
+    "10_Resources/git_github.md": {
+      "path": "10_Resources\\git_github.md",
+      "title": "Git Github",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Git Github\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# Git and GitHub (from roadmap.sh)\n\nSource: https://roadmap.sh/git-github\n\n## Git Basics\n\n### Essential Commands\n| Command | Purpose |\n|---------|----------|\n| `git init` | Initialize repo |\n| `git clone <url>` | Clone remote repo |\n| ",
+      "word_count": 402,
+      "wikilinks": [],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.962303"
+    },
+    "10_Resources/go_programming.md": {
+      "path": "10_Resources\\go_programming.md",
+      "title": "Go Programming",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Go Programming Guide\ncreated: 2026-05-05T14:30:00\ntags: [programming, go, microservices, api, backend]\nsource: research\n---\n\n# Go Programming Guide\n\n## Why Go for Backend Services\n\nGo is the best language for building concurrent, high-performance backend services in 2026. It excels at:\n\n-",
+      "word_count": 1042,
+      "wikilinks": [],
+      "tags": [
+        "api",
+        "go",
+        "programming",
+        "backend",
+        "microservices"
+      ],
+      "last_modified": "2026-05-05T16:28:07.893524"
+    },
+    "10_Resources/intent_classification_improvements_NLP.md": {
+      "path": "10_Resources\\intent_classification_improvements_NLP.md",
+      "title": "Intent Classification Improvements Nlp",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Intent Classification Improvements Nlp\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: intent classification improvements NLP\n\n> Source: DuckDuckGo\n\n### \u0413\u043e\u043b! (\u0444\u0438\u043b\u044c\u043c, 2005) - \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0438\u0434\u0435\u043e \u043e\u043d\u043b\u0430\u0439\u043d \u043e\u0442 \u00ab\u0424\u0438\u043b\u044c\u043c\u0430\u0447 \u2014 \u0444\u0438\u043b\u044c\u2026\n\u00ab\u0413\u043e\u043b!\u00bb \u2014 \u0432\u0434\u043e\u0445\u043d\u043e\u0432\u043b\u044f\u044e\u0449\u0430\u044f \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f \u0434\u0440\u0430\u043c\u0430 \u043e \u043c\u0435\u0447\u0442\u0430\u0445, \u0443\u043f\u043e",
+      "word_count": 179,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.962303"
+    },
+    "10_Resources/intent_classification_NLP.md": {
+      "path": "10_Resources\\intent_classification_NLP.md",
+      "title": "Intent Classification Nlp",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Intent Classification Nlp\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: intent classification NLP\n\n> Source: DuckDuckGo\n\n### O que \u00e9 uma Intent no c\u00f3digo em java/android? - Stack Overflow em ...\nApr 13, 2022 \u00b7 Um intent (em portugu\u00eas: inten\u00e7\u00e3o) \u00e9 um objeto que encaps",
+      "word_count": 278,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.964316"
+    },
+    "10_Resources/Jarvis Memory API.md": {
+      "path": "10_Resources\\Jarvis Memory API.md",
+      "title": "Jarvis Memory Api",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: \"Jarvis Memory API\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 10_Resources\ntags: [resources/api, jarvis, memory, reference]\nsource: ai_curation\n---\n\n# Jarvis Memory API\n\n## Memory Manager (`memory/memory_manager.py`)\n\n### Load Memory\n```python\nfrom memory.memory_manager import load_",
+      "word_count": 291,
+      "wikilinks": [],
+      "tags": [
+        "memory",
+        "resources/api",
+        "jarvis",
+        "reference"
+      ],
+      "last_modified": "2026-05-04T11:23:08.402712"
+    },
+    "10_Resources/language_comparison.md": {
+      "path": "10_Resources\\language_comparison.md",
+      "title": "Language Comparison",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Language Comparison\ncreated: 2026-05-02\ntags: [automation, resources]\n---\n\n# Programming Language Comparison\n\n## By Use Case\n\n| Task | Best Choice | Alternatives |\n|------|-------------|---------------|\n| **Web Backend** | Python, Go, Node.js | Rust, Java |\n| **Web Frontend** | JavaScript",
+      "word_count": 370,
+      "wikilinks": [],
+      "tags": [
+        "automation",
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.966329"
+    },
+    "10_Resources/latest_Python_programming_best_practices.md": {
+      "path": "10_Resources\\latest_Python_programming_best_practices.md",
+      "title": "Latest Python Programming Best Practices",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Latest Python [[Programming Best Practices]]\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: latest [[Python Programming]] best practices\n\n> Source: DuckDuckGo\n\n### South Africa | News24\nNearly 300 South African National Defence Force soldiers have been deployed to cri",
+      "word_count": 137,
+      "wikilinks": [
+        "Programming Best Practices",
+        "Python Programming"
+      ],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.429402"
+    },
+    "10_Resources/linux_basics.md": {
+      "path": "10_Resources\\linux_basics.md",
+      "title": "Linux Basics",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Linux Basics\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# Linux Basics (from roadmap.sh)\n\nSource: https://roadmap.sh/linux\n\n## File System Structure\n```\n/           # Root\n\u251c\u2500\u2500 bin/        # Essential binaries\n\u251c\u2500\u2500 boot/       # Boot loader files\n\u251c\u2500\u2500 dev/        # Device files\n\u251c\u2500\u2500 etc/     ",
+      "word_count": 622,
+      "wikilinks": [],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.966329"
+    },
+    "10_Resources/llamacpp_model_management.md": {
+      "path": "10_Resources\\llamacpp_model_management.md",
+      "title": "Llamacpp Model Management",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Llamacpp Model Management\ncreated: 2026-05-02\ntags: [integration, models/llm, resources, ui]\n---\n\n# llama.cpp & Model Management Guide\n\n## [[Setup]]\n\n### Download llama.cpp Pre-built Binary\n1. Find latest release: https://github.com/ggml-org/llama.cpp/releases\n2. Download `llama-bXXXX-bin",
+      "word_count": 741,
+      "wikilinks": [
+        "Setup"
+      ],
+      "tags": [
+        "ui",
+        "integration",
+        "resources",
+        "models/llm"
+      ],
+      "last_modified": "2026-05-02T12:30:20.464267"
+    },
+    "10_Resources/local-ai-deployment-playbook.md": {
+      "path": "10_Resources\\local-ai-deployment-playbook.md",
+      "title": "Local-Ai-Deployment-Playbook",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Local AI Deployment Playbook\ncreated: 2026-05-02\ntags: [ai, deployment, llama.cpp, quantization, models, playbook]\nstatus: active\n---\n\n# Local AI Deployment Playbook\n\n## Overview\nStep-by-step guide for deploying, quantizing, benchmarking, and managing local AI models. Covers the full life",
+      "word_count": 898,
+      "wikilinks": [
+        "llamacpp_model_management",
+        "AI_models_3GB_RAM_2026",
+        "local_AI_optimization_techniques",
+        "local_model_integration_2026",
+        "local_model_setup_llamacpp_2026",
+        "ai_watch_list"
+      ],
+      "tags": [
+        "llama.cpp",
+        "quantization",
+        "playbook",
+        "ai",
+        "deployment",
+        "models"
+      ],
+      "last_modified": "2026-05-05T10:09:22.654051"
+    },
+    "10_Resources/local_AI_agents_2024.md": {
+      "path": "10_Resources\\local_AI_agents_2024.md",
+      "title": "Local Ai Agents 2024",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Local Ai Agents 2024\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: local AI agents 2024\n\n### \u7535\u8111c\u76d8\u4e2d\u7684local...\u662f\u4ec0\u4e48\u6587\u4ef6\u5939 - \u767e\u5ea6\u77e5\u9053\nAug 22, 2024 \u00b7 \u7b54\u6848\uff1a \u7535\u8111C\u76d8\u7684`C:\\Users\\Administrator\\AppData\\Local...`\u662fWindows\u7cfb\u7edf\u4e2d\u7684\u4e00\u4e2a\u9ed8\u8ba4\u6587\u4ef6\u5939\u8def\u5f84\u3002 \u8be6\u7ec6\u89e3\u91ca\uff1a 1. \u6587\u4ef6\u5939\u4f4d\u7f6e\u4e0e\u542b\u4e49\uff1a `C:\\Users\\Administrator` \u662fWindows\u7cfb\u7edf\u4e2d\u7ba1\u7406 ",
+      "word_count": 93,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.969928"
+    },
+    "10_Resources/local_AI_optimization_techniques.md": {
+      "path": "10_Resources\\local_AI_optimization_techniques.md",
+      "title": "Local Ai Optimization Techniques",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Local Ai Optimization Techniques\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: local AI optimization techniques\n\n> No results found from any source.\n",
+      "word_count": 25,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.971940"
+    },
+    "10_Resources/machine_learning.md": {
+      "path": "10_Resources\\machine_learning.md",
+      "title": "Machine Learning",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Machine Learning\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: machine learning\n\n> Source: DuckDuckGo\n\n### Machine Learning: What it is and why it matters | SAS\nMachine learning is a subset of [[Artificial Intelligence]] that trains a machine how to learn. Find out h",
+      "word_count": 220,
+      "wikilinks": [
+        "Artificial Intelligence"
+      ],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.498374"
+    },
+    "10_Resources/machine_learning_optimization.md": {
+      "path": "10_Resources\\machine_learning_optimization.md",
+      "title": "Machine Learning Optimization",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: [[Machine Learning]] Optimization\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: machine learning optimization\n\n> Source: DuckDuckGo\n\n### \u4ec0\u4e48\u662f Machine Unlearning? - \u77e5\u4e4e\nMachine Unlearning \u662f\u4e00\u4e2a\u65b0\u5174\u7684\u7814\u7a76\u65b9\u5411\uff0c\u5173\u6ce8\u6570\u636e\u4fdd\u62a4\u548c\u6a21\u578b\u8fd0\u884c\u7ec6\u8282\uff0c\u9002\u5408\u5bf9\u9690\u79c1\u5b89\u5168\u611f\u5174\u8da3\u7684\u4eba\u58eb\u63a2\u7d22\u3002\nSource: https://www.zhihu.com/question/1",
+      "word_count": 88,
+      "wikilinks": [
+        "Machine Learning"
+      ],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.516951"
+    },
+    "10_Resources/multi_modal_systems.md": {
+      "path": "10_Resources\\multi_modal_systems.md",
+      "title": "Multi Modal Systems",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Multi Modal Systems\ncreated: 2026-05-02\ntags: [agent/omnis, agent/opencode, automation, core/search, resources, ui]\n---\n\n# Multi-Modal AI Systems Guide\n\n## Overview\nComprehensive guide to building and integrating multi-modal AI systems that work across CLI, GUI, and Voice interfaces.\n\n## ",
+      "word_count": 428,
+      "wikilinks": [],
+      "tags": [
+        "automation",
+        "ui",
+        "agent/opencode",
+        "agent/omnis",
+        "core/search",
+        "resources"
+      ],
+      "last_modified": "2026-05-05T12:13:09.901141"
+    },
+    "10_Resources/obsidian-automation-guide.md": {
+      "path": "10_Resources\\obsidian-automation-guide.md",
+      "title": "Obsidian-Automation-Guide",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Obsidian Automation Guide\ncreated: 2026-05-02\ntags: [obsidian, automation, templater, dataview, plugins, scripts]\nstatus: active\n---\n\n# Obsidian Automation Guide\n\n## Overview\nHow to automate the Unified Brain vault using Obsidian plugins, Templater scripts, Dataview queries, and external ",
+      "word_count": 570,
+      "wikilinks": [
+        "skill_obsidian-sync",
+        "00_Map_of_Content",
+        "obsidian-sync",
+        "core/vault",
+        "Python_programming_best_practices"
+      ],
+      "tags": [
+        "automation",
+        "templater",
+        "scripts",
+        "dataview",
+        "obsidian",
+        "plugins"
+      ],
+      "last_modified": "2026-05-02T16:07:18.120096"
+    },
+    "10_Resources/Omnis API Reference.md": {
+      "path": "10_Resources\\Omnis API Reference.md",
+      "title": "Omnis Api Reference",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: \"Omnis API Reference\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 10_Resources\ntags: [resources/api, omnis, reference]\nsource: ai_curation\n---\n\n# Omnis API Reference\n\n## Orchestrator (`unified_layer/orchestrator.py`)\n\n```python\norch = Orchestrator()\n\n# Intent routing\nresult = orch.rou",
+      "word_count": 312,
+      "wikilinks": [],
+      "tags": [
+        "resources/api",
+        "omnis",
+        "reference"
+      ],
+      "last_modified": "2026-05-04T11:22:52.356595"
+    },
+    "10_Resources/programming_best_practices.md": {
+      "path": "10_Resources\\programming_best_practices.md",
+      "title": "Programming Best Practices",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Programming Best Practices\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# Programming Best Practices\n\n## General Principles\n\n### Code Quality\n- **DRY**: Don't Repeat Yourself\n- **KISS**: Keep It Simple, Stupid\n- **YAGNI**: You Aren't Gonna Need It\n- **SOLID**: Single Responsibility, Open-Cl",
+      "word_count": 287,
+      "wikilinks": [],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.978274"
+    },
+    "10_Resources/Python_async_programming.md": {
+      "path": "10_Resources\\Python_async_programming.md",
+      "title": "Python Async Programming",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Async Programming\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: Python async programming\n\n> Status: No results found by search engine at this time.\n",
+      "word_count": 27,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.984312"
+    },
+    "10_Resources/Python_best_practices_for_importlib_and_dynamic_module_loading.md": {
+      "path": "10_Resources\\Python_best_practices_for_importlib_and_dynamic_module_loading.md",
+      "title": "Python Best Practices For Importlib And Dynamic Module Loading",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Best Practices For Importlib And Dynamic Module Loading\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: Python best practices for importlib and dynamic module loading\n\nNo results found.\n",
+      "word_count": 31,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.986065"
+    },
+    "10_Resources/Python_exec_function_best_practices_and_security.md": {
+      "path": "10_Resources\\Python_exec_function_best_practices_and_security.md",
+      "title": "Python Exec Function Best Practices And Security",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Exec Function Best Practices And Security\ncreated: 2026-05-02\ntags: [core/search, resources, security]\n---\n\n# Research: Python exec function best practices and security\n\n",
+      "word_count": 25,
+      "wikilinks": [],
+      "tags": [
+        "security",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.986065"
+    },
+    "10_Resources/Python_intent_classification.md": {
+      "path": "10_Resources\\Python_intent_classification.md",
+      "title": "Python Intent Classification",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Intent Classification\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: python intent classification\n\n> No results found from any source.\n",
+      "word_count": 23,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.986065"
+    },
+    "10_Resources/Python_natural_language_processing_dictionary_lookup_lightweight.md": {
+      "path": "10_Resources\\Python_natural_language_processing_dictionary_lookup_lightweight.md",
+      "title": "Python Natural Language Processing Dictionary Lookup Lightweight",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Natural Language Processing Dictionary Lookup Lightweight\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: Python natural language processing dictionary lookup lightweight\n\n",
+      "word_count": 24,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.986065"
+    },
+    "10_Resources/Python_programming.md": {
+      "path": "10_Resources\\Python_programming.md",
+      "title": "Python Programming",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Programming\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: Python programming\n\n> Source: Wikipedia\n\n### Python (programming language)\nPython is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing ",
+      "word_count": 117,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.993631"
+    },
+    "10_Resources/Python_programming_best_practices.md": {
+      "path": "10_Resources\\Python_programming_best_practices.md",
+      "title": "Python Programming Best Practices",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python [[Programming Best Practices]]\ncreated: 2026-05-02\ntags: [core/search, resources, ui]\n---\n\n# Research: [[Python Programming]] best practices\n\n> Source: DuckDuckGo\n\n### Python Best Practices (Reference) \u2013 Real Python\nWidely accepted and established guidelines, conventions, tips, and",
+      "word_count": 185,
+      "wikilinks": [
+        "Programming Best Practices",
+        "Python Programming"
+      ],
+      "tags": [
+        "ui",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.615038"
+    },
+    "10_Resources/Python_speech_recognition_libraries_lightweight_offline_2024.md": {
+      "path": "10_Resources\\Python_speech_recognition_libraries_lightweight_offline_2024.md",
+      "title": "Python Speech Recognition Libraries Lightweight Offline 2024",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Python Speech Recognition Libraries Lightweight Offline 2024\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: Python speech recognition libraries lightweight offline 2024\n\n",
+      "word_count": 24,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.997657"
+    },
+    "10_Resources/RAM_management.md": {
+      "path": "10_Resources\\RAM_management.md",
+      "title": "Ram Management",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Ram Management\ncreated: 2026-05-02\ntags: [core/search, resources]\n---\n\n# Research: RAM management\n\n> No results found from any source.\n\n## Attempted Topic\nRAM management\n",
+      "word_count": 26,
+      "wikilinks": [],
+      "tags": [
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:19.997657"
+    },
+    "10_Resources/rust_programming.md": {
+      "path": "10_Resources\\rust_programming.md",
+      "title": "Rust Programming",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Rust Programming Guide\ncreated: 2026-05-05T14:30:00\ntags: [programming, rust, performance, ai, systems]\nsource: research\n---\n\n# Rust Programming Guide\n\n## Why Rust for AI Systems\n\nRust is becoming the go-to language for performance-critical AI components. It offers memory safety without a",
+      "word_count": 639,
+      "wikilinks": [],
+      "tags": [
+        "performance",
+        "ai",
+        "systems",
+        "programming",
+        "rust"
+      ],
+      "last_modified": "2026-05-05T16:27:20.424084"
+    },
+    "10_Resources/security_policy.md": {
+      "path": "10_Resources\\security_policy.md",
+      "title": "Security Policy",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Security Policy\ncreated: 2026-05-02\ntags: [system, security, policy, risk, autonomy]\nstatus: active\n---\n\n# Security Policy\n\n## Overview\nRisk classification system that determines what agents can do autonomously and what requires human approval. Works with [[autonomy_manager]] to enforce s",
+      "word_count": 278,
+      "wikilinks": [
+        "autonomy_manager",
+        "autonomy_manager",
+        "decision-framework"
+      ],
+      "tags": [
+        "security",
+        "system",
+        "policy",
+        "autonomy",
+        "risk"
+      ],
+      "last_modified": "2026-05-02T16:39:18.687185"
+    },
+    "10_Resources/system_architecture_patterns.md": {
+      "path": "10_Resources\\system_architecture_patterns.md",
+      "title": "System Architecture Patterns",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: System Architecture Patterns\ncreated: 2026-05-05T14:30:00\ntags: [architecture, design, patterns, microservices, scalability]\nsource: research\n---\n\n# System Architecture Patterns (2026)\n\n## Clean Architecture\n\n### Core Principle\nDependencies point **inward**. Inner layers know nothing abou",
+      "word_count": 1071,
+      "wikilinks": [],
+      "tags": [
+        "architecture",
+        "patterns",
+        "microservices",
+        "scalability",
+        "design"
+      ],
+      "last_modified": "2026-05-05T16:29:56.636943"
+    },
+    "10_Resources/system_design_roadmap.md": {
+      "path": "10_Resources\\system_design_roadmap.md",
+      "title": "System Design Roadmap",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: System Design Roadmap\ncreated: 2026-05-02\ntags: [resources]\n---\n\n# System Design Roadmap (2026)\n\nSource: https://roadmap.sh/system-design\n\n## Core Components\n\n### Programming Language Choice\n- Python: Fast development, AI/ML ecosystem\n- Java: Enterprise, Android\n- Go: Cloud-native, micros",
+      "word_count": 330,
+      "wikilinks": [],
+      "tags": [
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:19.999669"
+    },
+    "10_Resources/typescript_web_development.md": {
+      "path": "10_Resources\\typescript_web_development.md",
+      "title": "Typescript Web Development",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: TypeScript Web Development\ncreated: 2026-05-05T14:30:00\ntags: [programming, typescript, web, frontend, nextjs, react]\nsource: research\n---\n\n# TypeScript Web Development (2026)\n\n## Why TypeScript + Next.js\n\nTypeScript + Next.js 15 is the standard for modern full-stack web development in 20",
+      "word_count": 1307,
+      "wikilinks": [],
+      "tags": [
+        "react",
+        "web",
+        "frontend",
+        "programming",
+        "nextjs",
+        "typescript"
+      ],
+      "last_modified": "2026-05-05T16:29:03.226387"
+    },
+    "10_Resources/Unified Search API.md": {
+      "path": "10_Resources\\Unified Search API.md",
+      "title": "Unified Search Api",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: \"Unified Search API\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 10_Resources\ntags: [resources/api, search, unified, reference]\nsource: ai_curation\n---\n\n# Unified Search API \u2014 Cross-System Search\n\n## Overview\nUnified search provides a single interface to query across all knowledge sou",
+      "word_count": 266,
+      "wikilinks": [],
+      "tags": [
+        "reference",
+        "resources/api",
+        "search",
+        "unified"
+      ],
+      "last_modified": "2026-05-04T11:24:00.138228"
+    },
+    "10_Resources/unified_protocols.md": {
+      "path": "10_Resources\\unified_protocols.md",
+      "title": "Unified Protocols",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Unified Protocols\ncreated: 2026-05-02\ntags: [system, protocol, agent, communication, integration]\nstatus: active\n---\n\n# Unified Protocols\n\n## Overview\nStandardized communication protocols used across all agents (Omnis, Jarvis, OpenCode) for consistent behavior, tool sharing, and knowledge",
+      "word_count": 427,
+      "wikilinks": [
+        "note_name",
+        "agent-protocol-spec",
+        "decision-framework",
+        "security_policy",
+        "autonomy_manager",
+        "local-ai-deployment-playbook",
+        "skill_obsidian-sync"
+      ],
+      "tags": [
+        "integration",
+        "system",
+        "agent",
+        "protocol",
+        "communication"
+      ],
+      "last_modified": "2026-05-02T16:39:53.650419"
+    },
+    "10_Resources/Vault Query API.md": {
+      "path": "10_Resources\\Vault Query API.md",
+      "title": "Vault Query Api",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: \"Vault Query API\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 10_Resources\ntags: [resources/api, vault, query, reference]\nsource: ai_curation\n---\n\n# Vault Query API \u2014 Search the Unified Brain\n\n## Overview\nThe vault is an Obsidian knowledge base at `C:\\Users\\stefa\\Desktop\\AI projects\\O",
+      "word_count": 332,
+      "wikilinks": [
+        "Related Note"
+      ],
+      "tags": [
+        "vault",
+        "query",
+        "resources/api",
+        "reference"
+      ],
+      "last_modified": "2026-05-04T11:23:26.905157"
+    },
+    "10_Resources/Voice Pipeline API.md": {
+      "path": "10_Resources\\Voice Pipeline API.md",
+      "title": "Voice Pipeline Api",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: \"Voice Pipeline API\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 10_Resources\ntags: [resources/api, voice, stt, tts, reference]\nsource: ai_curation\n---\n\n# Voice Pipeline API \u2014 JARVIS Voice Integration\n\n## Overview\nVoice subsystem is now handled natively by JARVIS via Gemini Live API (",
+      "word_count": 268,
+      "wikilinks": [],
+      "tags": [
+        "tts",
+        "voice",
+        "resources/api",
+        "reference",
+        "stt"
+      ],
+      "last_modified": "2026-05-05T12:12:49.185686"
+    },
+    "10_Resources/Windows_11_automation.md": {
+      "path": "10_Resources\\Windows_11_automation.md",
+      "title": "Windows 11 Automation",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Windows 11 Automation\ncreated: 2026-05-02\ntags: [automation, core/search, resources]\n---\n\n# Research: Windows 11 automation\n\n> No results found from any source.\n\n## Attempted Topic\nWindows 11 automation\n",
+      "word_count": 30,
+      "wikilinks": [],
+      "tags": [
+        "automation",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.001681"
+    },
+    "10_Resources/Windows_11_automation_tips.md": {
+      "path": "10_Resources\\Windows_11_automation_tips.md",
+      "title": "Windows 11 Automation Tips",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: [[Windows 11 Automation]] Tips\ncreated: 2026-05-02\ntags: [automation, core/search, resources]\n---\n\n# Research: Windows 11 automation tips\n\n> No results found from any source.\n",
+      "word_count": 26,
+      "wikilinks": [
+        "Windows 11 Automation"
+      ],
+      "tags": [
+        "automation",
+        "resources",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:20.696993"
+    },
+    "10_Resources/windows_automation_recipes.md": {
+      "path": "10_Resources\\windows_automation_recipes.md",
+      "title": "Windows Automation Recipes",
+      "folder": "10_Resources",
+      "content_preview": "---\ntitle: Windows Automation Recipes\ncreated: 2026-05-02\ntags: [automation, resources]\n---\n\n# Windows Automation Recipes\n\n## File Operations\n\n### List files in directory\n```powershell\nGet-ChildItem \"C:\\path\" -Recurse | Where-Object { $_.Extension -eq \".txt\" } | Select-Object Name, Length, LastWrite",
+      "word_count": 705,
+      "wikilinks": [],
+      "tags": [
+        "automation",
+        "resources"
+      ],
+      "last_modified": "2026-05-02T12:30:20.004745"
+    },
+    "20_Skills/AGENTS.md": {
+      "path": "20_Skills\\AGENTS.md",
+      "title": "Agents",
+      "folder": "20_Skills",
+      "content_preview": "# AGENTS - 20_Skills\n\n## Purpose\nReusable agent skills, capabilities, and automation patterns. Each skill is an executable module with defined triggers and outputs.\n\n## Agent Rules\n\n### Do\n- Register all skills in the skill registry\n- Include SKILL.md with triggers, capabilities, examples\n- Test ski",
+      "word_count": 156,
+      "wikilinks": [
+        "Skill Engine System",
+        "SPEC - ClawHub Skill Format"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:54:32.743216"
+    },
+    "20_Skills/Capability Matrix.md": {
+      "path": "20_Skills\\Capability Matrix.md",
+      "title": "Capability Matrix",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: \"Capability Matrix\"\ncreated: 2026-05-04\nupdated: 2026-05-05T10:09:22.732455\nfolder: 20_Skills\ntags: [skills/capability, delegation, matrix]\nsource: ai_curation\n---\n\n# Capability Matrix \u2014 What Each AI Does Best\n\n## Overview\nThe 3-AI team works best when tasks are delegated to the right age",
+      "word_count": 527,
+      "wikilinks": [],
+      "tags": [
+        "skills/capability",
+        "matrix",
+        "delegation"
+      ],
+      "last_modified": "2026-05-05T12:12:13.073437"
+    },
+    "20_Skills/Prompt Templates.md": {
+      "path": "20_Skills\\Prompt Templates.md",
+      "title": "Prompt Templates",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: \"Prompt Templates\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 20_Skills\ntags: [skills/prompts, templates, patterns]\nsource: ai_curation\n---\n\n# Prompt Templates \u2014 Reusable System Prompts\n\n## Omnis System Prompt\n```\nYou are Omnis, the central orchestrator of a 3-AI team.\nYour role: rou",
+      "word_count": 316,
+      "wikilinks": [],
+      "tags": [
+        "templates",
+        "skills/prompts",
+        "patterns"
+      ],
+      "last_modified": "2026-05-04T11:26:30.755429"
+    },
+    "20_Skills/Skill Inventory.md": {
+      "path": "20_Skills\\Skill Inventory.md",
+      "title": "Skill Inventory",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: \"Skill Inventory\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 20_Skills\ntags: [skills/inventory, reference, all-systems]\nsource: ai_curation\n---\n\n# Skill Inventory \u2014 Complete Skill Registry\n\n## All 36 Skills (OpenCode + Omnis)\n\n### Priority Skills (Always Check First)\n| Skill | Descri",
+      "word_count": 466,
+      "wikilinks": [],
+      "tags": [
+        "skills/inventory",
+        "all-systems",
+        "reference"
+      ],
+      "last_modified": "2026-05-04T11:25:53.486181"
+    },
+    "20_Skills/skill_adaptive-renderer.md": {
+      "path": "20_Skills\\skill_adaptive-renderer.md",
+      "title": "Skill Adaptive-Renderer",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Adaptive Renderer\ncreated: 2026-05-02\ntags: [automation, skill, ui]\nstatus: active\nversion: 1.0\n---\n# Adaptive Output Renderer\n\n## Overview\nDetects current interface (CLI, customtkinter GUI, voice) and adjusts output format accordingly. Persists UI state when switching between modalities.",
+      "word_count": 176,
+      "wikilinks": [
+        "multi-modal-workflow",
+        "asset-manager",
+        "ui"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "ui"
+      ],
+      "last_modified": "2026-05-02T16:36:01.052937"
+    },
+    "20_Skills/skill_api-design.md": {
+      "path": "20_Skills\\skill_api-design.md",
+      "title": "Skill Api-Design",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Api Design\ncreated: 2026-05-02\ntags: [automation, integration, skill]\nstatus: active\nversion: 1.0\n---\n# API Design Skill\n\n## When to Use\n\n- User asks to \"design API\", \"create endpoints\"\n- User asks about REST, GraphQL, web services\n- Building a web API from scratch\n\n## RESTful Conventions",
+      "word_count": 482,
+      "wikilinks": [
+        "system_design_roadmap",
+        "api_integration_patterns",
+        "architecture",
+        "security-audit"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "integration"
+      ],
+      "last_modified": "2026-05-02T16:36:00.313225"
+    },
+    "20_Skills/skill_architecture.md": {
+      "path": "20_Skills\\skill_architecture.md",
+      "title": "Skill Architecture",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Architecture\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Architecture Skill\n\n## When to Use\n\n- User asks about \"system design\"\n- User asks about \"architecture\"\n- Planning a new system\n- Scaling considerations\n\n## Common Patterns\n\n### Layered Architectur",
+      "word_count": 402,
+      "wikilinks": [
+        "System Design Roadmap",
+        "system_design_roadmap",
+        "api-design",
+        "plan-mode",
+        "agent-protocol-spec"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:01.017884"
+    },
+    "20_Skills/skill_asset-manager.md": {
+      "path": "20_Skills\\skill_asset-manager.md",
+      "title": "Skill Asset-Manager",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Asset Manager\ncreated: 2026-05-02\ntags: [agent/omnis, automation, core/search, skill, ui]\nstatus: active\nversion: 1.0\n---\n# Cross-Platform Asset Manager\n\n## Overview\nManages files, configs, and media across local, cloud, and all UI modes. Supports voice-driven file search, GUI drag-and-dr",
+      "word_count": 212,
+      "wikilinks": [
+        "file-organizer",
+        "system-diagnostic",
+        "Windows_11_automation"
+      ],
+      "tags": [
+        "automation",
+        "ui",
+        "agent/omnis",
+        "core/search",
+        "skill"
+      ],
+      "last_modified": "2026-05-02T16:36:01.052937"
+    },
+    "20_Skills/skill_code-review.md": {
+      "path": "20_Skills\\skill_code-review.md",
+      "title": "Skill Code-Review",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Code Review\ncreated: 2026-05-02\ntags: [automation, security, skill]\nstatus: active\nversion: 1.0\n---\n# Code Review Skill\n\nWhen activated, perform a thorough code review:\n\n## Review Process\n\n1. **Read the code files** to be reviewed\n2. **Check for issues** in these categories:\n   - Security",
+      "word_count": 349,
+      "wikilinks": [
+        "code-review",
+        "security-audit",
+        "refactor",
+        "test-generator",
+        "Python_programming_best_practices"
+      ],
+      "tags": [
+        "skill",
+        "security",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.297613"
+    },
+    "20_Skills/skill_context-engineering.md": {
+      "path": "20_Skills\\skill_context-engineering.md",
+      "title": "Skill Context-Engineering",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Context Engineering\ncreated: 2026-05-02\ntags: [automation, core/memory, skill]\nstatus: active\nversion: 1.0\n---\n# Context Engineering Skill\n\nBased on roadmap.sh [[Ai Engineer Roadmap]] - Context Engineering section.\n\n## When to Use\n- User asks about \"system prompt\", \"context window\"\n- User",
+      "word_count": 409,
+      "wikilinks": [
+        "Ai Engineer Roadmap",
+        "Setup",
+        "prompt-engineering",
+        "rag-implementation",
+        "Python_natural_language_processing_dictionary_lookup_lightweight"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "core/memory"
+      ],
+      "last_modified": "2026-05-02T16:36:01.017884"
+    },
+    "20_Skills/skill_data-pipeline.md": {
+      "path": "20_Skills\\skill_data-pipeline.md",
+      "title": "Skill Data-Pipeline",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Data Pipeline\ncreated: 2026-05-02\ntags: [skill, automation, etl, data, pipeline, scraping]\nstatus: active\nversion: 1.0\n---\n\n# Skill: Data Pipeline\n\n## Overview\nETL (Extract, Transform, Load) workflow builder for automated data collection, processing, and storage. Handles price scraping, i",
+      "word_count": 264,
+      "wikilinks": [
+        "scheduler",
+        "income-tracker",
+        "market-research",
+        "scheduler",
+        "ecommerce_automation",
+        "unified_protocols"
+      ],
+      "tags": [
+        "etl",
+        "automation",
+        "scraping",
+        "data",
+        "skill",
+        "pipeline"
+      ],
+      "last_modified": "2026-05-02T16:04:09.717912"
+    },
+    "20_Skills/skill_debug-assist.md": {
+      "path": "20_Skills\\skill_debug-assist.md",
+      "title": "Skill Debug-Assist",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Debug Assist\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Debug Assist Skill\n\n## When to Use\n\n- User shows an error message or stack trace\n- User says \"it's not working\", \"getting an error\"\n- User asks to \"debug this\", \"fix this bug\"\n- Code produces unex",
+      "word_count": 340,
+      "wikilinks": [
+        "code-review",
+        "plan-mode",
+        "Python_programming",
+        "local-ai-deployment-playbook"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.297613"
+    },
+    "20_Skills/skill_documentation.md": {
+      "path": "20_Skills\\skill_documentation.md",
+      "title": "Skill Documentation",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Documentation\ncreated: 2026-05-02\ntags: [automation, integration, skill]\nstatus: active\nversion: 1.0\n---\n# Documentation Skill\n\n## When to Use\n\n- User asks to \"add documentation\", \"add comments\"\n- User asks to \"create a README\"\n- User asks \"what does this do\" about code\n- New code needs d",
+      "word_count": 248,
+      "wikilinks": [
+        "Setup",
+        "code-review",
+        "prompt-engineering",
+        "Python_programming_best_practices"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "integration"
+      ],
+      "last_modified": "2026-05-02T16:36:00.300409"
+    },
+    "20_Skills/skill_file-organizer.md": {
+      "path": "20_Skills\\skill_file-organizer.md",
+      "title": "Skill File-Organizer",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: File Organizer\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# File Organizer Skill\n\n## When to Use\n\n- User asks to \"organize files\", \"structure project\"\n- User asks to \"clean up folder structure\"\n- New project needs initial structure\n\n## Organization Proce",
+      "word_count": 194,
+      "wikilinks": [
+        "Python_programming_best_practices",
+        "Windows_11_automation"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:01.017884"
+    },
+    "20_Skills/skill_git-helper.md": {
+      "path": "20_Skills\\skill_git-helper.md",
+      "title": "Skill Git-Helper",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Git Helper\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Git Helper Skill\n\n## When to Use\n- User says \"commit\", \"push\", \"pull\", \"merge\"\n- User asks about branches, tags, releases\n- User has merge conflicts\n- User wants to undo git changes\n- User mentions ",
+      "word_count": 418,
+      "wikilinks": [
+        "git_github",
+        "Python_programming_best_practices",
+        "code-review"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.318871"
+    },
+    "20_Skills/skill_income-tracker.md": {
+      "path": "20_Skills\\skill_income-tracker.md",
+      "title": "Skill Income-Tracker",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Income Tracker\ncreated: 2026-05-02\ntags: [skill, automation, finance, income, tracking]\nstatus: active\nversion: 1.0\n---\n\n# Skill: Income Tracker\n\n## Overview\nAutomated revenue and expense monitoring system for e-commerce and AI-driven income streams. Tracks income sources, calculates marg",
+      "word_count": 223,
+      "wikilinks": [
+        "financial-independence-roadmap",
+        "data-pipeline",
+        "report-generator",
+        "ecommerce_automation",
+        "ecommerce_playbook"
+      ],
+      "tags": [
+        "automation",
+        "finance",
+        "income",
+        "skill",
+        "tracking"
+      ],
+      "last_modified": "2026-05-02T16:03:56.620379"
+    },
+    "20_Skills/skill_market-research.md": {
+      "path": "20_Skills\\skill_market-research.md",
+      "title": "Skill Market-Research",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Market Research\ncreated: 2026-05-02\ntags: [skill, research, market, competitor, analysis, trends]\nstatus: active\nversion: 1.0\n---\n\n# Skill: Market Research\n\n## Overview\nAutomated competitor analysis, market trend detection, and opportunity identification. Scans external data sources to bu",
+      "word_count": 319,
+      "wikilinks": [
+        "data-pipeline",
+        "competitor_tech_landscape_2026",
+        "ai_ecommerce_automation_2026",
+        "ai_watch_list",
+        "financial-independence-roadmap"
+      ],
+      "tags": [
+        "market",
+        "research",
+        "competitor",
+        "trends",
+        "skill",
+        "analysis"
+      ],
+      "last_modified": "2026-05-02T16:04:41.432516"
+    },
+    "20_Skills/skill_migrations.md": {
+      "path": "20_Skills\\skill_migrations.md",
+      "title": "Skill Migrations",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Migrations\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Migrations Skill\n\n## When to Use\n\n- User asks to \"add migration\", \"create table\"\n- User asks about database schema changes\n- User needs to rollback a change\n\n## Migration Best Practices\n\n### Create ",
+      "word_count": 212,
+      "wikilinks": [
+        "Python_async_programming",
+        "system_design_roadmap",
+        "database"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:01.016132"
+    },
+    "20_Skills/skill_model-switch.md": {
+      "path": "20_Skills\\skill_model-switch.md",
+      "title": "Skill Model-Switch",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Model Switch\ncreated: 2026-05-02\ntags: [automation, models/qwen, skill]\nstatus: active\nversion: 1.0\n---\n# Model Switch Skill\n\n## When to Use\n\n- User asks to \"switch to phi3\" or \"use phi-3\"\n- User asks to \"switch model\" or \"change model\"\n- User asks \"what models available\"\n\n## Available Mo",
+      "word_count": 292,
+      "wikilinks": [
+        "Ai Engineer Roadmap",
+        "local-ai-deployment-playbook",
+        "AI_models_3GB_RAM_2026",
+        "efficient_RAM_management_for_AI_models"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "models/qwen"
+      ],
+      "last_modified": "2026-05-02T16:36:01.034799"
+    },
+    "20_Skills/skill_multi-modal-workflow.md": {
+      "path": "20_Skills\\skill_multi-modal-workflow.md",
+      "title": "Skill Multi-Modal-Workflow",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Multi Modal Workflow\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, agent/opencode, automation, skill, ui]\nstatus: active\nversion: 1.0\n---\n# Multi-Modal Workflow Orchestrator\n\n## Overview\nDecomposes natural language tasks into sub-tasks mapped to available CLI/GUI/Voice tools. Work",
+      "word_count": 193,
+      "wikilinks": [
+        "context-engineering",
+        "Python_speech_recognition_libraries_lightweight_offline_2024",
+        "adaptive-renderer"
+      ],
+      "tags": [
+        "automation",
+        "ui",
+        "skill",
+        "agent/opencode",
+        "agent/omnis",
+        "agent/jarvis"
+      ],
+      "last_modified": "2026-05-02T16:36:01.054947"
+    },
+    "20_Skills/skill_obsidian-sync.md": {
+      "path": "20_Skills\\skill_obsidian-sync.md",
+      "title": "Skill Obsidian-Sync",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Obsidian Sync\ncreated: 2026-05-02\ntags: [skill, obsidian, integration, sync, vault, agents]\nstatus: active\nversion: 1.0\n---\n\n# Skill: Obsidian Sync\n\n## Overview\nBi-directional synchronization between AI agents and the Obsidian vault. Enables agents to read, create, update, and search vaul",
+      "word_count": 348,
+      "wikilinks": [
+        "wikilink",
+        "agent-protocol-spec",
+        "decision-framework",
+        "obsidian-automation-guide",
+        "00_Map_of_Content",
+        "core/memory"
+      ],
+      "tags": [
+        "vault",
+        "integration",
+        "agents",
+        "sync",
+        "obsidian",
+        "skill"
+      ],
+      "last_modified": "2026-05-02T16:04:26.030051"
+    },
+    "20_Skills/skill_plan-mode.md": {
+      "path": "20_Skills\\skill_plan-mode.md",
+      "title": "Skill Plan-Mode",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Plan Mode\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Plan Mode Skill\n\n## When to Use\n\n- User says \"plan mode\" or \"enter plan mode\"\n- User asks \"what would you do\" before execution\n- User asks to \"show plan\" or \"show steps\"\n- User asks to \"undo\" or \"red",
+      "word_count": 400,
+      "wikilinks": [
+        "architecture",
+        "decision-framework",
+        "system_design_roadmap",
+        "orchestrator"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.313225"
+    },
+    "20_Skills/skill_plugin-extender.md": {
+      "path": "20_Skills\\skill_plugin-extender.md",
+      "title": "Skill Plugin-Extender",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Plugin Extender\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, agent/opencode, automation, skill]\nstatus: active\nversion: 1.0\n---\n# Plugin Skill Extender\n\n## Overview\nDynamically loads and shares skills/plugins across OpenCode, Omnis, and Jarvis. Converts between skill formats auto",
+      "word_count": 224,
+      "wikilinks": [
+        "api-design",
+        "architecture",
+        "Python_best_practices_for_importlib_and_dynamic_module_loading"
+      ],
+      "tags": [
+        "automation",
+        "skill",
+        "agent/opencode",
+        "agent/omnis",
+        "agent/jarvis"
+      ],
+      "last_modified": "2026-05-02T16:36:01.087185"
+    },
+    "20_Skills/skill_prompt-engineering.md": {
+      "path": "20_Skills\\skill_prompt-engineering.md",
+      "title": "Skill Prompt-Engineering",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Prompt Engineering\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Prompt Engineering Skill\n\n## When to Use\n- User asks about \"prompt engineering\", \"system prompt\"\n- User wants to \"optimize prompts\", \"reduce tokens\"\n- Designing prompts for specific models\n-",
+      "word_count": 563,
+      "wikilinks": [
+        "context-engineering",
+        "Python_natural_language_processing_dictionary_lookup_lightweight"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:01.022693"
+    },
+    "20_Skills/skill_rag-implementation.md": {
+      "path": "20_Skills\\skill_rag-implementation.md",
+      "title": "Skill Rag-Implementation",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Rag Implementation\ncreated: 2026-05-02\ntags: [automation, core/search, skill]\nstatus: active\nversion: 1.0\n---\n# RAG Implementation Skill\n\n## When to Use\n- User asks about \"RAG\", \"vector database\", \"embeddings\"\n- Need to search large document collections\n- Adding knowledge base to LLM\n- Im",
+      "word_count": 622,
+      "wikilinks": [
+        "Setup",
+        "context-engineering",
+        "machine_learning",
+        "artificial_intelligence",
+        "local_AI_optimization_techniques"
+      ],
+      "tags": [
+        "skill",
+        "automation",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T16:36:01.020680"
+    },
+    "20_Skills/skill_refactor.md": {
+      "path": "20_Skills\\skill_refactor.md",
+      "title": "Skill Refactor",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Refactor\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Refactor Skill\n\n## When to Use\n\n- User asks to \"refactor\", \"clean up\", \"improve\"\n- User asks to \"make this more readable/efficient\"\n- Code is duplicated, too complex, or hard to maintain\n\n## Refactori",
+      "word_count": 394,
+      "wikilinks": [
+        "code-review",
+        "architecture",
+        "Python_programming_best_practices",
+        "plan-mode"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.313225"
+    },
+    "20_Skills/skill_report-generator.md": {
+      "path": "20_Skills\\skill_report-generator.md",
+      "title": "Skill Report-Generator",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Report Generator\ncreated: 2026-05-02\ntags: [skill, reporting, summary, dashboard, analytics]\nstatus: active\nversion: 1.0\n---\n\n# Skill: Report Generator\n\n## Overview\nAutomated report creation from system data, vault statistics, financial records, and research findings. Generates daily, wee",
+      "word_count": 383,
+      "wikilinks": [
+        "income-tracker",
+        "obsidian-sync",
+        "scheduler",
+        "ai_watch_list",
+        "decision-framework"
+      ],
+      "tags": [
+        "dashboard",
+        "reporting",
+        "summary",
+        "skill",
+        "analytics"
+      ],
+      "last_modified": "2026-05-02T16:05:00.246890"
+    },
+    "20_Skills/skill_security-audit.md": {
+      "path": "20_Skills\\skill_security-audit.md",
+      "title": "Skill Security-Audit",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Security Audit\ncreated: 2026-05-02\ntags: [automation, security, skill]\nstatus: active\nversion: 1.0\n---\n# Security Audit Skill\n\n## When to Use\n\n- User asks to \"check security\", \"scan for vulnerabilities\"\n- User mentions passwords, keys, secrets, tokens\n- User asks to \"audit security\"\n- Wor",
+      "word_count": 373,
+      "wikilinks": [
+        "code-review",
+        "security_policy",
+        "Python_exec_function_best_practices_and_security"
+      ],
+      "tags": [
+        "skill",
+        "security",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.313225"
+    },
+    "20_Skills/skill_system-diagnostic.md": {
+      "path": "20_Skills\\skill_system-diagnostic.md",
+      "title": "Skill System-Diagnostic",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: System Diagnostic\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Proactive System Diagnostician\n\n## Overview\nMonitors system health and auto-resolves issues across all interfaces. Triggers interface-appropriate alerts based on severity.\n\n## Usage\n```\ndiagn",
+      "word_count": 196,
+      "wikilinks": [
+        "debug-assist",
+        "RAM_management",
+        "efficient_RAM_management_for_AI_models",
+        "llamacpp_model_management"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:01.056961"
+    },
+    "20_Skills/skill_test-generator.md": {
+      "path": "20_Skills\\skill_test-generator.md",
+      "title": "Skill Test-Generator",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Test Generator\ncreated: 2026-05-02\ntags: [automation, skill]\nstatus: active\nversion: 1.0\n---\n# Test Generator Skill\n\n## When to Use\n\n- User asks to \"write tests\", \"create tests\", \"add tests\"\n- User asks to \"test this function/class\"\n- User provides a new file and asks for test coverage\n\n#",
+      "word_count": 364,
+      "wikilinks": [
+        "Setup",
+        "code-review",
+        "debug-assist",
+        "refactor",
+        "Python_programming"
+      ],
+      "tags": [
+        "skill",
+        "automation"
+      ],
+      "last_modified": "2026-05-02T16:36:00.316607"
+    },
+    "20_Skills/skill_unified-code-collab.md": {
+      "path": "20_Skills\\skill_unified-code-collab.md",
+      "title": "Skill Unified-Code-Collab",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: Unified Code Collab\ncreated: 2026-05-02\ntags: [automation, core/unified-layer, skill, ui]\nstatus: active\nversion: 1.0\n---\n# Unified Code Collaborator\n\n## Overview\nEnables synchronized code editing and review across all interface types. Syncs changes between CLI, customtkinter GUI, and voi",
+      "word_count": 193,
+      "wikilinks": [
+        "code-review",
+        "debug-assist",
+        "refactor",
+        "git-helper",
+        "plan-mode"
+      ],
+      "tags": [
+        "core/unified-layer",
+        "automation",
+        "skill",
+        "ui"
+      ],
+      "last_modified": "2026-05-02T16:36:01.089199"
+    },
+    "20_Skills/Workflow Patterns.md": {
+      "path": "20_Skills\\Workflow Patterns.md",
+      "title": "Workflow Patterns",
+      "folder": "20_Skills",
+      "content_preview": "---\ntitle: \"Workflow Patterns\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 20_Skills\ntags: [skills/workflow, patterns, methodology]\nsource: ai_curation\n---\n\n# Workflow Patterns \u2014 Brainstorm \u2192 Plan \u2192 Execute \u2192 Review\n\n## Superpowers Methodology\nThe core development workflow shared across all 3 AI",
+      "word_count": 379,
+      "wikilinks": [],
+      "tags": [
+        "skills/workflow",
+        "methodology",
+        "patterns"
+      ],
+      "last_modified": "2026-05-04T11:26:47.972312"
+    },
+    "30_Honcho/User Profile.md": {
+      "path": "30_Honcho\\User Profile.md",
+      "title": "User Profile",
+      "folder": "30_Honcho",
+      "content_preview": "# User Profile\n\n> *Living representation of the user \u2014 updated by Honcho Dialectic Engine*\n\n---\n\n## Identity\n\n*To be populated by dialectic analysis...*\n\n---\n\n## Preferences\n\n*To be populated by dialectic analysis...*\n\n---\n\n## Projects\n\n*To be populated by dialectic analysis...*\n\n---\n\n## Relationshi",
+      "word_count": 80,
+      "wikilinks": [
+        "30_Honcho/Conclusions"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T12:52:52.586939"
+    },
+    "30_Projects/AGENTS.md": {
+      "path": "30_Projects\\AGENTS.md",
+      "title": "Agents",
+      "folder": "30_Projects",
+      "content_preview": "# AGENTS - 30_Projects\n\n## Purpose\nActive project documentation, implementation plans, and progress tracking. Time-bound initiatives with defined goals and deadlines.\n\n## Agent Rules\n\n### Do\n- Link projects to goals in the goal cascade\n- Update project status after each session\n- Document decisions ",
+      "word_count": 150,
+      "wikilinks": [
+        "Project - Goal Cascade",
+        "Log - Agent Handoff Protocol"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:54:48.986691"
+    },
+    "30_Research/AGENTS.md": {
+      "path": "30_Research\\AGENTS.md",
+      "title": "Agents",
+      "folder": "30_Research",
+      "content_preview": "# AGENTS - 30_Research\n\n## Purpose\nResearch findings, analysis reports, and comparative studies. Evidence-based knowledge with source attribution.\n\n## Agent Rules\n\n### Do\n- Cite all sources with URLs and dates\n- Distinguish facts from hypotheses\n- Update research when new information emerges\n\n### Do",
+      "word_count": 135,
+      "wikilinks": [
+        "Research - Top Vault & Agent Workflow Best Practices 2026"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:55:03.492588"
+    },
+    "30_Research/AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows.md": {
+      "path": "30_Research\\AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows.md",
+      "title": "Ai Ecosystem Intelligence \u2014 Hermes, Openclaw, Workflows",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows\ncreated: 2026-05-06T12:00:00\nupdated: 2026-05-06T12:00:00\ntags: [research, ai-agents, hermes, openclaw, workflows, skills, ecosystem, landscape]\nsource: research\n---\n\n# AI Ecosystem Intelligence \u2014 May 2026\n\n## 1. Hermes Agent (NousRe",
+      "word_count": 1916,
+      "wikilinks": [],
+      "tags": [
+        "ai-agents",
+        "ecosystem",
+        "research",
+        "landscape",
+        "1",
+        "workflows",
+        "hermes",
+        "openclaw",
+        "skills"
+      ],
+      "last_modified": "2026-05-06T09:05:19.114107"
+    },
+    "30_Research/ai_coding_automation_2026.md": {
+      "path": "30_Research\\ai_coding_automation_2026.md",
+      "title": "Ai Coding Automation 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Ai Coding Automation 2026\ncreated: 2026-05-02\ntags: [automation, core/search, research, security]\n---\n\n# AI Web Dev & Software Dev Automation - Research 2026\n\n## Overview\nAI coding agents have moved from \"autocomplete\" to \"autonomous development.\" These agents plan, code, test, and deploy",
+      "word_count": 1040,
+      "wikilinks": [
+        "Docker"
+      ],
+      "tags": [
+        "security",
+        "automation",
+        "research",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:21.364838"
+    },
+    "30_Research/ai_ecommerce_automation_2026.md": {
+      "path": "30_Research\\ai_ecommerce_automation_2026.md",
+      "title": "Ai Ecommerce Automation 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Ai [[Ecommerce Automation]] 2026\ncreated: 2026-05-02\ntags: [automation, core/search, ecommerce, research]\n---\n\n# AI E-Commerce Automation - Research 2026\n\n## Overview\nAI agents are now autonomously running entire e-commerce operations -- from product listing to customer support to invento",
+      "word_count": 894,
+      "wikilinks": [
+        "Ecommerce Automation",
+        "Setup"
+      ],
+      "tags": [
+        "ecommerce",
+        "automation",
+        "research",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:21.386824"
+    },
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md": {
+      "path": "30_Research\\Automated Trading System \u2014 Full Research & Architecture.md",
+      "title": "Automated Trading System \u2014 Full Research & Architecture",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Automated Trading System \u2014 Full Research & Architecture Analysis\ncreated: 2026-05-06T00:00:00\nupdated: 2026-05-06T00:00:00\ntags: [trading, automation, ai-agents, tradingview, pine-script, fincore, architecture, research]\nsource: research\n---\n\n# Automated Trading System \u2014 Research & Archit",
+      "word_count": 2867,
+      "wikilinks": [],
+      "tags": [
+        "ai-agents",
+        "automation",
+        "research",
+        "tradingview",
+        "architecture",
+        "trading",
+        "pine-script",
+        "fincore"
+      ],
+      "last_modified": "2026-05-06T08:23:19.263267"
+    },
+    "30_Research/best_language_stack_ai_dev_2026.md": {
+      "path": "30_Research\\best_language_stack_ai_dev_2026.md",
+      "title": "Best Language Stack Ai Dev 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Best Language Stack Ai Dev 2026\ncreated: 2026-05-02\ntags: [core/search, research]\n---\n\n# Best Programming Language Stack for AI Development - Research 2026\n\n## Executive Summary\nAI development in 2026 is **polyglot**. No single language dominates. The winning approach uses the right langu",
+      "word_count": 1147,
+      "wikilinks": [
+        "Protocol"
+      ],
+      "tags": [
+        "research",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:21.437540"
+    },
+    "30_Research/competitor_tech_landscape_2026.md": {
+      "path": "30_Research\\competitor_tech_landscape_2026.md",
+      "title": "Competitor Tech Landscape 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Competitor Tech Landscape 2026\ncreated: 2026-05-02\ntags: [research]\n---\n\n# Competitor & Tech Landscape\n\n## AI Agent Landscape (2026)\n\n### Consumer AI Assistants\n| Product | Type | Strength | Weakness |\n|---------|------|----------|----------|\n| **ChatGPT** | Cloud LLM | Best general reaso",
+      "word_count": 802,
+      "wikilinks": [
+        "Protocol"
+      ],
+      "tags": [
+        "research"
+      ],
+      "last_modified": "2026-05-02T12:30:21.454418"
+    },
+    "30_Research/local_model_integration_2026.md": {
+      "path": "30_Research\\local_model_integration_2026.md",
+      "title": "Local Model Integration 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Local Model Integration 2026\ncreated: 2026-05-02\ntags: [models/llm, models/qwen, models/smol, research]\n---\n\n# Local Model Integration - SmolLM3-3B + Qwen3-1.7B\n\n## Integration Date\n2026-05-01\n\n## Models\n| Model | File | Size | RAM | Speed | Default Role |\n|-------|------|------|-----|---",
+      "word_count": 439,
+      "wikilinks": [
+        "Quantum Computing"
+      ],
+      "tags": [
+        "models/qwen",
+        "research",
+        "models/llm",
+        "models/smol"
+      ],
+      "last_modified": "2026-05-02T12:30:21.469781"
+    },
+    "30_Research/local_model_setup_llamacpp_2026.md": {
+      "path": "30_Research\\local_model_setup_llamacpp_2026.md",
+      "title": "Local Model Setup Llamacpp 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Local Model [[Setup]] Llamacpp 2026\ncreated: 2026-05-02\ntags: [models/llm, models/qwen, models/smol, research]\n---\n\n# Local Model Setup - llama.cpp + GGUF\n\n## Downloaded Models (2026-05-01)\n\n| Model | File | Size | RAM | Speed (CPU) | Best For |\n|-------|------|------|-----|-------------|",
+      "word_count": 326,
+      "wikilinks": [
+        "Setup"
+      ],
+      "tags": [
+        "models/qwen",
+        "research",
+        "models/llm",
+        "models/smol"
+      ],
+      "last_modified": "2026-05-02T12:30:21.502175"
+    },
+    "30_Research/price_prediction_methods.md": {
+      "path": "30_Research\\price_prediction_methods.md",
+      "title": "Price Prediction Methods",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Price Prediction Methods\ncreated: 2026-05-05T14:30:00\ntags: [ml, forecasting, time-series, lstm, arima, prophet, prediction]\nsource: research\n---\n\n# Price Prediction Methods\n\n## Overview\n\nTime series forecasting is critical for financial planning, business forecasting, and investment deci",
+      "word_count": 1395,
+      "wikilinks": [],
+      "tags": [
+        "prophet",
+        "time-series",
+        "prediction",
+        "ml",
+        "forecasting",
+        "lstm",
+        "arima"
+      ],
+      "last_modified": "2026-05-05T16:31:41.665261"
+    },
+    "30_Research/Research - AI Models for 3GB RAM.md": {
+      "path": "30_Research\\Research - AI Models for 3GB RAM.md",
+      "title": "Research - Ai Models For 3Gb Ram",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: \"Research - AI Models for 3GB RAM\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 30_Research\ntags: [research/models, research/ram, omnis, jarvis, opencode]\nsource: merged\n---\n\n# Research: AI Models for 3GB RAM (2026)\n\n> Merged from: AI_models_3GB_RAM_2026.md, SUMMARY_AI_Models_3GB_2026.",
+      "word_count": 443,
+      "wikilinks": [],
+      "tags": [
+        "opencode",
+        "omnis",
+        "research/ram",
+        "research/models",
+        "jarvis"
+      ],
+      "last_modified": "2026-05-05T11:11:41.460996"
+    },
+    "30_Research/Research - Intent Classification.md": {
+      "path": "30_Research\\Research - Intent Classification.md",
+      "title": "Research - Intent Classification",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: \"Research - Intent Classification\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 30_Research\ntags: [research/nlp, research/intent]\nsource: merged\n---\n\n# Research: Intent Classification Methods\n\n> Merged from: intent_classification_research.md, scraped_python_intent_classification.md\n\n##",
+      "word_count": 231,
+      "wikilinks": [],
+      "tags": [
+        "research/intent",
+        "research/nlp"
+      ],
+      "last_modified": "2026-05-05T11:11:41.465648"
+    },
+    "30_Research/Research - Quantum Computing.md": {
+      "path": "30_Research\\Research - Quantum Computing.md",
+      "title": "Research - Quantum Computing",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: \"Research - Quantum Computing\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 30_Research\ntags: [research/quantum, research/scraped]\nsource: merged\n---\n\n# Research: Quantum Computing\n\n> Merged from: quantum_computing.md, scraped_quantum_computing.md, i_need_information_about_quantum_comp",
+      "word_count": 220,
+      "wikilinks": [],
+      "tags": [
+        "research/quantum",
+        "research/scraped"
+      ],
+      "last_modified": "2026-05-05T11:11:41.455665"
+    },
+    "30_Research/Research - Top Vault & Agent Workflow Best Practices 2026.md": {
+      "path": "30_Research\\Research - Top Vault & Agent Workflow Best Practices 2026.md",
+      "title": "Research - Top Vault & Agent Workflow Best Practices 2026",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: \"Research - Top Vault & Agent Workflow Best Practices 2026\"\ncreated: 2026-05-05T10:45:00\nupdated: 2026-05-05T10:45:00\nfolder: 30_Research\ntags: [research, best-practices, agent-workflows, obsidian, vault-patterns]\nsource: web_research\n---\n\n# Research - Top Vault & Agent Workflow Best Prac",
+      "word_count": 1676,
+      "wikilinks": [
+        "SPEC - ClawHub Skill Format",
+        "Project - Goal Cascade",
+        "Vision - Unified AI Agent System",
+        "Agent Registry",
+        "Skill Engine System"
+      ],
+      "tags": [
+        "research",
+        "best-practices",
+        "agent-workflows",
+        "vault-patterns",
+        "obsidian"
+      ],
+      "last_modified": "2026-05-05T10:38:21.079090"
+    },
+    "30_Research/scraped_machine_learning_optimization.md": {
+      "path": "30_Research\\scraped_machine_learning_optimization.md",
+      "title": "Scraped Machine Learning Optimization",
+      "folder": "30_Research",
+      "content_preview": "---\ntitle: Scraped [[Machine Learning]] Optimization\ncreated: 2026-05-02\ntags: [core/search, research]\n---\n\n# Deep Research: [[Machine Learning Optimization]]\n\n> Scraped 3 sources\n\n\n## Source 1: Optimization Algorithms in Machine Learning\nURL: https://www.geeksforgeeks.org/machine-learning/optimizat",
+      "word_count": 493,
+      "wikilinks": [
+        "Machine Learning",
+        "Machine Learning Optimization",
+        "Artificial Intelligence"
+      ],
+      "tags": [
+        "research",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:21.531714"
+    },
+    "40_System/agent_registry.md": {
+      "path": "40_System\\agent_registry.md",
+      "title": "Agent Registry",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Agent Registry\"\ntags: [agent/omnis, agent/jarvis, agent/opencode, memory, profile, system]\ncreated: 2026-05-05T09:30:00\nupdated: 2026-05-05T09:30:00\n---\n\n# Agent Registry\n\n## Omnis\n- **Type**: Desktop AI Assistant\n- **Status**: Active\n- **Platform**: Windows 11\n- **Capabilities**: Local ",
+      "word_count": 225,
+      "wikilinks": [],
+      "tags": [
+        "system",
+        "agent/opencode",
+        "profile",
+        "agent/omnis",
+        "agent/jarvis",
+        "memory"
+      ],
+      "last_modified": "2026-05-05T12:11:48.424705"
+    },
+    "40_System/ai_watch_list.md": {
+      "path": "40_System\\ai_watch_list.md",
+      "title": "Ai Watch List",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Ai Watch List\ncreated: 2026-05-02\ntags: [models/llm, models/qwen, models/smol, system]\n---\n\n# AI Watch List\n\n> **Standing Order**: Monitor for new models, frameworks, tools, and workflows that significantly improve the system.\n> **Hardware**: 3GB RAM, no GPU, Windows, llama.cpp (GGUF)\n> *",
+      "word_count": 627,
+      "wikilinks": [
+        "Protocol"
+      ],
+      "tags": [
+        "models/qwen",
+        "system",
+        "models/llm",
+        "models/smol"
+      ],
+      "last_modified": "2026-05-02T15:39:27.598958"
+    },
+    "40_System/dataset_inventory_analysis.md": {
+      "path": "40_System\\dataset_inventory_analysis.md",
+      "title": "Dataset Inventory Analysis",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Dataset Inventory and Integration Analysis\ncreated: 2026-05-05T09:30:00\ntags: [dataset, analysis, integration, priority, memory, vault]\nsource: opencode_analysis\n---\n\n# Dataset Inventory - What Jarvis Has & What Benefits Us Most\n\n**Generated**: 2026-05-05 via unified layer query\n**Scope**",
+      "word_count": 808,
+      "wikilinks": [],
+      "tags": [
+        "vault",
+        "integration",
+        "priority",
+        "dataset",
+        "analysis",
+        "memory"
+      ],
+      "last_modified": "2026-05-05T09:29:57.669618"
+    },
+    "40_System/Financial Agent Team - FinCore.md": {
+      "path": "40_System\\Financial Agent Team - FinCore.md",
+      "title": "Financial Agent Team - Fincore",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Financial Agent Team - FinCore\ncreated: 2026-05-05T15:00:00\nupdated: 2026-05-05T15:00:00\ntags: [agents, finance, multi-agent, forecasting, architecture]\nsource: system\n---\n\n# FinCore \u2014 Financial Agent Team\n\n## Overview\n\nFinCore is a multi-agent financial system modeled after production ar",
+      "word_count": 1338,
+      "wikilinks": [],
+      "tags": [
+        "finance",
+        "architecture",
+        "multi-agent",
+        "agents",
+        "forecasting"
+      ],
+      "last_modified": "2026-05-05T16:52:23.412246"
+    },
+    "40_System/jarvis_memory_consolidation.md": {
+      "path": "40_System\\jarvis_memory_consolidation.md",
+      "title": "Jarvis Memory Consolidation",
+      "folder": "40_System",
+      "content_preview": "# Jarvis Memory Consolidation\n\n**Date**: 2025-05-05\n**Source**: `C:\\Users\\stefa\\Desktop\\AI projects\\Mark-XXXV\\memory\\jarvis_memory.db`\n**Target**: `C:\\Users\\stefa\\Desktop\\AI projects\\Projects\\Omnis\\knowledge\\memory\\unified_memory.db`\n\n## Summary\n\nConsolidated Jarvis's SQLite memory database into the",
+      "word_count": 299,
+      "wikilinks": [],
+      "tags": [],
+      "last_modified": "2026-05-05T09:37:29.252452"
+    },
+    "40_System/Log - Agent Handoff Protocol.md": {
+      "path": "40_System\\Log - Agent Handoff Protocol.md",
+      "title": "Log - Agent Handoff Protocol",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Log - Agent Handoff Protocol\"\ncreated: 2026-05-05T10:45:00\nupdated: 2026-05-05T10:45:00\nfolder: 40_System\ntags: [handoff, protocol, agent, session]\nsource: system\n---\n\n# Log - Agent Handoff Protocol\n\n## Purpose\nEnable seamless session-to-session continuity between agents (Omnis, Jarvis, ",
+      "word_count": 407,
+      "wikilinks": [
+        "Log - Decision Tracker",
+        "Shared Memory Protocol",
+        "Agent Registry"
+      ],
+      "tags": [
+        "1",
+        "session",
+        "agent",
+        "protocol",
+        "handoff"
+      ],
+      "last_modified": "2026-05-05T10:39:12.740733"
+    },
+    "40_System/Log - Decision Tracker.md": {
+      "path": "40_System\\Log - Decision Tracker.md",
+      "title": "Log - Decision Tracker",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Log - Decision Tracker\"\ncreated: 2026-05-05T10:45:00\nupdated: 2026-05-05T10:45:00\nfolder: 40_System\ntags: [decision, log, tracking, agent]\nsource: template\n---\n\n# Log - Decision Tracker\n\n## Active Decisions\n\n| # | Decision | Context | Status | Date | Owner |\n|---|----------|---------|---",
+      "word_count": 557,
+      "wikilinks": [
+        "Vision - Unified AI Agent System",
+        "Project - Goal Cascade",
+        "Agent Registry"
+      ],
+      "tags": [
+        "decision",
+        "1",
+        "agent",
+        "4",
+        "2",
+        "5",
+        "3",
+        "log",
+        "tracking"
+      ],
+      "last_modified": "2026-05-05T10:38:53.339211"
+    },
+    "40_System/Log - Decisions & Errors.md": {
+      "path": "40_System\\Log - Decisions & Errors.md",
+      "title": "Log - Decisions & Errors",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Log - Decisions & Errors\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/log, decisions, errors]\nsource: merged\n---\n\n# Log - Decisions & Errors\n\n> Merged from: decision_log.md, error_solution_log.md\n\n---\n\n## Decisions\n\n### 2026-05-02: Architecture Evolution - Her",
+      "word_count": 986,
+      "wikilinks": [
+        "System Architecture",
+        "Protocols Reference",
+        "User Profile",
+        "Project States"
+      ],
+      "tags": [
+        "errors",
+        "decisions",
+        "system/log"
+      ],
+      "last_modified": "2026-05-05T11:10:28.700651"
+    },
+    "40_System/Map of Content - System Index.md": {
+      "path": "40_System\\Map of Content - System Index.md",
+      "title": "Map Of Content - System Index",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Map of Content \u2014 System Index\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/moc, index]\nsource: merged\n---\n\n# Map of Content \u2014 System Index\n\n> Merged from: moc_Agents, moc_Memory_&_Search, moc_Security_&_Autonomy, moc_Models_&_Inference, moc_Automation_&_Skills",
+      "word_count": 370,
+      "wikilinks": [
+        "System Architecture",
+        "OPENCODE_INTEGRATION",
+        "Agent Registry",
+        "Protocols Reference",
+        "User Profile",
+        "Research - Intent Classification",
+        "security_autonomy_system",
+        "TEMPLATE - AGENTS.md",
+        "Protocols Reference",
+        "Research - AI Models for 3GB RAM",
+        "Protocols Reference",
+        "Skill Engine System",
+        "SPEC - ClawHub Skill Format",
+        "Scheduler System",
+        "AI Coding Automation 2026",
+        "AI Ecommerce Automation 2026",
+        "Project States",
+        "Protocols Reference",
+        "OPENCODE_INTEGRATION",
+        "Research - Top Vault & Agent Workflow Best Practices 2026",
+        "Research - Quantum Computing",
+        "Research - Intent Classification",
+        "Research - AI Models for 3GB RAM",
+        "AI Coding Automation 2026",
+        "AI Ecommerce Automation 2026",
+        "Competitor Tech Landscape 2026",
+        "AI Watch List",
+        "best_language_stack_ai_dev_2026",
+        "local_model_integration_2026",
+        "local_model_setup_llamacpp_2026",
+        "scraped_machine_learning_optimization",
+        "TEMPLATE - AGENTS.md",
+        "TEMPLATE - SPEC.md",
+        "SPEC - ClawHub Skill Format",
+        "Log - Decisions & Errors",
+        "Log - Agent Handoff Protocol",
+        "Log - Decision Tracker",
+        "dataset_inventory_analysis",
+        "jarvis_memory_consolidation",
+        "Project States",
+        "Project - Goal Cascade"
+      ],
+      "tags": [
+        "system/moc",
+        "index"
+      ],
+      "last_modified": "2026-05-05T11:13:33.083606"
+    },
+    "40_System/Monitor - Mark-XXXIX GitHub.md": {
+      "path": "40_System\\Monitor - Mark-XXXIX GitHub.md",
+      "title": "Monitor - Mark-Xxxix Github",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Monitor - Mark-XXXIX GitHub Repository\"\ncreated: 2026-05-05\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/monitor, jarvis, github, mark-xxxix, jarvis-systems]\nsource: ai_curation\n---\n\n# Monitor: Mark-XXXIX GitHub Repository\n\n## Repository Details\n| Field | Value |\n|-------|-------|\n| U",
+      "word_count": 633,
+      "wikilinks": [],
+      "tags": [
+        "mark-xxxix",
+        "jarvis-systems",
+        "jarvis",
+        "system/monitor",
+        "github"
+      ],
+      "last_modified": "2026-05-05T12:11:33.422046"
+    },
+    "40_System/OPENCODE_INTEGRATION.md": {
+      "path": "40_System\\OPENCODE_INTEGRATION.md",
+      "title": "Opencode Integration",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Opencode Integration\ncreated: 2026-05-02\ntags: [agent/omnis, agent/opencode, core/memory, core/search, core/vault, system]\n---\n\n# OpenCode Knowledge Base Integration\n\nThis file tells OpenCode how to access Omnis knowledge for session continuity.\n\n## Quick Reference\n\n**Knowledge Base Locat",
+      "word_count": 185,
+      "wikilinks": [
+        "Protocol"
+      ],
+      "tags": [
+        "core/memory",
+        "system",
+        "agent/opencode",
+        "core/vault",
+        "agent/omnis",
+        "core/search"
+      ],
+      "last_modified": "2026-05-02T12:30:21.696478"
+    },
+    "40_System/Project - Goal Cascade.md": {
+      "path": "40_System\\Project - Goal Cascade.md",
+      "title": "Project - Goal Cascade",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Project - Goal Cascade\"\ncreated: 2025-05-05T00:00:00\nupdated: 2025-05-05T00:00:00\nfolder: 40_System\ntags: [goal, cascade, review, automation]\nsource: system\n---\n\n# Project - Goal Cascade\n\n## Cascade Structure\n```\nVision (Annual)\n  \u2193\nQuarterly Objectives\n  \u2193\nMonthly Milestones\n  \u2193\nWeekly ",
+      "word_count": 331,
+      "wikilinks": [
+        "Vision - Unified AI Agent System",
+        "Log - System Evolution",
+        "Project States"
+      ],
+      "tags": [
+        "review",
+        "automation",
+        "goal",
+        "cascade"
+      ],
+      "last_modified": "2026-05-08T12:34:24.750330"
+    },
+    "40_System/Project States.md": {
+      "path": "40_System\\Project States.md",
+      "title": "Project States",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Project States\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/project, omnis, jarvis, opencode, roadmap]\nsource: merged\n---\n\n# Project States\n\n> Merged from: _active_state.md, project_states.md, project_roadmap.md\n\n## Current State (2026-05-05)\n- Three agents op",
+      "word_count": 914,
+      "wikilinks": [
+        "System Architecture",
+        "Protocols Reference",
+        "User Profile",
+        "Log - Decisions & Errors"
+      ],
+      "tags": [
+        "opencode",
+        "omnis",
+        "roadmap",
+        "jarvis",
+        "system/project"
+      ],
+      "last_modified": "2026-05-05T12:09:19.119786"
+    },
+    "40_System/Protocols Reference.md": {
+      "path": "40_System\\Protocols Reference.md",
+      "title": "Protocols Reference",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Protocols Reference\"\ncreated: 2026-05-04\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/protocol, unified-layer, communication, skills, memory, models]\nsource: merged\n---\n\n# Protocols Reference\n\n> Merged from: Unified Layer Protocol.md, shared_memory_protocol.md, Skill Sync Protocol",
+      "word_count": 1110,
+      "wikilinks": [
+        "System Architecture",
+        "User Profile",
+        "Project States",
+        "Log - Decisions & Errors"
+      ],
+      "tags": [
+        "shared_memory",
+        "high_priority",
+        "models",
+        "system/protocol",
+        "memory",
+        "communication",
+        "unified-layer",
+        "skills",
+        "alert"
+      ],
+      "last_modified": "2026-05-05T12:11:08.949955"
+    },
+    "40_System/scheduler_system.md": {
+      "path": "40_System\\scheduler_system.md",
+      "title": "Scheduler System",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Scheduler System\ncreated: 2026-05-02\ntags: [automation, system]\n---\n\n# Scheduler System\n\n> **Phase 3** of Architecture Evolution\n> **Created**: 2026-05-02\n> **Status**: OPERATIONAL\n\n---\n\n## Overview\n\nCron-style scheduler for recurring automated tasks. Supports natural language scheduling ",
+      "word_count": 408,
+      "wikilinks": [],
+      "tags": [
+        "automation",
+        "system"
+      ],
+      "last_modified": "2026-05-02T12:30:20.073780"
+    },
+    "40_System/security_autonomy_system.md": {
+      "path": "40_System\\security_autonomy_system.md",
+      "title": "Security Autonomy System",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: Security Autonomy System\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, agent/opencode, core/memory, core/search, core/vault, security, system]\n---\n\n# Security & Autonomy System\n\n> **Phase 2** of Architecture Evolution\n> **Created**: 2026-05-02\n> **Status**: OPERATIONAL\n\n---\n\n## Ov",
+      "word_count": 631,
+      "wikilinks": [
+        "Decision Log"
+      ],
+      "tags": [
+        "security",
+        "core/memory",
+        "system",
+        "agent/opencode",
+        "core/vault",
+        "agent/omnis",
+        "core/search",
+        "agent/jarvis"
+      ],
+      "last_modified": "2026-05-02T12:30:21.736970"
+    },
+    "40_System/skill_engine_system.md": {
+      "path": "40_System\\skill_engine_system.md",
+      "title": "Skill Engine System",
+      "folder": "40_System",
+      "content_preview": "# Skill Engine System\n\n> **Phase 4** of Architecture Evolution\n> **Created**: 2026-05-02\n> **Status**: OPERATIONAL\n\n---\n\n## Overview\n\nSelf-improving skill system that auto-generates, validates, and manages reusable Python functions from conversation patterns.\n\n---\n\n## How It Works\n\n1. **Create**: Sk",
+      "word_count": 390,
+      "wikilinks": [],
+      "tags": [],
+      "last_modified": "2026-05-02T12:44:47.168184"
+    },
+    "40_System/SPEC - ClawHub Skill Format.md": {
+      "path": "40_System\\SPEC - ClawHub Skill Format.md",
+      "title": "Spec - Clawhub Skill Format",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"SPEC - ClawHub-Compatible Skill Format\"\ncreated: 2025-05-05T00:00:00\nupdated: 2025-05-05T00:00:00\nstatus: active\nowner: system\nreview_date: 2025-05-12T00:00:00\n---\n\n# SPEC - ClawHub-Compatible Skill Format\n\n## Overview\nStandardized skill format compatible with OpenClaw's ClawHub ecosyste",
+      "word_count": 258,
+      "wikilinks": [
+        "Skill Engine System",
+        "Skill Sync Protocol",
+        "Agent Registry"
+      ],
+      "tags": [
+        "tag3",
+        "tag2",
+        "tag1"
+      ],
+      "last_modified": "2026-05-05T10:30:50.007637"
+    },
+    "40_System/System Architecture Diagrams.md": {
+      "path": "40_System\\System Architecture Diagrams.md",
+      "title": "System Architecture Diagrams",
+      "folder": "40_System",
+      "content_preview": "# System Architecture Overview\n\n## Unified Layer Architecture\n\n```mermaid\ngraph TB\n    User[User Input] --> Gateway[Gateway Layer]\n    Gateway --> Orchestrator[Orchestrator]\n    Orchestrator --> ModelRouter[Model Router]\n    \n    ModelRouter --> Smol3[SmolLM3-3B]\n    ModelRouter --> Qwen4[Qwen3.5-4B",
+      "word_count": 256,
+      "wikilinks": [],
+      "tags": [
+        "9C27B0",
+        "FF9800",
+        "FF5722",
+        "4CAF50",
+        "2196F3"
+      ],
+      "last_modified": "2026-05-05T10:55:35.502315"
+    },
+    "40_System/System Architecture.md": {
+      "path": "40_System\\System Architecture.md",
+      "title": "System Architecture",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"System Architecture\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/architecture, omnis, jarvis, opencode, unified-layer]\nsource: merged\n---\n\n# System Architecture\n\n> Merged from: agent_architecture.md, Jarvis Architecture.md, Omnis Architecture.md, Mark-XXXIX Vo",
+      "word_count": 1048,
+      "wikilinks": [
+        "Protocols Reference",
+        "User Profile & Setup",
+        "Project States",
+        "Log - Decisions & Errors",
+        "System Architecture Diagrams"
+      ],
+      "tags": [
+        "opencode",
+        "omnis",
+        "jarvis",
+        "system/architecture",
+        "unified-layer"
+      ],
+      "last_modified": "2026-05-05T12:10:11.788271"
+    },
+    "40_System/TEMPLATE - AGENTS.md": {
+      "path": "40_System\\TEMPLATE - AGENTS.md",
+      "title": "Template - Agents",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"AGENTS - [Directory/Component Name]\"\ncreated: {{DATE}}\nupdated: {{DATE}}\nfolder: 40_System\ntags: [agent, protocol, automation]\nsource: template\n---\n\n# AGENTS - [Directory/Component Name]\n\n## Purpose\n<!-- What does this directory/component do? Who uses it? -->\n\n## Agent Rules\n<!-- Specifi",
+      "word_count": 128,
+      "wikilinks": [
+        "link to related docs",
+        "link to parent system"
+      ],
+      "tags": [
+        "agent",
+        "automation",
+        "protocol"
+      ],
+      "last_modified": "2026-05-05T10:29:11.088822"
+    },
+    "40_System/TEMPLATE - SPEC.md": {
+      "path": "40_System\\TEMPLATE - SPEC.md",
+      "title": "Template - Spec",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"SPEC - [Feature/System Name]\"\ncreated: {{DATE}}\nupdated: {{DATE}}\nstatus: draft\nowner: {{agent}}\nreview_date: {{DATE+7d}}\n---\n\n# SPEC - [Feature/System Name]\n\n## Overview\n<!-- Brief description of what this spec covers -->\n\n## Problem Statement\n<!-- What problem does this solve? Why is i",
+      "word_count": 214,
+      "wikilinks": [
+        "Link to related specs",
+        "Link to implementation notes",
+        "Link to project tracker"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:29:03.300361"
+    },
+    "40_System/User Profile.md": {
+      "path": "40_System\\User Profile.md",
+      "title": "User Profile",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"User Profile\"\ncreated: 2026-05-02\nupdated: 2026-05-05\nfolder: 40_System\ntags: [system/user, memory, profile, omnis, jarvis, opencode]\nsource: merged\n---\n\n# User Profile\n\n> Merged from: user_preferences.md, user_profile.md, SETUP.md, personal_memory.md\n\n## Identity\n| Field | Value |\n|----",
+      "word_count": 762,
+      "wikilinks": [
+        "System Architecture",
+        "Protocols Reference",
+        "Project States",
+        "Log - Decisions & Errors"
+      ],
+      "tags": [
+        "opencode",
+        "omnis",
+        "system/user",
+        "profile",
+        "jarvis",
+        "memory"
+      ],
+      "last_modified": "2026-05-05T11:10:28.694826"
+    },
+    "40_System/Vision - Unified AI Agent System.md": {
+      "path": "40_System\\Vision - Unified AI Agent System.md",
+      "title": "Vision - Unified Ai Agent System",
+      "folder": "40_System",
+      "content_preview": "---\ntitle: \"Vision - Unified AI Agent System\"\ncreated: 2025-05-05T00:00:00\nupdated: 2025-05-05T00:00:00\nfolder: 40_System\ntags: [vision, goal, cascade, strategic]\nsource: system\n---\n\n# Vision - Unified AI Agent System\n\n## North Star\nCreate a self-sustaining, multi-agent AI ecosystem that operates au",
+      "word_count": 223,
+      "wikilinks": [
+        "Project - Goal Cascade",
+        "Log - System Evolution",
+        "SPEC - Skill Registry Format"
+      ],
+      "tags": [
+        "goal",
+        "vision",
+        "cascade",
+        "strategic"
+      ],
+      "last_modified": "2026-05-05T10:29:23.784312"
+    },
+    "50_Memory/AGENTS.md": {
+      "path": "50_Memory\\AGENTS.md",
+      "title": "Agents",
+      "folder": "50_Memory",
+      "content_preview": "# AGENTS - 50_Memory\n\n## Purpose\nPersistent memory entries, crystallized knowledge, and session traces. The system's long-term memory layer.\n\n## Agent Rules\n\n### Do\n- Crystallize high-priority shared memories here\n- Link memories to source conversations\n- Maintain memory freshness with regular updat",
+      "word_count": 141,
+      "wikilinks": [
+        "Shared Memory Protocol",
+        "Agent Registry"
+      ],
+      "tags": [],
+      "last_modified": "2026-05-05T10:55:14.510478"
+    },
+    "50_Memory/Decision Log.md": {
+      "path": "50_Memory\\Decision Log.md",
+      "title": "Decision Log",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: \"Decision Log\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 50_Memory\ntags: [memory/decisions, architecture, rationale]\nsource: ai_curation\n---\n\n# Decision Log \u2014 Architecture Choices & Rationale\n\n## 2026-05-04\n\n### Decision: Superpowers over Other Repos\n**Context**: Evaluated 7 externa",
+      "word_count": 446,
+      "wikilinks": [],
+      "tags": [
+        "memory/decisions",
+        "architecture",
+        "rationale"
+      ],
+      "last_modified": "2026-05-05T12:13:35.138271"
+    },
+    "50_Memory/Deployment Checklist.md": {
+      "path": "50_Memory\\Deployment Checklist.md",
+      "title": "Deployment Checklist",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: \"Deployment Checklist\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 50_Memory\ntags: [memory/ops, deployment, checklist]\nsource: ai_curation\n---\n\n# Deployment Checklist \u2014 Startup & Health Checks\n\n## Startup Order\n1. **Check system RAM** \u2192 must have >3GB available\n2. **Start Omnis** \u2192 lo",
+      "word_count": 380,
+      "wikilinks": [],
+      "tags": [
+        "checklist",
+        "deployment",
+        "memory/ops"
+      ],
+      "last_modified": "2026-05-05T12:10:51.998033"
+    },
+    "50_Memory/PROTOCOL.md": {
+      "path": "50_Memory\\PROTOCOL.md",
+      "title": "Protocol",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: Protocol\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, core/memory, core/unified-layer, core/vault, memory]\n---\n\n# Unified Memory Protocol\n\n## Overview\nUnified persistent memory combining best features from Omnis (4-tier relevance) and Jarvis (categorical storage).\n\n## Memory Arch",
+      "word_count": 267,
+      "wikilinks": [
+        "User Preferences"
+      ],
+      "tags": [
+        "core/unified-layer",
+        "core/memory",
+        "core/vault",
+        "agent/omnis",
+        "agent/jarvis",
+        "memory"
+      ],
+      "last_modified": "2026-05-02T12:30:21.786215"
+    },
+    "50_Memory/RAM Budget Management.md": {
+      "path": "50_Memory\\RAM Budget Management.md",
+      "title": "Ram Budget Management",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: \"RAM Budget Management\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 50_Memory\ntags: [memory/ops, ram, management, constraints]\nsource: ai_curation\n---\n\n# RAM Budget Management \u2014 3GB Strategy\n\n## System Constraints\n- **Total RAM**: 7.8GB (Windows)\n- **System baseline**: ~4.2GB (OS + ap",
+      "word_count": 283,
+      "wikilinks": [],
+      "tags": [
+        "management",
+        "ram",
+        "constraints",
+        "memory/ops"
+      ],
+      "last_modified": "2026-05-04T11:24:14.943088"
+    },
+    "50_Memory/Security Boundaries.md": {
+      "path": "50_Memory\\Security Boundaries.md",
+      "title": "Security Boundaries",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: \"Security Boundaries\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 50_Memory\ntags: [memory/security, boundaries, access-control]\nsource: ai_curation\n---\n\n# Security Boundaries \u2014 Access Control & Restrictions\n\n## AI Access Matrix\n\n| System | Can Read | Can Write | Can Execute |\n|---|---",
+      "word_count": 330,
+      "wikilinks": [],
+      "tags": [
+        "boundaries",
+        "memory/security",
+        "access-control"
+      ],
+      "last_modified": "2026-05-04T11:25:33.121438"
+    },
+    "50_Memory/Troubleshooting Guide.md": {
+      "path": "50_Memory\\Troubleshooting Guide.md",
+      "title": "Troubleshooting Guide",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: \"Troubleshooting Guide\"\ncreated: 2026-05-04\nupdated: 2026-05-04\nfolder: 50_Memory\ntags: [memory/troubleshooting, errors, fixes]\nsource: ai_curation\n---\n\n# Troubleshooting Guide \u2014 Common Errors & Fixes\n\n## Omnis Issues\n\n### Txtai Index Lock Error (WinError 32)\n**Symptom**: `PermissionError",
+      "word_count": 469,
+      "wikilinks": [],
+      "tags": [
+        "errors",
+        "fixes",
+        "memory/troubleshooting"
+      ],
+      "last_modified": "2026-05-04T11:25:00.784226"
+    },
+    "50_Memory/upgrades_log.md": {
+      "path": "50_Memory\\upgrades_log.md",
+      "title": "Upgrades Log",
+      "folder": "50_Memory",
+      "content_preview": "---\ntitle: Upgrades Log\ncreated: 2026-05-02\ntags: [agent/jarvis, agent/omnis, agent/opencode, automation, core/memory, memory, ui]\n---\n\n# Memory, Skills & Knowledge Base Upgrades - 2026-04-28\n\n## Overview\nUpgraded Omnis, Jarvis, and OpenCode (3 agents) with roadmap-aligned skills, enhanced memory sy",
+      "word_count": 1038,
+      "wikilinks": [
+        "System Design Roadmap",
+        "Docker",
+        "Setup"
+      ],
+      "tags": [
+        "automation",
+        "core/memory",
+        "ui",
+        "agent/opencode",
+        "agent/omnis",
+        "agent/jarvis",
+        "memory"
+      ],
+      "last_modified": "2026-05-02T12:30:21.820465"
+    },
+    "30_Research/web_archive/example_com_ai-agents-evolving_f8bde1fa.md": {
+      "path": "30_Research\\web_archive\\example_com_ai-agents-evolving_f8bde1fa.md",
+      "title": "Example Com Ai-Agents-Evolving F8Bde1Fa",
+      "folder": "web_archive",
+      "content_preview": "---\ntitle: \"Test Article - AI Agents\"\ncreated: 2026-05-05T10:56:30.219151\nsource_url: https://example.com/ai-agents-evolving\nsource_agent: test\ntags: [ai, agents, research]\nword_count: 37\n---\n\n# Test Article - AI Agents\n\n## Source\n- **URL**: https://example.com/ai-agents-evolving\n- **Saved**: 2026-0",
+      "word_count": 94,
+      "wikilinks": [],
+      "tags": [
+        "agents",
+        "research",
+        "ai"
+      ],
+      "last_modified": "2026-05-05T10:56:30.220938"
+    },
+    "30_Projects/Shared_Memory/Shared_jarvis_jarvis_session_start.md": {
+      "path": "30_Projects\\Shared_Memory\\Shared_jarvis_jarvis_session_start.md",
+      "title": "Shared Jarvis Jarvis Session Start",
+      "folder": "Shared_Memory",
+      "content_preview": "# Shared_jarvis_jarvis_session_start\n\n## Source\n- Agent: jarvis\n- Category: session\n- Priority: high\n- Created: 2026-05-06T08:13:33.373209\n\n## Content\nSession started at 20260506_081333\n\n## Access Patterns\n- jarvis: 1 accesses\n\n## Tags\n#shared_memory #session #high_priority\n",
+      "word_count": 34,
+      "wikilinks": [],
+      "tags": [
+        "shared_memory",
+        "high_priority",
+        "session"
+      ],
+      "last_modified": "2026-05-06T08:13:33.395854"
+    },
+    "30_Projects/Shared_Memory/Shared_omnis_omnis_session_start.md": {
+      "path": "30_Projects\\Shared_Memory\\Shared_omnis_omnis_session_start.md",
+      "title": "Shared Omnis Omnis Session Start",
+      "folder": "Shared_Memory",
+      "content_preview": "# Shared_omnis_omnis_session_start\n\n## Source\n- Agent: omnis\n- Category: session\n- Priority: high\n- Created: 2026-05-06T11:02:40.325951\n\n## Content\nSession started at 20260506_110240\n\n## Access Patterns\n- omnis: 1 accesses\n\n## Tags\n#shared_memory #session #high_priority\n",
+      "word_count": 34,
+      "wikilinks": [],
+      "tags": [
+        "shared_memory",
+        "high_priority",
+        "session"
+      ],
+      "last_modified": "2026-05-06T11:02:40.355407"
+    },
+    "30_Projects/Shared_Memory/Shared_test_test_session_start.md": {
+      "path": "30_Projects\\Shared_Memory\\Shared_test_test_session_start.md",
+      "title": "Shared Test Test Session Start",
+      "folder": "Shared_Memory",
+      "content_preview": "# Shared_test_test_session_start\n\n## Source\n- Agent: test\n- Category: session\n- Priority: high\n- Created: 2026-05-06T11:10:00.440334\n\n## Content\nSession started at 20260506_111000\n\n## Access Patterns\n- test: 1 accesses\n\n## Tags\n#shared_memory #session #high_priority\n",
+      "word_count": 34,
+      "wikilinks": [],
+      "tags": [
+        "shared_memory",
+        "high_priority",
+        "session"
+      ],
+      "last_modified": "2026-05-06T11:10:00.460538"
+    },
+    "00_Inbox/Dictionary/dict_algorithm.md": {
+      "path": "00_Inbox\\Dictionary\\dict_algorithm.md",
+      "title": "Dict Algorithm",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Algorithm\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: algorithm\n\n1. The art of calculating by nine figures and zero. 2. The art of calculating with any species of notation; as, the algorithms of fractions, proportions, surds, etc.\n",
+      "word_count": 40,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.079865"
+    },
+    "00_Inbox/Dictionary/dict_asynchronous.md": {
+      "path": "00_Inbox\\Dictionary\\dict_asynchronous.md",
+      "title": "Dict Asynchronous",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Asynchronous\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: asynchronous\n\nNot simultaneous; not concurrent in time; --opposed to synchronous.\n",
+      "word_count": 21,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.084668"
+    },
+    "00_Inbox/Dictionary/dict_autonomous.md": {
+      "path": "00_Inbox\\Dictionary\\dict_autonomous.md",
+      "title": "Dict Autonomous",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Autonomous\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: autonomous\n\n1. Independent in government; having the right or power of self- government. 2. (Biol.)  Having independent existence or laws.\n",
+      "word_count": 31,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.084668"
+    },
+    "00_Inbox/Dictionary/dict_ephemeral.md": {
+      "path": "00_Inbox\\Dictionary\\dict_ephemeral.md",
+      "title": "Dict Ephemeral",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Ephemeral\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: ephemeral\n\n1. Beginning and ending in a day; existing only, or no longer than, a day; diurnal; as, an ephemeral flower. 2. Short-lived; existing or continuing for a short time only. \"Ephemeral popularity.\" V. Knox",
+      "word_count": 115,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.086679"
+    },
+    "00_Inbox/Dictionary/dict_heuristic.md": {
+      "path": "00_Inbox\\Dictionary\\dict_heuristic.md",
+      "title": "Dict Heuristic",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Heuristic\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: heuristic\n\nServing to discover or find out.\n",
+      "word_count": 18,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.086679"
+    },
+    "00_Inbox/Dictionary/dict_omnipresent.md": {
+      "path": "00_Inbox\\Dictionary\\dict_omnipresent.md",
+      "title": "Dict Omnipresent",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Omnipresent\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: Omnipresent\n\nPresent in all places at the same time; ubiquitous; as, the omnipresent Jehovah. Prior.\n",
+      "word_count": 26,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.088690"
+    },
+    "00_Inbox/Dictionary/dict_omniscient.md": {
+      "path": "00_Inbox\\Dictionary\\dict_omniscient.md",
+      "title": "Dict Omniscient",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Omniscient\ncreated: 2026-05-02\ntags: [agent/omnis]\n---\n\n# Definition: omniscient\n\nHaving universal knowledge; knowing all things; infinitely knowing or wise; as, the omniscient God. -- Om*nis\"cient*ly, adv. For what can scape the eye Of God all-seeing, or deceive his heart Omniscient",
+      "word_count": 44,
+      "wikilinks": [],
+      "tags": [
+        "agent/omnis"
+      ],
+      "last_modified": "2026-05-02T12:30:20.088690"
+    },
+    "00_Inbox/Dictionary/dict_resilience.md": {
+      "path": "00_Inbox\\Dictionary\\dict_resilience.md",
+      "title": "Dict Resilience",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Resilience\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: resilience\n\n1. The act of resiling, springing back, or rebounding; as, the resilience of a ball or of sound. 2. (Mech. & Engyn.)  The mechanical work required to strain an elastic body, as a deflected beam, stret",
+      "word_count": 66,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.090446"
+    },
+    "00_Inbox/Dictionary/dict_superfluous.md": {
+      "path": "00_Inbox\\Dictionary\\dict_superfluous.md",
+      "title": "Dict Superfluous",
+      "folder": "Dictionary",
+      "content_preview": "---\ntitle: Dict Superfluous\ncreated: 2026-05-02\ntags: [uncategorized]\n---\n\n# Definition: Superfluous\n\n## adjective\n- In excess of what is required or sufficient.\n",
+      "word_count": 23,
+      "wikilinks": [],
+      "tags": [
+        "uncategorized"
+      ],
+      "last_modified": "2026-05-02T12:30:20.092460"
+    },
+    ".obsidian/templates/daily-note.md": {
+      "path": ".obsidian\\templates\\daily-note.md",
+      "title": "Daily-Note",
+      "folder": "templates",
+      "content_preview": "---\ntitle: {{date}}\ncreated: {{date}}\ntags: [daily]\n---\n\n# {{date}}\n\n## Focus\n- \n\n## Agent Activity\n```dataview\nTABLE file.ctime AS \"Time\", tags\nFROM \"00_Inbox\"\nWHERE contains(file.name, this.file.name)\nSORT file.ctime DESC\n```\n\n## Notes Created\n- \n\n## Insights\n- \n\n## Tasks Completed\n- \n\n## Tomorrow",
+      "word_count": 45,
+      "wikilinks": [],
+      "tags": [
+        "daily"
+      ],
+      "last_modified": "2026-05-02T16:40:06.869725"
+    },
+    ".obsidian/templates/research-note.md": {
+      "path": ".obsidian\\templates\\research-note.md",
+      "title": "Research-Note",
+      "folder": "templates",
+      "content_preview": "---\ntitle: \ncreated: {{date}}\ntags: [research, draft]\nstatus: draft\n---\n\n# \n\n## Question\n> What do I need to know?\n\n## Findings\n\n\n\n## Sources\n- \n\n## Related\n- \n\n## Summary\n\n",
+      "word_count": 30,
+      "wikilinks": [],
+      "tags": [
+        "research",
+        "draft"
+      ],
+      "last_modified": "2026-05-02T16:40:12.872744"
+    },
+    ".obsidian/templates/skill-note.md": {
+      "path": ".obsidian\\templates\\skill-note.md",
+      "title": "Skill-Note",
+      "folder": "templates",
+      "content_preview": "---\ntitle: \ncreated: {{date}}\ntags: [skill, category]\nstatus: active\nversion: 1.0\n---\n\n# Skill: \n\n## Overview\n\n\n## Purpose\n\n\n## Capabilities\n- \n\n## Input Format\n```json\n{}\n```\n\n## Output Format\n```json\n{}\n```\n\n## Implementation Notes\n- \n\n## Related\n- \n",
+      "word_count": 40,
+      "wikilinks": [],
+      "tags": [
+        "skill",
+        "category"
+      ],
+      "last_modified": "2026-05-02T16:40:19.266989"
+    }
+  },
+  "updated": "2026-05-08T16:55:47.972857"
+}

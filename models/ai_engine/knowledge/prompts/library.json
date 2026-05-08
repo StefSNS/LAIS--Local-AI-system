@@ -1,0 +1,140 @@
+{
+  "prompts": {
+    "summarize_text": {
+      "name": "summarize_text",
+      "template": "Summarize the following text in {num_sentences} sentences:\n\n{text}",
+      "category": "summarization",
+      "tags": [
+        "summary",
+        "compression"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Summarize text to a specific number of sentences",
+      "variables": [
+        "text",
+        "num_sentences"
+      ],
+      "created": "2026-05-06T11:10:00.267129",
+      "usage_count": 1,
+      "avg_score": 0.0
+    },
+    "extract_keywords": {
+      "name": "extract_keywords",
+      "template": "Extract the top {top_n} keywords from the following text:\n\n{text}",
+      "category": "extraction",
+      "tags": [
+        "keywords",
+        "nlp"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Extract key terms from text",
+      "variables": [
+        "text",
+        "top_n"
+      ],
+      "created": "2026-05-06T11:10:00.268141",
+      "usage_count": 0,
+      "avg_score": 0.0
+    },
+    "code_review": {
+      "name": "code_review",
+      "template": "Review the following {language} code for bugs, security issues, and improvements:\n\n{code}",
+      "category": "code",
+      "tags": [
+        "review",
+        "security",
+        "quality"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Code review prompt",
+      "variables": [
+        "language",
+        "code"
+      ],
+      "created": "2026-05-06T11:10:00.269127",
+      "usage_count": 0,
+      "avg_score": 0.0
+    },
+    "daily_journal": {
+      "name": "daily_journal",
+      "template": "Write a journal entry for {date}. Key topics: {topics}. Mood: {mood}.",
+      "category": "journal",
+      "tags": [
+        "daily",
+        "reflection"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Daily journal template",
+      "variables": [
+        "date",
+        "topics",
+        "mood"
+      ],
+      "created": "2026-05-06T11:10:00.270086",
+      "usage_count": 0,
+      "avg_score": 0.0
+    },
+    "research_query": {
+      "name": "research_query",
+      "template": "Research the topic: {topic}. Focus areas: {focus}. Provide structured findings with sources.",
+      "category": "research",
+      "tags": [
+        "research",
+        "analysis"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Research query template",
+      "variables": [
+        "focus",
+        "topic"
+      ],
+      "created": "2026-05-06T11:10:00.273641",
+      "usage_count": 0,
+      "avg_score": 0.0
+    },
+    "meeting_notes": {
+      "name": "meeting_notes",
+      "template": "Meeting notes for {meeting_name} on {date}.\nAttendees: {attendees}\nAgenda: {agenda}\n\nDecisions:\n{decisions}\n\nAction items:\n{actions}",
+      "category": "notes",
+      "tags": [
+        "meeting",
+        "collaboration"
+      ],
+      "system_prompt": "",
+      "version": 1,
+      "description": "Meeting notes template",
+      "variables": [
+        "actions",
+        "date",
+        "decisions",
+        "agenda",
+        "attendees",
+        "meeting_name"
+      ],
+      "created": "2026-05-06T11:10:00.274613",
+      "usage_count": 0,
+      "avg_score": 0.0
+    },
+    "hello": {
+      "name": "hello",
+      "template": "Hi {{name}}",
+      "category": "general",
+      "tags": [],
+      "system_prompt": "",
+      "version": 2,
+      "description": "",
+      "variables": [
+        "name"
+      ],
+      "created": "2026-05-08T12:09:24.420811",
+      "usage_count": 1,
+      "avg_score": 0.0
+    }
+  },
+  "history": []
+}

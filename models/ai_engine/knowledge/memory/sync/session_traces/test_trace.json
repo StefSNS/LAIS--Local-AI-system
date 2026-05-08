@@ -1,0 +1,12 @@
+[
+  {
+    "trace_id": "trace_87fcc3b2",
+    "timestamp": "2026-05-05T10:43:57.167288",
+    "agent": "test",
+    "action": "test_action",
+    "context": {
+      "context": "refinement"
+    },
+    "metadata": {}
+  }
+]

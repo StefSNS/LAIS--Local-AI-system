@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "last_sync": "2026-04-28T06:35:25.117384+00:00",
+  "skills": {
+    "code-review": {
+      "description": "Review code for security vulnerabilities, bugs, performance issues, and best practices.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "test-generator": {
+      "description": "Generate unit tests, integration tests, or test stubs.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "debug-assist": {
+      "description": "Debug errors, fix bugs, and trace issues.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "refactor": {
+      "description": "Refactor code for better structure, readability, or performance.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "documentation": {
+      "description": "Generate documentation, comments, or README files.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "security-audit": {
+      "description": "Scan for security vulnerabilities, hardcoded secrets, and unsafe patterns.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "file-organizer": {
+      "description": "Organize project files and folder structure.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "git-helper": {
+      "description": "Git workflows, commit messages, branches, and PRs.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "api-design": {
+      "description": "Design REST APIs, endpoints, and Web APIs.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "migrations": {
+      "description": "Database migration scripts and schema changes.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    },
+    "architecture": {
+      "description": "System design, architecture patterns, and scalability.",
+      "created": "2026-04-26",
+      "updated": "2026-04-26"
+    }
+  }
+}

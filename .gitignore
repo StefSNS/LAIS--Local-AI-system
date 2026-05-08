@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Personal data
+memory/long_term.json
+config/api_keys.json
+
+# Security agent artifacts
+agent/security/_decoys/
+agent/security/logs/
+
+# Backups
+.backups/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# HuggingFace cache
+.cache/
+
+# Virtual environment
+venv/
+.venv/
+env/

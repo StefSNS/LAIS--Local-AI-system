@@ -1,0 +1,4 @@
+{
+    "gemini_api_key": "ENV:GEMINI_API_KEY",
+    "note": "API keys are now loaded from .env file"
+}

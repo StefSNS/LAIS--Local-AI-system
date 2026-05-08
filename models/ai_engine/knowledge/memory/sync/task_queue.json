@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "44c82351",
+      "title": "Test Dashboard UI",
+      "description": "Verify the web UI renders correctly with live data",
+      "type": "research",
+      "priority": "high",
+      "status": "pending",
+      "submitted_by": "opencode",
+      "assigned_to": "omnis",
+      "requires": [],
+      "context": {},
+      "created": "2026-05-01T22:02:21.270304",
+      "updated": "2026-05-01T22:02:21.270327",
+      "started": null,
+      "completed": null,
+      "result": null
+    }
+  ],
+  "completed": []
+}

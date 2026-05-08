@@ -1,0 +1,599 @@
+{
+  "00_Map_of_Content.md": [
+    "40_System/OPENCODE_INTEGRATION.md",
+    "40_System/System Architecture.md",
+    "40_System/agent_registry.md",
+    "10_Resources/business_automation_guide.md",
+    "30_Research/price_prediction_methods.md",
+    "10_Resources/financial-independence-roadmap.md",
+    "40_System/User Profile.md",
+    "40_System/Project - Goal Cascade.md",
+    "10_Resources/typescript_web_development.md",
+    "30_Research/Research - Quantum Computing.md",
+    "10_Resources/go_programming.md",
+    "40_System/Protocols Reference.md",
+    "40_System/Financial Agent Team - FinCore.md",
+    "40_System/SPEC - ClawHub Skill Format.md",
+    "30_Research/competitor_tech_landscape_2026.md",
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md",
+    "30_Research/Research - Top Vault & Agent Workflow Best Practices 2026.md",
+    "30_Research/Research - AI Models for 3GB RAM.md",
+    "40_System/skill_engine_system.md",
+    "30_Research/AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows.md",
+    "40_System/ai_watch_list.md",
+    "30_Honcho/User Profile.md",
+    "40_System/Vision - Unified AI Agent System.md",
+    "30_Research/Research - Intent Classification.md",
+    "10_Resources/financial_planning_guide.md",
+    "30_Research/ai_coding_automation_2026.md",
+    "10_Resources/Python_programming.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/rust_programming.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "40_System/Log - Decisions & Errors.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "40_System/Project States.md"
+  ],
+  "50_Memory.md": [],
+  "00_Inbox/AGENTS.md": [],
+  "10_Resources/agent-protocol-spec.md": [
+    "10_Resources/local_AI_agents_2024.md",
+    "10_Resources/decision-framework.md",
+    "10_Resources/unified_protocols.md"
+  ],
+  "10_Resources/AGENTS.md": [
+    "00_Map_of_Content.md"
+  ],
+  "10_Resources/ai_engineer_roadmap.md": [
+    "10_Resources/unified_protocols.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/Protocols Reference.md",
+    "50_Memory/PROTOCOL.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "10_Resources/anti_hacker_methods.md": [],
+  "10_Resources/api_integration_patterns.md": [],
+  "10_Resources/artificial_intelligence.md": [],
+  "10_Resources/autonomy_manager.md": [
+    "10_Resources/decision-framework.md",
+    "10_Resources/security_policy.md"
+  ],
+  "10_Resources/best_AI_frameworks_2024.md": [],
+  "10_Resources/best_local_AI_tools_for_8GB_RAM_laptops_2024.md": [],
+  "10_Resources/best_Python_intent_classification_methods.md": [
+    "10_Resources/for_python_intent_classification.md",
+    "10_Resources/best_Python_intent_classification_methods.md",
+    "10_Resources/Python_intent_classification.md"
+  ],
+  "10_Resources/best_Python_NLP_intent_classification_methods_2024.md": [],
+  "10_Resources/business_automation_guide.md": [],
+  "10_Resources/code_snippets_library.md": [
+    "30_Research/Research - Quantum Computing.md"
+  ],
+  "10_Resources/cybersecurity_best_practices.md": [],
+  "10_Resources/decision-framework.md": [
+    "50_Memory/Decision Log.md",
+    "10_Resources/autonomy_manager.md",
+    "10_Resources/agent-protocol-spec.md",
+    "10_Resources/security_policy.md"
+  ],
+  "10_Resources/docker.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md"
+  ],
+  "10_Resources/ecommerce_automation.md": [],
+  "10_Resources/ecommerce_playbook.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md"
+  ],
+  "10_Resources/efficient_RAM_management_for_AI_models.md": [
+    "10_Resources/efficient_RAM_management_for_AI_models.md",
+    "10_Resources/RAM_management.md"
+  ],
+  "10_Resources/financial-independence-roadmap.md": [
+    "20_Skills/skill_data-pipeline.md",
+    "10_Resources/decision-framework.md",
+    "20_Skills/skill_income-tracker.md",
+    "20_Skills/skill_report-generator.md",
+    "20_Skills/skill_market-research.md",
+    "40_System/ai_watch_list.md",
+    "10_Resources/ecommerce_playbook.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "10_Resources/ecommerce_automation.md"
+  ],
+  "10_Resources/financial_planning_guide.md": [
+    "30_Research/price_prediction_methods.md"
+  ],
+  "10_Resources/for_local_ai_agents.md": [],
+  "10_Resources/for_python_intent_classification.md": [
+    "10_Resources/for_python_intent_classification.md",
+    "10_Resources/best_Python_intent_classification_methods.md",
+    "10_Resources/Python_intent_classification.md"
+  ],
+  "10_Resources/git_github.md": [],
+  "10_Resources/go_programming.md": [],
+  "10_Resources/intent_classification_improvements_NLP.md": [],
+  "10_Resources/intent_classification_NLP.md": [],
+  "10_Resources/Jarvis Memory API.md": [],
+  "10_Resources/language_comparison.md": [],
+  "10_Resources/latest_Python_programming_best_practices.md": [
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "10_Resources/programming_best_practices.md",
+    "10_Resources/Python_programming.md"
+  ],
+  "10_Resources/linux_basics.md": [],
+  "10_Resources/llamacpp_model_management.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md"
+  ],
+  "10_Resources/local-ai-deployment-playbook.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "10_Resources/local_AI_optimization_techniques.md",
+    "10_Resources/llamacpp_model_management.md",
+    "30_Research/local_model_integration_2026.md",
+    "40_System/ai_watch_list.md"
+  ],
+  "10_Resources/local_AI_agents_2024.md": [],
+  "10_Resources/local_AI_optimization_techniques.md": [],
+  "10_Resources/machine_learning.md": [
+    "10_Resources/artificial_intelligence.md"
+  ],
+  "10_Resources/machine_learning_optimization.md": [
+    "10_Resources/machine_learning.md",
+    "10_Resources/machine_learning_optimization.md",
+    "30_Research/scraped_machine_learning_optimization.md"
+  ],
+  "10_Resources/multi_modal_systems.md": [],
+  "10_Resources/obsidian-automation-guide.md": [
+    "00_Map_of_Content.md",
+    "20_Skills/skill_obsidian-sync.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "10_Resources/latest_Python_programming_best_practices.md"
+  ],
+  "10_Resources/Omnis API Reference.md": [],
+  "10_Resources/programming_best_practices.md": [],
+  "10_Resources/Python_async_programming.md": [],
+  "10_Resources/Python_best_practices_for_importlib_and_dynamic_module_loading.md": [],
+  "10_Resources/Python_exec_function_best_practices_and_security.md": [],
+  "10_Resources/Python_intent_classification.md": [],
+  "10_Resources/Python_natural_language_processing_dictionary_lookup_lightweight.md": [],
+  "10_Resources/Python_programming.md": [],
+  "10_Resources/Python_programming_best_practices.md": [
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "10_Resources/programming_best_practices.md",
+    "10_Resources/Python_programming.md"
+  ],
+  "10_Resources/Python_speech_recognition_libraries_lightweight_offline_2024.md": [],
+  "10_Resources/RAM_management.md": [],
+  "10_Resources/rust_programming.md": [],
+  "10_Resources/security_policy.md": [
+    "10_Resources/autonomy_manager.md",
+    "10_Resources/decision-framework.md"
+  ],
+  "10_Resources/system_architecture_patterns.md": [],
+  "10_Resources/system_design_roadmap.md": [],
+  "10_Resources/typescript_web_development.md": [],
+  "10_Resources/Unified Search API.md": [],
+  "10_Resources/unified_protocols.md": [
+    "10_Resources/autonomy_manager.md",
+    "10_Resources/decision-framework.md",
+    "20_Skills/skill_obsidian-sync.md",
+    "10_Resources/local-ai-deployment-playbook.md",
+    "10_Resources/security_policy.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "10_Resources/Vault Query API.md": [],
+  "10_Resources/Voice Pipeline API.md": [],
+  "10_Resources/Windows_11_automation.md": [],
+  "10_Resources/Windows_11_automation_tips.md": [
+    "10_Resources/Windows_11_automation_tips.md",
+    "10_Resources/Windows_11_automation.md"
+  ],
+  "10_Resources/windows_automation_recipes.md": [],
+  "20_Skills/AGENTS.md": [
+    "40_System/SPEC - ClawHub Skill Format.md",
+    "40_System/skill_engine_system.md"
+  ],
+  "20_Skills/Capability Matrix.md": [],
+  "20_Skills/Prompt Templates.md": [],
+  "20_Skills/Skill Inventory.md": [],
+  "20_Skills/skill_adaptive-renderer.md": [
+    "10_Resources/financial_planning_guide.md",
+    "10_Resources/business_automation_guide.md",
+    "20_Skills/skill_asset-manager.md",
+    "20_Skills/skill_multi-modal-workflow.md",
+    "50_Memory/Troubleshooting Guide.md",
+    "10_Resources/obsidian-automation-guide.md"
+  ],
+  "20_Skills/skill_api-design.md": [
+    "20_Skills/skill_security-audit.md",
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md",
+    "10_Resources/system_design_roadmap.md",
+    "10_Resources/api_integration_patterns.md",
+    "20_Skills/skill_architecture.md"
+  ],
+  "20_Skills/skill_architecture.md": [
+    "20_Skills/skill_plan-mode.md",
+    "10_Resources/agent-protocol-spec.md",
+    "20_Skills/skill_api-design.md",
+    "10_Resources/system_design_roadmap.md"
+  ],
+  "20_Skills/skill_asset-manager.md": [
+    "10_Resources/Windows_11_automation_tips.md",
+    "20_Skills/skill_system-diagnostic.md",
+    "20_Skills/skill_file-organizer.md",
+    "10_Resources/Windows_11_automation.md"
+  ],
+  "20_Skills/skill_code-review.md": [
+    "20_Skills/skill_security-audit.md",
+    "20_Skills/skill_refactor.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "20_Skills/skill_test-generator.md",
+    "20_Skills/skill_code-review.md",
+    "10_Resources/Python_programming_best_practices.md"
+  ],
+  "20_Skills/skill_context-engineering.md": [
+    "20_Skills/skill_rag-implementation.md",
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "20_Skills/skill_prompt-engineering.md",
+    "10_Resources/Python_natural_language_processing_dictionary_lookup_lightweight.md",
+    "10_Resources/ai_engineer_roadmap.md"
+  ],
+  "20_Skills/skill_data-pipeline.md": [
+    "40_System/scheduler_system.md",
+    "20_Skills/skill_income-tracker.md",
+    "10_Resources/unified_protocols.md",
+    "20_Skills/skill_market-research.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "10_Resources/ecommerce_automation.md"
+  ],
+  "20_Skills/skill_debug-assist.md": [
+    "10_Resources/Python_programming.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "20_Skills/skill_plan-mode.md",
+    "10_Resources/local-ai-deployment-playbook.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "20_Skills/skill_code-review.md"
+  ],
+  "20_Skills/skill_documentation.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "20_Skills/skill_prompt-engineering.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "20_Skills/skill_code-review.md"
+  ],
+  "20_Skills/skill_file-organizer.md": [
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "10_Resources/Windows_11_automation_tips.md",
+    "10_Resources/Windows_11_automation.md"
+  ],
+  "20_Skills/skill_git-helper.md": [
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/git_github.md",
+    "20_Skills/skill_code-review.md",
+    "10_Resources/Python_programming_best_practices.md"
+  ],
+  "20_Skills/skill_income-tracker.md": [
+    "20_Skills/skill_data-pipeline.md",
+    "20_Skills/skill_report-generator.md",
+    "10_Resources/financial-independence-roadmap.md",
+    "10_Resources/ecommerce_playbook.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "10_Resources/ecommerce_automation.md"
+  ],
+  "20_Skills/skill_market-research.md": [
+    "20_Skills/skill_data-pipeline.md",
+    "30_Research/competitor_tech_landscape_2026.md",
+    "10_Resources/financial-independence-roadmap.md",
+    "40_System/ai_watch_list.md",
+    "30_Research/ai_ecommerce_automation_2026.md"
+  ],
+  "20_Skills/skill_migrations.md": [
+    "10_Resources/Python_async_programming.md",
+    "10_Resources/system_design_roadmap.md"
+  ],
+  "20_Skills/skill_model-switch.md": [
+    "10_Resources/ai_engineer_roadmap.md",
+    "10_Resources/local-ai-deployment-playbook.md",
+    "10_Resources/efficient_RAM_management_for_AI_models.md"
+  ],
+  "20_Skills/skill_multi-modal-workflow.md": [
+    "20_Skills/skill_adaptive-renderer.md",
+    "10_Resources/Python_speech_recognition_libraries_lightweight_offline_2024.md",
+    "20_Skills/skill_context-engineering.md"
+  ],
+  "20_Skills/skill_obsidian-sync.md": [
+    "00_Map_of_Content.md",
+    "10_Resources/agent-protocol-spec.md",
+    "10_Resources/obsidian-automation-guide.md",
+    "10_Resources/decision-framework.md"
+  ],
+  "20_Skills/skill_plan-mode.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md",
+    "10_Resources/system_design_roadmap.md",
+    "10_Resources/decision-framework.md",
+    "20_Skills/skill_architecture.md"
+  ],
+  "20_Skills/skill_plugin-extender.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "20_Skills/skill_api-design.md",
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md",
+    "10_Resources/Python_best_practices_for_importlib_and_dynamic_module_loading.md",
+    "20_Skills/skill_architecture.md"
+  ],
+  "20_Skills/skill_prompt-engineering.md": [
+    "20_Skills/skill_context-engineering.md",
+    "10_Resources/Python_natural_language_processing_dictionary_lookup_lightweight.md"
+  ],
+  "20_Skills/skill_rag-implementation.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "10_Resources/local_AI_optimization_techniques.md",
+    "10_Resources/artificial_intelligence.md",
+    "20_Skills/skill_context-engineering.md",
+    "10_Resources/machine_learning.md",
+    "10_Resources/machine_learning_optimization.md",
+    "30_Research/scraped_machine_learning_optimization.md"
+  ],
+  "20_Skills/skill_refactor.md": [
+    "40_System/System Architecture.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "20_Skills/skill_plan-mode.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "30_Research/Automated Trading System \u2014 Full Research & Architecture.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "20_Skills/skill_code-review.md",
+    "20_Skills/skill_architecture.md"
+  ],
+  "20_Skills/skill_report-generator.md": [
+    "40_System/scheduler_system.md",
+    "20_Skills/skill_income-tracker.md",
+    "20_Skills/skill_obsidian-sync.md",
+    "40_System/ai_watch_list.md",
+    "10_Resources/decision-framework.md"
+  ],
+  "20_Skills/skill_security-audit.md": [
+    "20_Skills/skill_code-review.md",
+    "10_Resources/Python_exec_function_best_practices_and_security.md",
+    "10_Resources/security_policy.md"
+  ],
+  "20_Skills/skill_system-diagnostic.md": [
+    "10_Resources/llamacpp_model_management.md",
+    "10_Resources/efficient_RAM_management_for_AI_models.md",
+    "20_Skills/skill_debug-assist.md",
+    "10_Resources/RAM_management.md"
+  ],
+  "20_Skills/skill_test-generator.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "20_Skills/skill_refactor.md",
+    "20_Skills/skill_debug-assist.md",
+    "10_Resources/Python_programming.md",
+    "10_Resources/latest_Python_programming_best_practices.md",
+    "10_Resources/Python_programming_best_practices.md",
+    "20_Skills/skill_code-review.md"
+  ],
+  "20_Skills/skill_unified-code-collab.md": [
+    "20_Skills/skill_refactor.md",
+    "20_Skills/skill_debug-assist.md",
+    "20_Skills/skill_plan-mode.md",
+    "20_Skills/skill_code-review.md",
+    "20_Skills/skill_git-helper.md"
+  ],
+  "20_Skills/Workflow Patterns.md": [],
+  "30_Honcho/User Profile.md": [],
+  "30_Projects/AGENTS.md": [
+    "40_System/Project - Goal Cascade.md",
+    "40_System/Log - Agent Handoff Protocol.md"
+  ],
+  "30_Research/AGENTS.md": [
+    "30_Research/Research - Top Vault & Agent Workflow Best Practices 2026.md"
+  ],
+  "30_Research/AI Ecosystem Intelligence \u2014 Hermes, OpenClaw, Workflows.md": [],
+  "30_Research/ai_coding_automation_2026.md": [
+    "10_Resources/docker.md"
+  ],
+  "30_Research/ai_ecommerce_automation_2026.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "10_Resources/ecommerce_automation.md"
+  ],
+  "30_Research/Automated Trading System \u2014 Full Research & Architecture.md": [],
+  "30_Research/best_language_stack_ai_dev_2026.md": [
+    "10_Resources/unified_protocols.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/Protocols Reference.md",
+    "50_Memory/PROTOCOL.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "30_Research/competitor_tech_landscape_2026.md": [
+    "10_Resources/unified_protocols.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/Protocols Reference.md",
+    "50_Memory/PROTOCOL.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "30_Research/local_model_integration_2026.md": [
+    "30_Research/Research - Quantum Computing.md"
+  ],
+  "30_Research/local_model_setup_llamacpp_2026.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md"
+  ],
+  "30_Research/price_prediction_methods.md": [],
+  "30_Research/Research - AI Models for 3GB RAM.md": [],
+  "30_Research/Research - Intent Classification.md": [],
+  "30_Research/Research - Quantum Computing.md": [],
+  "30_Research/Research - Top Vault & Agent Workflow Best Practices 2026.md": [
+    "40_System/SPEC - ClawHub Skill Format.md",
+    "40_System/agent_registry.md",
+    "40_System/skill_engine_system.md",
+    "40_System/Project - Goal Cascade.md",
+    "40_System/Vision - Unified AI Agent System.md"
+  ],
+  "30_Research/scraped_machine_learning_optimization.md": [
+    "10_Resources/machine_learning.md",
+    "10_Resources/artificial_intelligence.md",
+    "10_Resources/machine_learning_optimization.md",
+    "30_Research/scraped_machine_learning_optimization.md"
+  ],
+  "40_System/agent_registry.md": [],
+  "40_System/ai_watch_list.md": [
+    "10_Resources/unified_protocols.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/Protocols Reference.md",
+    "50_Memory/PROTOCOL.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "40_System/dataset_inventory_analysis.md": [],
+  "40_System/Financial Agent Team - FinCore.md": [],
+  "40_System/jarvis_memory_consolidation.md": [],
+  "40_System/Log - Agent Handoff Protocol.md": [
+    "40_System/agent_registry.md",
+    "40_System/Log - Decision Tracker.md"
+  ],
+  "40_System/Log - Decision Tracker.md": [
+    "40_System/Project - Goal Cascade.md",
+    "40_System/Vision - Unified AI Agent System.md",
+    "40_System/agent_registry.md"
+  ],
+  "40_System/Log - Decisions & Errors.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "40_System/User Profile.md",
+    "30_Honcho/User Profile.md",
+    "40_System/Protocols Reference.md",
+    "40_System/Project States.md"
+  ],
+  "40_System/Map of Content - System Index.md": [
+    "40_System/OPENCODE_INTEGRATION.md",
+    "40_System/System Architecture.md",
+    "40_System/agent_registry.md",
+    "40_System/scheduler_system.md",
+    "30_Research/local_model_integration_2026.md",
+    "40_System/User Profile.md",
+    "40_System/Project - Goal Cascade.md",
+    "30_Research/Research - Quantum Computing.md",
+    "40_System/Protocols Reference.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/security_autonomy_system.md",
+    "40_System/SPEC - ClawHub Skill Format.md",
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "30_Research/competitor_tech_landscape_2026.md",
+    "40_System/jarvis_memory_consolidation.md",
+    "30_Research/Research - Top Vault & Agent Workflow Best Practices 2026.md",
+    "30_Research/Research - AI Models for 3GB RAM.md",
+    "40_System/dataset_inventory_analysis.md",
+    "40_System/Log - Decision Tracker.md",
+    "40_System/skill_engine_system.md",
+    "40_System/ai_watch_list.md",
+    "30_Honcho/User Profile.md",
+    "30_Research/Research - Intent Classification.md",
+    "30_Research/scraped_machine_learning_optimization.md",
+    "30_Research/ai_coding_automation_2026.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "30_Research/best_language_stack_ai_dev_2026.md",
+    "40_System/Log - Decisions & Errors.md",
+    "30_Research/ai_ecommerce_automation_2026.md",
+    "40_System/Project States.md"
+  ],
+  "40_System/Monitor - Mark-XXXIX GitHub.md": [],
+  "40_System/OPENCODE_INTEGRATION.md": [
+    "10_Resources/unified_protocols.md",
+    "40_System/Log - Agent Handoff Protocol.md",
+    "40_System/Protocols Reference.md",
+    "50_Memory/PROTOCOL.md",
+    "10_Resources/agent-protocol-spec.md"
+  ],
+  "40_System/Project - Goal Cascade.md": [
+    "40_System/Project States.md",
+    "40_System/Vision - Unified AI Agent System.md"
+  ],
+  "40_System/Project States.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "40_System/User Profile.md",
+    "30_Honcho/User Profile.md",
+    "40_System/Log - Decisions & Errors.md",
+    "40_System/Protocols Reference.md"
+  ],
+  "40_System/Protocols Reference.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "40_System/User Profile.md",
+    "30_Honcho/User Profile.md",
+    "40_System/Log - Decisions & Errors.md",
+    "40_System/Project States.md"
+  ],
+  "40_System/scheduler_system.md": [],
+  "40_System/security_autonomy_system.md": [
+    "50_Memory/Decision Log.md"
+  ],
+  "40_System/skill_engine_system.md": [],
+  "40_System/SPEC - ClawHub Skill Format.md": [
+    "40_System/skill_engine_system.md",
+    "40_System/agent_registry.md"
+  ],
+  "40_System/System Architecture Diagrams.md": [],
+  "40_System/System Architecture.md": [
+    "40_System/Log - Decisions & Errors.md",
+    "40_System/Protocols Reference.md",
+    "40_System/Project States.md",
+    "40_System/System Architecture Diagrams.md"
+  ],
+  "40_System/TEMPLATE - AGENTS.md": [],
+  "40_System/TEMPLATE - SPEC.md": [],
+  "40_System/User Profile.md": [
+    "40_System/System Architecture.md",
+    "40_System/System Architecture Diagrams.md",
+    "10_Resources/system_architecture_patterns.md",
+    "40_System/Log - Decisions & Errors.md",
+    "40_System/Protocols Reference.md",
+    "40_System/Project States.md"
+  ],
+  "40_System/Vision - Unified AI Agent System.md": [
+    "40_System/Project - Goal Cascade.md"
+  ],
+  "50_Memory/AGENTS.md": [
+    "40_System/agent_registry.md"
+  ],
+  "50_Memory/Decision Log.md": [],
+  "50_Memory/Deployment Checklist.md": [],
+  "50_Memory/PROTOCOL.md": [],
+  "50_Memory/RAM Budget Management.md": [],
+  "50_Memory/Security Boundaries.md": [],
+  "50_Memory/Troubleshooting Guide.md": [],
+  "50_Memory/upgrades_log.md": [
+    "30_Research/local_model_setup_llamacpp_2026.md",
+    "10_Resources/docker.md",
+    "10_Resources/system_design_roadmap.md"
+  ],
+  "30_Research/web_archive/example_com_ai-agents-evolving_f8bde1fa.md": [],
+  "30_Projects/Shared_Memory/Shared_jarvis_jarvis_session_start.md": [],
+  "30_Projects/Shared_Memory/Shared_omnis_omnis_session_start.md": [],
+  "30_Projects/Shared_Memory/Shared_test_test_session_start.md": [],
+  "00_Inbox/Dictionary/dict_algorithm.md": [],
+  "00_Inbox/Dictionary/dict_asynchronous.md": [],
+  "00_Inbox/Dictionary/dict_autonomous.md": [],
+  "00_Inbox/Dictionary/dict_ephemeral.md": [],
+  "00_Inbox/Dictionary/dict_heuristic.md": [],
+  "00_Inbox/Dictionary/dict_omnipresent.md": [],
+  "00_Inbox/Dictionary/dict_omniscient.md": [],
+  "00_Inbox/Dictionary/dict_resilience.md": [],
+  "00_Inbox/Dictionary/dict_superfluous.md": [],
+  ".obsidian/templates/daily-note.md": [],
+  ".obsidian/templates/research-note.md": [],
+  ".obsidian/templates/skill-note.md": []
+}

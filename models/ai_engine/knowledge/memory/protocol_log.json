@@ -1,0 +1,342 @@
+[
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis GUI",
+    "timestamp": "2026-05-02T13:05:33.681626"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Jarvis Voice/Text",
+    "timestamp": "2026-05-02T13:05:33.683650"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "OpenCode CLI",
+    "timestamp": "2026-05-02T13:05:33.694191"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis GUI",
+    "timestamp": "2026-05-02T13:05:52.954074"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Jarvis Voice/Text",
+    "timestamp": "2026-05-02T13:05:52.964576"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "OpenCode CLI",
+    "timestamp": "2026-05-02T13:05:52.975503"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis GUI",
+    "timestamp": "2026-05-02T13:06:13.683343"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Jarvis Voice/Text",
+    "timestamp": "2026-05-02T13:06:13.694562"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "OpenCode CLI",
+    "timestamp": "2026-05-02T13:06:13.703251"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Hermes Research Agent",
+    "timestamp": "2026-05-02T13:06:13.713325"
+  },
+  {
+    "event": "a2a_task_executed",
+    "detail": "omnis -> opencode: completed",
+    "timestamp": "2026-05-02T13:06:13.721276"
+  },
+  {
+    "event": "a2a_task_executed",
+    "detail": "opencode -> omnis: completed",
+    "timestamp": "2026-05-02T13:06:13.731172"
+  },
+  {
+    "event": "mcp_server_registered",
+    "detail": "filesystem",
+    "timestamp": "2026-05-02T13:06:13.741047"
+  },
+  {
+    "event": "mcp_server_registered",
+    "detail": "web_search",
+    "timestamp": "2026-05-02T13:06:13.751310"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-05T09:10:01.483375"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T09:15:04.773071"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Test message from opencode",
+    "timestamp": "2026-05-05T09:15:05.014396"
+  },
+  {
+    "event": "a2a_task_executed",
+    "detail": "opencode -> jarvis: completed",
+    "timestamp": "2026-05-05T09:15:05.027833"
+  },
+  {
+    "event": "mcp_server_registered",
+    "detail": "test_server",
+    "timestamp": "2026-05-05T09:15:05.040439"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:15:05.450401"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:15:05.469419"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T09:22:53.136473"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Test message from opencode",
+    "timestamp": "2026-05-05T09:22:53.390807"
+  },
+  {
+    "event": "a2a_task_executed",
+    "detail": "opencode -> jarvis: completed",
+    "timestamp": "2026-05-05T09:22:53.404017"
+  },
+  {
+    "event": "mcp_server_registered",
+    "detail": "test_server",
+    "timestamp": "2026-05-05T09:22:53.417980"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:22:53.759504"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:22:53.777171"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T09:23:34.846952"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Test message from opencode",
+    "timestamp": "2026-05-05T09:23:35.117336"
+  },
+  {
+    "event": "a2a_task_executed",
+    "detail": "opencode -> jarvis: completed",
+    "timestamp": "2026-05-05T09:23:35.128880"
+  },
+  {
+    "event": "mcp_server_registered",
+    "detail": "test_server",
+    "timestamp": "2026-05-05T09:23:35.142909"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:23:35.475526"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T09:23:35.492331"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T09:28:52.942816"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T09:30:30.759051"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T10:05:43.669150"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:05:44.266608"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:05:44.314191"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T10:07:24.916848"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:07:25.333574"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:07:25.353043"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T10:08:26.845440"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:08:27.813381"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:08:27.848726"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-05T10:09:22.394845"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> omnis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:09:22.833097"
+  },
+  {
+    "event": "a2a_message",
+    "detail": "opencode -> jarvis: Context: What is the current project status?",
+    "timestamp": "2026-05-05T10:09:22.920027"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Jarvis Agent",
+    "timestamp": "2026-05-06T08:13:32.570712"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Jarvis Agent",
+    "timestamp": "2026-05-06T08:14:05.331984"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T11:02:28.940306"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-06T11:09:51.222032"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T11:09:58.383608"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-06T11:15:56.102853"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T11:16:01.916713"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-06T12:03:53.717032"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T12:03:59.431687"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-06T12:04:46.538839"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T12:04:51.294190"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-06T12:06:46.511093"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-06T12:06:51.393205"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-08T12:26:37.265507"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-08T12:26:45.526583"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-08T12:35:06.228292"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-08T12:35:11.453073"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Opencode Agent",
+    "timestamp": "2026-05-08T12:48:26.793170"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-08T12:48:31.792229"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Test Agent",
+    "timestamp": "2026-05-08T12:48:33.855708"
+  },
+  {
+    "event": "a2a_agent_registered",
+    "detail": "Omnis Agent",
+    "timestamp": "2026-05-08T13:21:40.296910"
+  }
+]

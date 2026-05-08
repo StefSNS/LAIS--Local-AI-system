@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-05-04T09:06:30.743328",
+  "agent_activity": {
+    "jarvis": {
+      "agent": "jarvis",
+      "memories": {
+        "total_memories": 1,
+        "categories_used": 1,
+        "first_memory": "2026-05-02T11:10:05.779697",
+        "last_updated": "2026-05-02T11:10:05.779697"
+      },
+      "conversations": {
+        "total_turns": 0,
+        "sessions": 0
+      },
+      "skills": {
+        "total_skills": 1
+      }
+    },
+    "opencode": {
+      "agent": "opencode",
+      "memories": {
+        "total_memories": 1,
+        "categories_used": 1,
+        "first_memory": "2026-05-02T11:10:05.587864",
+        "last_updated": "2026-05-02T11:10:05.587864"
+      },
+      "conversations": {
+        "total_turns": 2,
+        "sessions": 1
+      },
+      "skills": {
+        "total_skills": 1
+      }
+    },
+    "omnis": {
+      "agent": "omnis",
+      "memories": {
+        "total_memories": 1,
+        "categories_used": 1,
+        "first_memory": "2026-05-02T11:10:05.754808",
+        "last_updated": "2026-05-02T11:10:05.754808"
+      },
+      "conversations": {
+        "total_turns": 2,
+        "sessions": 1
+      },
+      "skills": {
+        "total_skills": 1
+      }
+    }
+  },
+  "category_distribution": [
+    {
+      "category": "test",
+      "count": 1
+    },
+    {
+      "category": "context",
+      "count": 1
+    },
+    {
+      "category": "preference",
+      "count": 1
+    }
+  ],
+  "conversation_trends_7d": [
+    {
+      "error": "Parser Error: Wrong number of arguments provided to DATE function"
+    }
+  ],
+  "top_memory_keys": [
+    {
+      "key": "user_pref",
+      "occurrences": 1,
+      "agents": 1
+    },
+    {
+      "key": "session_note",
+      "occurrences": 1,
+      "agents": 1
+    },
+    {
+      "key": "test_key",
+      "occurrences": 1,
+      "agents": 1
+    }
+  ],
+  "agent_comparison": [
+    {
+      "agent": "opencode",
+      "memories": 1,
+      "categories": 1
+    },
+    {
+      "agent": "jarvis",
+      "memories": 1,
+      "categories": 1
+    },
+    {
+      "agent": "omnis",
+      "memories": 1,
+      "categories": 1
+    }
+  ]
+}
