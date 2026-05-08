@@ -78,10 +78,10 @@ class CompressionPipeline:
             return {"text": text, "saved": 0, "ratio": 0.0, "method": "passthrough"}
         original = len(text.split())
 
-        result = self._try_claw(text)
-        if result: return result
-
         result = self._try_tokenpruner(text)
+        if result and result["saved"] > 10: return result
+
+        result = self._try_claw(text)
         if result: return result
 
         result = self._try_llmlingua(text)
@@ -92,21 +92,21 @@ class CompressionPipeline:
     def _try_claw(self, text: str) -> Optional[Dict]:
         if not self._claw: return None
         try:
-            from claw_compactor.tokens import estimate_tokens as ct_est
+            ct_est = self._claw.tokens.estimate_tokens
             ct_original = ct_est(text)
-            import claw_compactor.tokenizer_optimizer as cto
-            import claw_compactor.dedup as cdd
 
-            result = text
-            result = cto.strip_bold_italic(result)
-            result = cto.minimize_whitespace(result)
-            result = cto.normalize_punctuation(result)
-            result = cto.compact_bullets(result)
+            result = re.sub(r'\*{1,2}(.*?)\*{1,2}', r'\1', text)
+            result = re.sub(r'_{1,2}(.*?)_{1,2}', r'\1', result)
+            result = re.sub(r'`{1,3}(.*?)`{1,3}', r'\1', result)
+            result = re.sub(r'\s+', ' ', result).strip()
+            result = re.sub(r'[^\w\s\.\,\;\:\!\?\-\(\)\[\]\{\}]', '', result)
+            lines = result.split('\n')
+            result = '\n'.join(l for l in lines if l.strip())
 
             ct_new = ct_est(result)
-            saved_words = len(text.split()) - len(result.split())
-            if saved_words > 0:
-                return {"text": result, "saved": saved_words, "ratio": saved_words / len(text.split()) if text.split() else 0, "method": "claw"}
+            saved_tokens = max(0, ct_original - ct_new)
+            if saved_tokens > 0:
+                return {"text": result, "saved": ct_original - ct_new, "ratio": saved_tokens / max(1, ct_original), "method": "claw"}
         except Exception:
             pass
         return None
@@ -117,7 +117,10 @@ class CompressionPipeline:
             from tokenpruner import TextPruner, PruningConfig, PruningStrategy
             pruner = TextPruner(PruningConfig(strategy=PruningStrategy.COMPOSITE, target_ratio=0.5))
             result = pruner.prune(text)
-            return {"text": result.text, "saved": result.tokens_saved, "ratio": result.compression_ratio, "method": "tokenpruner"}
+            pruned = result.pruned_text
+            saved = result.tokens_saved
+            ratio = getattr(result, 'reduction_ratio', saved / max(1, result.original_token_estimate))
+            return {"text": pruned, "saved": saved, "ratio": ratio, "method": "tokenpruner"}
         except Exception:
             pass
         return None
