@@ -45,3 +45,13 @@ logs/
 venv/
 .venv/
 env/
+
+# Auto-generated knowledge cache
+models/ai_engine/knowledge/memory/token_log.json
+models/ai_engine/knowledge/memory/topic_index.json
+models/ai_engine/knowledge/memory/vault_graph.json
+models/ai_engine/knowledge/memory/vault_index.json
+models/ai_engine/knowledge/memory/vault_embeddings.json
+
+# Binary tools
+models/ai_engine/lais-bin/
