@@ -44,3 +44,4 @@ Source = "https://github.com/JARVIS-Systems/Mark-XXXV"
 
 [project.scripts]
 jarvis = "main:main"
+lais-opencode = "models.ai_engine.bin.lais_opencode:main"
