@@ -143,7 +143,12 @@ LAIS/
 │   │   ├── llm_engine.py      # LLM inference gateway
 │   │   ├── plugin_manager.py  # Hot-loads 40+ plugins
 │   │   ├── plugins/           # Plugin modules
-│   │   ├── unified_layer/     # Cross-agent bridge
+│   │   ├── unified_layer/
+│   │   │   ├── token_optimizer.py  # Token governance (claw, sqz, shekel, LLMLingua)
+│   │   │   ├── memory_sync.py      # Cross-agent shared memory
+│   │   │   └── ...                 # 40+ integration modules
+│   │   ├── lais-bin/
+│   │   │   └── sqz.exe        # Shell output compressor binary
 │   │   ├── knowledge/         # RAG, memory, skills
 │   │   └── memory_lais.py     # Shared memory backend
 │   ├── llama-bin/             # llama.cpp binaries
@@ -194,6 +199,53 @@ python models\ai_engine\main.py       # AI Engine GUI
 | **"I need a reminder about the meeting"** | JARVIS captures voice → AI Engine schedules Windows task → confirmation spoken |
 | **"Optimize my system memory"** | AI Engine's RAM manager checks model usage → unloads idle models → reports savings |
 | **"Find that email about the API key from last week"** | AI Engine's semantic search across memory + email plugin → returns result |
+
+---
+
+---
+
+## Token Optimization Layer
+
+LAIS includes a cross-agent token governance system that integrates four open-source tools into a unified optimization layer:
+
+| Tool | Integration | What It Does |
+|------|-------------|-------------|
+| **claw-compactor** | Prompt compression | 14-stage content-type-aware pipeline: strips markdown formatting, normalizes whitespace, deduplicates, compacts bullet lists and tables. Zero LLM inference cost. |
+| **LLMLingua** (Microsoft) | Semantic compression | Uses a small BERT-level model to remove non-essential tokens while preserving meaning. Up to 20x compression. Falls back gracefully when unavailable. |
+| **sqz** | Shell output compression | Rust-based CLI hook that deduplicates and compresses bash/shell/git output before it reaches the LLM. Dedup cache: identical output on repeat calls returns a 13-token reference instead of full text. |
+| **shekel** | Budget enforcement | Monkey-patches OpenAI/Anthropic SDKs for per-agent USD budgets. JARVIS, AI Engine, and OpenCode each have independent budgets. Warns at 80%, stops at 100%. Loop detection prevents runaway agents. |
+
+### Architecture
+
+```
+LLM Call → CompressionPipeline → claw-compactor + tokenpruner → Compressed Prompt → LLM
+                    ↓
+Shell Command → ShellCompressor → sqz binary + dedup cache → Compressed Output → LLM
+                    ↓
+Any LLM Call → TokenBudget → shekel cost tracking → Block if over budget
+                    ↓
+All operations → Token Log → Usage stats & reporting via Unified Layer
+```
+
+All 3 agents share the same optimization layer via `models/ai_engine/unified_layer/token_optimizer.py`. Shell compression is wired directly into both JARVIS and AI Engine `cmd_control` modules. Budget enforcement is available per-agent at import time.
+
+### What Makes This Unique
+
+**No other open-source multi-agent system combines:**
+- Per-agent USD budgets with automatic enforcement
+- Shell output compression with content-dedup caching
+- Content-aware prompt compression (code vs JSON vs text handling differs)
+- Cross-agent token usage reporting in a single dashboard
+- Response caching with LRU + TTL across all agents
+
+Enable/disable each feature via environment variables: `LAIS_TOKEN_OPTIMIZATION`, `LAIS_SQZ_ENABLED`, `LAIS_BUDGET_ENABLED` (all default `1`).
+
+```python
+from unified_layer.token_optimizer import get_token_optimizer
+
+opt = get_token_optimizer("jarvis")
+opt.get_report()  # Full token usage + savings report
+```
 
 ---
 

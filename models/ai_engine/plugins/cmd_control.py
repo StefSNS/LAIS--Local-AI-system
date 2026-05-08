@@ -96,7 +96,13 @@ def _run_silent(command, timeout=20):
                 text=True, errors="replace", timeout=timeout, cwd=str(Path.home()))
         output = result.stdout.strip()
         error = result.stderr.strip()
-        if output: return output[:2000]
+        if output:
+            try:
+                from unified_layer.token_optimizer import get_token_optimizer
+                output = get_token_optimizer("lais").compress_shell(output[:10000])
+            except Exception:
+                pass
+            return output[:2000]
         if error: return f"[stderr]: {error[:500]}"
         return "Command executed with no output."
     except subprocess.TimeoutExpired:

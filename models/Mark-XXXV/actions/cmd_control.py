@@ -153,7 +153,13 @@ def _run_silent(command: str, timeout: int = 20) -> str:
 
         output = result.stdout.strip()
         error  = result.stderr.strip()
-        if output:  return output[:2000]
+        if output:
+            try:
+                from ai_engine.unified_layer.token_optimizer import get_token_optimizer
+                output = get_token_optimizer("jarvis").compress_shell(output[:10000])
+            except Exception:
+                pass
+            return output[:2000]
         if error:   return f"[stderr]: {error[:500]}"
         return "Command executed with no output."
 
