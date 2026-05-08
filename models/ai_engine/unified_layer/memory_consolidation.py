@@ -14,7 +14,7 @@ from typing import Optional
 from threading import Lock
 
 
-MEMORY_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory")
+MEMORY_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory")
 MEMORY_DIR.mkdir(parents=True, exist_ok=True)
 SHORT_TERM_FILE = MEMORY_DIR / "short_term.json"
 CONSOLIDATED_FILE = MEMORY_DIR / "consolidated.json"
@@ -333,7 +333,7 @@ Consolidated insight (3-5 sentences):"""
         return [word for word, _ in counter.most_common(5)]
 
     def _write_to_vault(self, summaries: dict) -> None:
-        vault_dir = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain")) / "20_Memory"
+        vault_dir = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain")) / "20_Memory"
         vault_dir.mkdir(parents=True, exist_ok=True)
 
         for key, content in summaries.items():

@@ -12,7 +12,7 @@ from typing import Dict, List, Any, Optional, Callable
 from threading import Lock
 
 CHANNEL_LOG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\channel_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\channel_log.json"
 )
 CHANNEL_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -120,8 +120,8 @@ class GatewayLayer:
         self._register_default_channels()
 
     def _register_default_channels(self):
-        """Register the default channels (Omnis GUI, Jarvis text, OpenCode CLI)."""
-        self.register_channel("omnis_gui", "Omnis GUI", "gui", "omnis")
+        """Register the default channels (LAIS GUI, Jarvis text, OpenCode CLI)."""
+        self.register_channel("lais_gui", "LAIS GUI", "gui", "lais")
         self.register_channel("jarvis_text", "Jarvis Text", "text", "jarvis")
         self.register_channel("opencode_cli", "OpenCode CLI", "cli", "opencode")
 
@@ -293,7 +293,7 @@ def load_gateway_layer() -> GatewayLayer:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Gateway Layer - Phase 6 ===\n")
@@ -307,8 +307,8 @@ if __name__ == "__main__":
 
     # Route messages
     print("\n--- Routing Messages ---")
-    gw.route_message("omnis_gui", "session_001", "user", "What models are running?")
-    gw.route_message("omnis_gui", "session_001", "assistant", "SmolLM3-3B and Qwen3-1.7B via llama.cpp")
+    gw.route_message("lais_gui", "session_001", "user", "What models are running?")
+    gw.route_message("lais_gui", "session_001", "assistant", "SmolLM3-3B and Qwen3-1.7B via llama.cpp")
 
     gw.route_message("opencode_cli", "session_002", "user", "Check the unified layer files")
     gw.route_message("opencode_cli", "session_002", "assistant", "Found 12 files in unified_layer/")

@@ -10,7 +10,7 @@ MEMORY_DIR = BASE_DIR / "knowledge" / "memory"
 SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
 MEMORY_DIR.mkdir(parents=True, exist_ok=True)
 
-HIGH_KEYWORDS = {"current", "active", "now", "working", "focus", "session", "continuity", "protocol", "automated", "code", "fix", "bug", "error", "implement", "create", "omnis", "ai"}
+HIGH_KEYWORDS = {"current", "active", "now", "working", "focus", "session", "continuity", "protocol", "automated", "code", "fix", "bug", "error", "implement", "create", "lais", "ai"}
 MEDIUM_KEYWORDS = {"method", "approach", "technique", "specification", "insight", "system", "function", "class", "file", "project"}
 LOW_KEYWORDS = {"background", "history", "archive", "example", "test", "demo", "old", "previous", "yesterday"}
 
@@ -171,7 +171,7 @@ def export_session():
 
 if __name__ == "__main__":
     continuity.add_message("user", "I want to build an AI assistant called Omnis")
-    continuity.add_message("assistant", "I'll help you create Omnis with memory continuity")
+    continuity.add_message("assistant", "I'll help you create LAIS with memory continuity")
     continuity.add_message("user", "It should remember previous sessions")
     print(json.dumps(continuity.get_context_summary(), indent=2))
     print("\n--- Export for continuity ---")

@@ -1,6 +1,6 @@
 ﻿"""
 Unified Memory Layer v1.0 - Bridging Obsidian Vault with AI Agents
-Integrates Omnis, Jarvis, and OpenCode with the Unified Brain vault.
+Integrates LAIS, Jarvis, and OpenCode with the Unified Brain vault.
 
 Features:
 - Semantic search via keyword-based embeddings (no ML dependency)
@@ -20,12 +20,12 @@ from collections import Counter
 from threading import Lock
 from typing import Optional
 
-# Vault path: can override via OMNIS_VAULT_PATH env variable
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+# Vault path: can override via LAIS_VAULT_PATH env variable
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 # Project knowledge paths (relative to this file's project root)
 _UL_BASE = Path(__file__).resolve().parent.parent
-OMNIS_KNOWLEDGE = _UL_BASE / "knowledge"
-MEMORY_DIR = OMNIS_KNOWLEDGE / "memory"
+LAIS_KNOWLEDGE = _UL_BASE / "knowledge"
+MEMORY_DIR = LAIS_KNOWLEDGE / "memory"
 CRYSTALLIZED_FILE = MEMORY_DIR / "crystallized.json"
 VAULT_INDEX_FILE = MEMORY_DIR / "vault_index.json"
 GRAPH_FILE = MEMORY_DIR / "vault_graph.json"
@@ -50,7 +50,7 @@ def _empty_memory():
 HIGH_KEYWORDS = {
     "current", "active", "now", "working", "focus", "session", "continuity",
     "protocol", "automated", "code", "fix", "bug", "error", "implement",
-    "create", "omnis", "ai", "project", "task", "urgent", "priority"
+    "create", "lais", "ai", "project", "task", "urgent", "priority"
 }
 MEDIUM_KEYWORDS = {
     "method", "approach", "technique", "specification", "insight",
@@ -494,7 +494,7 @@ source: crystallization
                 self.crystallize_insight(
                     insight["key"],
                     insight["value"],
-                    source="omnis_conversation"
+                    source="lais_conversation"
                 )
         
         return insights
@@ -639,7 +639,7 @@ class UnifiedLayer:
                     self.gateway.register_channel(
                         channel_id=channel_id,
                         name=f"{agent_name.title()} Channel",
-                        channel_type="text" if agent_name != "omnis" else "gui",
+                        channel_type="text" if agent_name != "lais" else "gui",
                         agent=agent_name
                     )
         except Exception as e:
@@ -904,7 +904,7 @@ class UnifiedLayer:
     def _get_agent_capabilities(self, agent_name: str) -> list:
         """Get capabilities for a specific agent."""
         capabilities_map = {
-            "omnis": ["gui", "chat", "search", "vault_write", "memory_read", "visualization"],
+            "lais": ["gui", "chat", "search", "vault_write", "memory_read", "visualization"],
             "jarvis": ["voice", "text", "search", "memory_write", "reminders", "apps", "web"],
             "opencode": ["code", "shell", "search", "file_write", "api", "debug", "git"],
         }
@@ -1098,11 +1098,11 @@ class UnifiedLayer:
     def _broadcast_to_agents(self, user_message, ai_response):
         """Broadcast relevant conversation info to other agents."""
         # Only broadcast if message contains cross-agent keywords
-        cross_agent_keywords = ["omnis", "jarvis", "opencode", "browser", "vault", "memory"]
+        cross_agent_keywords = ["lais", "jarvis", "opencode", "browser", "vault", "memory"]
         combined = f"{user_message} {ai_response}".lower()
 
         if any(kw in combined for kw in cross_agent_keywords):
-            for agent_id in ["omnis", "jarvis", "opencode"]:
+            for agent_id in ["lais", "jarvis", "opencode"]:
                 if agent_id != self.agent_name:
                     try:
                         self.protocols.send_a2a_message(
@@ -2483,7 +2483,7 @@ class UnifiedLayer:
         }
 
 
-def load_unified_layer(agent_name="omnis"):
+def load_unified_layer(agent_name="lais"):
     """Factory function to load the unified layer."""
     return UnifiedLayer(agent_name)
 

@@ -19,16 +19,16 @@ try:
         AutonomyLevel, RiskLevel
     )
 except ImportError:
-    omnis_path = str(Path(__file__).resolve().parent.parent)
-    if omnis_path not in sys.path:
-        sys.path.insert(0, omnis_path)
+    lais_path = str(Path(__file__).resolve().parent.parent)
+    if lais_path not in sys.path:
+        sys.path.insert(0, lais_path)
     from unified_layer.security_policy import (
         SecurityPolicy, load_security_policy,
         AutonomyLevel, RiskLevel
     )
 
 APPROVAL_LOG_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\approval_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\approval_log.json"
 )
 APPROVAL_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -234,7 +234,7 @@ def load_autonomy_manager() -> AutonomyManager:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Autonomy Manager - Phase 2 ===\n")
@@ -243,9 +243,9 @@ if __name__ == "__main__":
 
     # Test actions across agents
     agents_actions = [
-        ("omnis", "vault_read", {}),
-        ("omnis", "vault_write", {"path": "test.md"}),
-        ("omnis", "file_delete", {"path": "old_note.md"}),
+        ("lais", "vault_read", {}),
+        ("lais", "vault_write", {"path": "test.md"}),
+        ("lais", "file_delete", {"path": "old_note.md"}),
         ("jarvis", "memory_read", {}),
         ("jarvis", "memory_write", {}),
         ("jarvis", "network_external", {"url": "https://api.example.com"}),

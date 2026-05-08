@@ -47,7 +47,6 @@ class ConversationSearch:
                         content,
                         summary,
                         tags,
-                        content UNINDEXED,
                         tokenize='porter unicode61'
                     )
                 """)

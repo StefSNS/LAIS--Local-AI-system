@@ -1,6 +1,6 @@
 """
 n8n Workflow Bridge v1.0
-Integrates Omnis with n8n automation workflows via webhooks.
+Integrates LAIS with n8n automation workflows via webhooks.
 Based on n8n webhook patterns and Dify workflow integration.
 """
 
@@ -13,7 +13,7 @@ from typing import Optional
 
 
 N8N_CONFIG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\n8n_config.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\n8n_config.json"
 )
 N8N_CONFIG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
@@ -58,7 +58,7 @@ class N8nWorkflow:
 
 class N8nBridge:
     """
-    Bridge between Omnis and n8n workflows.
+    Bridge between LAIS and n8n workflows.
     Supports: trigger workflows, receive webhooks, manage workflow configs.
     """
 
@@ -99,7 +99,7 @@ class N8nBridge:
             return {"error": f"Workflow '{workflow_id}' not found"}
 
         payload = {
-            "source": "omnis",
+            "source": "lais",
             "timestamp": datetime.now().isoformat(),
             "inputs": inputs or {},
         }

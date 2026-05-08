@@ -7,9 +7,9 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-OMNIS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
-if str(OMNIS_PATH) not in sys.path:
-    sys.path.insert(0, str(OMNIS_PATH))
+LAIS_PATH = Path(r"str(Path(__file__).resolve().parent.parent)")
+if str(LAIS_PATH) not in sys.path:
+    sys.path.insert(0, str(LAIS_PATH))
 
 import json
 import re
@@ -17,7 +17,7 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime
 
 TOKEN_LOG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\token_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\token_log.json"
 )
 TOKEN_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 

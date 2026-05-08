@@ -2,7 +2,7 @@
 """
 Self-Improvement Refine Script v2.0
 Runs every 24 hours to analyze and improve AI knowledge bases, skills, and memory.
-Now covers: Omnis, Jarvis, OpenCode (3 agents).
+Now covers: LAIS, Jarvis, OpenCode (3 agents).
 On approval, implements suggested improvements automatically.
 """
 
@@ -21,7 +21,7 @@ LOG_FILE = MEMORY_DIR / "self_improve_log.json"
 REGISTRY_FILE = SCRIPT_DIR / "agents_registry.json"
 
 # All agents that use these skills
-AGENTS = ["opencode", "omnis", "jarvis"]
+AGENTS = ["opencode", "lais", "jarvis"]
 
 def load_log():
     if LOG_FILE.exists():
@@ -45,7 +45,7 @@ def load_registry():
     return {
         "agents": {
             "opencode": {"skills_path": ".opencode/skills", "last_sync": None},
-            "omnis": {"skills_path": "knowledge/central_skills", "last_sync": None},
+            "lais": {"skills_path": "knowledge/central_skills", "last_sync": None},
             "jarvis": {"skills_path": "knowledge/central_skills", "last_sync": None}
         },
         "skill_versions": {},
@@ -355,7 +355,7 @@ def auto_fix(suggestions):
 def main():
     print("=" * 60)
     print("AI Self-Improvement Refine Script v2.0")
-    print("Analyzing: Omnis, Jarvis, OpenCode")
+    print("Analyzing: LAIS, Jarvis, OpenCode")
     print("=" * 60)
     
     suggestions = run_analysis()

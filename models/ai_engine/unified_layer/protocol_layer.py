@@ -14,16 +14,16 @@ from typing import Dict, List, Any, Optional, Tuple
 from threading import Lock
 
 MCP_CONFIG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\mcp_config.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\mcp_config.json"
 )
 A2A_CONFIG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\a2a_config.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\a2a_config.json"
 )
 AGENT_REGISTRY_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\agent_registry.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\agent_registry.json"
 )
 PROTOCOL_LOG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\protocol_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\protocol_log.json"
 )
 
 for f in [MCP_CONFIG_FILE, A2A_CONFIG_FILE, AGENT_REGISTRY_FILE, PROTOCOL_LOG_FILE]:
@@ -501,7 +501,7 @@ def load_protocol_layer() -> ProtocolLayer:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Protocol Layer - Phase 5 ===\n")
@@ -511,7 +511,7 @@ if __name__ == "__main__":
     # Register local agents
     print("--- Registering Local Agents ---")
     proto.register_local_agent(
-        "omnis", "Omnis GUI", "GUI agent with customtkinter interface",
+        "lais", "LAIS GUI", "GUI agent with customtkinter interface",
         ["gui", "chat", "search", "vault_write"]
     )
     proto.register_local_agent(
@@ -541,14 +541,14 @@ if __name__ == "__main__":
     # Delegate tasks
     print("\n--- Delegating Tasks ---")
     t1 = proto.delegate_task(
-        "omnis", "opencode", "code_review",
+        "lais", "opencode", "code_review",
         {"file": "unified_layer/memory_sqlite.py", "focus": "performance"},
         priority="high"
     )
     print(f"  Task {t1.task_id}: {t1.from_agent} -> {t1.to_agent} ({t1.status})")
 
     t2 = proto.delegate_task(
-        "opencode", "omnis", "display_results",
+        "opencode", "lais", "display_results",
         {"results": "Found 3 matches"},
         priority="normal"
     )

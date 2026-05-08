@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 
-# Add Omnis to path
+# Add LAIS to path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # Model configurations - aligned with orchestrator MODEL_ENDPOINTS

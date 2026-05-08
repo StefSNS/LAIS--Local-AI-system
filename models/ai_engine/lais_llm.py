@@ -1,5 +1,5 @@
-"""
-Omnis LLM Engine - Local-first with cloud fallback
+﻿"""
+LAIS LLM Engine - Local-first with cloud fallback
 Uses llama-cpp-python for local inference
 """
 import sys
@@ -17,7 +17,7 @@ try:
         def __init__(self, use_cloud_fallback=True):
             self.engine = get_engine()
             self.use_cloud_fallback = use_cloud_fallback
-            self.default_model = 'qwen3-4b'  # Best for Omnis (code + general)
+            self.default_model = 'qwen3-4b'  # Best for LAIS (code + general)
             self.fast_model = 'qwen2.5-coder-1.5b'  # Fast responses
             self.reasoning_model = 'phi-4-mini'  # Math/reasoning
         
@@ -82,13 +82,13 @@ try:
             return task_models.get(task_type, self.default_model)
     
     # Singleton
-    _omnis_llm = None
+    _lais_llm = None
     
-    def get_omnis_llm():
-        global _omnis_llm
-        if _omnis_llm is None:
-            _omnis_llm = OmnisLLMEngine()
-        return _omnis_llm
+    def get_lais_llm():
+        global _lais_llm
+        if _lais_llm is None:
+            _lais_llm = OmnisLLMEngine()
+        return _lais_llm
 
 except ImportError as e:
     print(f"[WARN] Local LLM engine not available: {e}")
@@ -113,15 +113,15 @@ except ImportError as e:
         def select_model_for_task(self, task_type):
             return 'cloud'
     
-    def get_omnis_llm():
+    def get_lais_llm():
         return OmnisLLMFallback()
 
 
 if __name__ == "__main__":
     # Test
-    ollm = get_omnis_llm()
+    ollm = get_lais_llm()
     
-    print("Testing Omnis LLM integration...")
+    print("Testing LAIS LLM integration...")
     
     # Test chat
     messages = [
@@ -136,3 +136,4 @@ if __name__ == "__main__":
     task = 'code'
     model = ollm.select_model_for_task(task)
     print(f"\nSelected model for '{task}': {model}")
+

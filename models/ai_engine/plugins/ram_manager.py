@@ -23,11 +23,9 @@ from pathlib import Path
 from typing import Dict, Optional, List
 from datetime import datetime
 
-# Resolve model directory: prefer LocalClaw (has full setup), fall back to local models/
+# Resolve model directory (relative to project root)
 _RAM_BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-_RAM_LOCAL_MODELS = os.path.join(_RAM_BASE, "models")
-_RAM_LOCALCLAW = r"%USERPROFILE%\Desktop\AI projects\Projects\LocalClaw\models"
-_RAM_MODELS_DIR = _RAM_LOCALCLAW if os.path.isdir(_RAM_LOCALCLAW) else _RAM_LOCAL_MODELS
+_RAM_MODELS_DIR = os.path.join(_RAM_BASE, "models")
 
 MODELS = {
     "qwen4": {
@@ -56,10 +54,7 @@ MODELS = {
     },
 }
 
-# llama-server binary: check project-local first, then in models dir
-_RAM_PROJECT_LLAMA = os.path.join(_RAM_BASE, "models", "llama-bin", "llama-server.exe")
-_RAM_LOCALCLAW_LLAMA = os.path.join(_RAM_MODELS_DIR, "llama-bin", "llama-server.exe")
-LLAMA_SERVER = _RAM_PROJECT_LLAMA if os.path.isfile(_RAM_PROJECT_LLAMA) else _RAM_LOCALCLAW_LLAMA
+LLAMA_SERVER = os.path.join(_RAM_MODELS_DIR, "llama-bin", "llama-server.exe")
 RESERVED_RAM_MB = 500  # OS + system + browser buffer
 TOTAL_RAM_MB = 3072    # 3GB target
 

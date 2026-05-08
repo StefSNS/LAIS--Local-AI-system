@@ -16,7 +16,7 @@ from typing import Optional, List
 from threading import Lock
 
 
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 RAG_CACHE_DIR = Path(__file__).resolve().parent.parent / "knowledge" / "rag_cache"
 RAG_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 

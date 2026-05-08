@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+sys.path.insert(0, r"str(Path(__file__).resolve().parent)")
 from unified_layer.unified_search import load_unified_search
 
 s = load_unified_search()

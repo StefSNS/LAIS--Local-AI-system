@@ -1,6 +1,6 @@
 ﻿"""
 Local LLM Module for Unified Layer
-Shared inference engine for Omnis, Jarvis, and OpenCode.
+Shared inference engine for Jarvis, AI Engine, and OpenCode.
 Uses llama.cpp server for SmolLM3-3B and Qwen3-1.7B.
 """
 import subprocess
@@ -10,15 +10,9 @@ import os
 import json
 import re
 
-# Model directory: prefer LocalClaw (has full setup), fall back to local models/
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOCAL_MODELS = os.path.join(BASE_DIR, "models")
-LOCALCLAW_MODELS = r"%USERPROFILE%\Desktop\AI projects\Projects\LocalClaw\models"
-MODELS_DIR = LOCALCLAW_MODELS if os.path.isdir(LOCALCLAW_MODELS) else LOCAL_MODELS
-
-# llama-server binary: check project-local first, then in MODELS_DIR
-PROJECT_LLAMA_BIN = os.path.join(BASE_DIR, "models", "llama-bin")
-LLAMA_BIN = PROJECT_LLAMA_BIN if os.path.isdir(PROJECT_LLAMA_BIN) else os.path.join(MODELS_DIR, "llama-bin")
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+LLAMA_BIN = os.path.join(MODELS_DIR, "llama-bin")
 
 MODEL_REGISTRY = {
     "smol3": {

@@ -11,8 +11,8 @@ from pathlib import Path
 from datetime import datetime
 from threading import Lock
 
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
-MEMORY_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory")
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+MEMORY_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory")
 EMBEDDINGS_FILE = MEMORY_DIR / "vault_embeddings.json"
 LOCK = Lock()
 
@@ -284,7 +284,7 @@ def load_embedding_search():
 
 if __name__ == "__main__":
     import sys
-    sys.path.insert(0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+    sys.path.insert(0, r"str(Path(__file__).resolve().parent.parent)")
     
     search = load_embedding_search()
     

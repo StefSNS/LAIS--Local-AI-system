@@ -1,6 +1,6 @@
 """
 Local LLM Engine using llama-cpp-python
-Provides unified interface for Jarvis, Omnis, and OpenCode
+Provides unified interface for Jarvis, LAIS, and OpenCode
 """
 import os
 from pathlib import Path

@@ -1,5 +1,5 @@
 ﻿"""
-Omnis Agent Dispatcher
+LAIS Agent Dispatcher
 Routes tasks to the correct plugin agent.
 """
 

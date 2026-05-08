@@ -2,7 +2,7 @@
 Honcho Dialectic Memory Engine
 Vault-level hybrid system that performs dialectic reasoning about the user.
 
-Operates across all three agents (omnis, jarvis, opencode):
+Operates across all three agents (lais, jarvis, opencode):
 1. Collects conversation turns
 2. After N turns (cadence), calls Gemini for dialectic reasoning
 3. Writes conclusions to SQLite (conclusions category) and Vault Notes (Markdown)
@@ -23,15 +23,15 @@ from typing import List, Dict, Any, Optional
 from collections import deque
 
 # Add paths for imports
-OMNIS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+LAIS_PATH = Path(r"str(Path(__file__).resolve().parent.parent)")
 JARVIS_XXXIX_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Mark-XXXIX")
 
-for p in [OMNIS_PATH, JARVIS_XXXIX_PATH]:
+for p in [LAIS_PATH, JARVIS_XXXIX_PATH]:
     if p.exists() and str(p) not in sys.path:
         sys.path.insert(0, str(p))
 
 # Vault path
-VAULT_BASE = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+VAULT_BASE = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 HONCHO_DIR = VAULT_BASE / "30_Honcho"
 CONCLUSIONS_DIR = HONCHO_DIR / "Conclusions"
 USER_PROFILE_PATH = HONCHO_DIR / "User Profile.md"

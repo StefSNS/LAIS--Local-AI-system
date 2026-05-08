@@ -7,9 +7,9 @@ Coordinates all agents, routes tasks to the right model, and aggregates results.
 import sys
 from pathlib import Path
 
-omnis_root = Path(__file__).resolve().parent.parent
-if str(omnis_root) not in sys.path:
-    sys.path.insert(0, str(omnis_root))
+lais_root = Path(__file__).resolve().parent.parent
+if str(lais_root) not in sys.path:
+    sys.path.insert(0, str(lais_root))
 
 import json
 import re
@@ -49,7 +49,7 @@ MODEL_ENDPOINTS = {
 }
 
 ORCHESTRATOR_LOG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\orchestrator_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\orchestrator_log.json"
 )
 ORCHESTRATOR_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -398,7 +398,7 @@ class Orchestrator:
     def select_agent(self, query: str) -> str:
         """
         Select the best agent for a query.
-        Returns: 'omnis', 'jarvis', 'opencode', 'browser', or 'auto'
+        Returns: 'lais', 'jarvis', 'opencode', 'browser', or 'auto'
         """
         q = query.lower()
 
@@ -435,14 +435,14 @@ class Orchestrator:
         if any(s in q for s in code_signals):
             return "opencode"
 
-        # GUI/visual tasks → Omnis
+        # GUI/visual tasks → LAIS
         gui_signals = ["show", "display", "visualize", "chart", "graph",
                        "dashboard", "gui", "interface", "ui", "draw"]
         if any(s in q for s in gui_signals):
-            return "omnis"
+            return "lais"
 
-        # Default: Omnis (general chat)
-        return "omnis"
+        # Default: LAIS (general chat)
+        return "lais"
 
     def decompose_task(self, query: str, complexity: str) -> List[Dict]:
         """
@@ -706,7 +706,7 @@ class Orchestrator:
         q = query.lower()
         if any(p in q for p in analytical_patterns):
             if "activity" in q or "summary" in q or "stats" in q:
-                agent_match = re.search(r"(opencode|omnis|jarvis|browser)", q)
+                agent_match = re.search(r"(opencode|lais|jarvis|browser)", q)
                 if agent_match:
                     return self.analytics.agent_activity_summary(agent_match.group(1))
                 return self.analytics.agent_comparison()
@@ -866,7 +866,7 @@ def load_orchestrator() -> Orchestrator:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Orchestrator - Phase 7 ===\n")

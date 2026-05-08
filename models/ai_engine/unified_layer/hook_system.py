@@ -1,7 +1,7 @@
 """
 Hook System v1.0
 Event-driven hooks on conversation lifecycle.
-Based on everything-claude-code hook pattern.
+
 Hooks fire on: SessionStart, SessionEnd, PreTool, PostTool, PreResponse, PostResponse, Error, Idle.
 """
 

@@ -16,7 +16,7 @@ def reminder(parameters: dict) -> str:
         if target_dt <= datetime.now():
             return "That time is already in the past."
 
-        task_name = f"OmnisReminder_{target_dt.strftime('%Y%m%d_%H%M')}"
+        task_name = f"LAISReminder_{target_dt.strftime('%Y%m%d_%H%M')}"
         safe_message = message.replace('"', '').replace("'", "").strip()[:200]
 
         python_exe = sys.executable
@@ -40,7 +40,7 @@ except Exception:
     pass
 try:
     from win10toast import ToastNotifier
-    ToastNotifier().show_toast("Omnis Reminder", "{safe_message}", duration=15, threaded=False)
+    ToastNotifier().show_toast("LAIS Reminder", "{safe_message}", duration=15, threaded=False)
 except Exception:
     try:
         import subprocess
@@ -59,7 +59,7 @@ except Exception:
         xml_content = f'''<?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
-    <Description>Omnis Reminder: {safe_message}</Description>
+    <Description>LAIS Reminder: {safe_message}</Description>
   </RegistrationInfo>
   <Triggers>
     <TimeTrigger>

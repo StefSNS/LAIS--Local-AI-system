@@ -1,6 +1,6 @@
 """
-Superpowers Skill Loader - Loads Obra/Superpowers skills for Omnis.
-Adapts OpenCode SKILL.md files for Python-based Omnis plugins.
+Superpowers Skill Loader - Loads Obra/Superpowers skills for LAIS.
+Adapts OpenCode SKILL.md files for Python-based LAIS plugins.
 
 Skills loaded:
 - brainstorming: Socratic design refinement before coding
@@ -24,7 +24,7 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional
 
-SKILLS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\central_skills")
+SKILLS_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\central_skills")
 
 
 class SuperpowersSkill:

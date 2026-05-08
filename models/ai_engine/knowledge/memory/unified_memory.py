@@ -13,8 +13,8 @@ from pathlib import Path
 from collections import Counter
 import re
 
-BASE_DIR = Path("%USERPROFILE%/Desktop/AI projects/Projects/Omnis")
-MEMORY_DIR = BASE_DIR / "knowledge" / "memory"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+MEMORY_DIR = Path(__file__).resolve().parent
 SESSIONS_DIR = MEMORY_DIR / "sessions"
 KNOWLEDGE_BASE = BASE_DIR / "knowledge" / "base"
 
@@ -31,7 +31,7 @@ LOCK = Lock()
 HIGH_KEYWORDS = {
     "current", "active", "now", "working", "focus", "session", "continuity",
     "protocol", "automated", "code", "fix", "bug", "error", "implement",
-    "create", "omnis", "ai", "project", "task", "urgent", "priority"
+    "create", "lais", "ai", "project", "task", "urgent", "priority"
 }
 MEDIUM_KEYWORDS = {
     "method", "approach", "technique", "specification", "insight",
@@ -77,21 +77,29 @@ class UnifiedMemory:
     def _register_agent(self):
         """Register this agent in the registry."""
         registry = self._load_registry()
-        if self.agent_name not in registry:
+        if self.agent_name not in registry or not isinstance(registry[self.agent_name], dict):
             registry[self.agent_name] = {
                 "first_seen": datetime.now().isoformat(),
                 "last_active": datetime.now().isoformat(),
                 "session_count": 0,
                 "skills_used": []
             }
-        registry[self.agent_name]["last_active"] = datetime.now().isoformat()
-        registry[self.agent_name]["session_count"] += 1
+        entry = registry[self.agent_name]
+        for key in ["first_seen", "last_active", "session_count", "skills_used"]:
+            if key not in entry:
+                entry[key] = 0 if key == "session_count" else ([] if key == "skills_used" else datetime.now().isoformat())
+        entry["last_active"] = datetime.now().isoformat()
+        entry["session_count"] += 1
         self._save_registry(registry)
     
     def _load_registry(self):
         if REGISTRY_FILE.exists():
             try:
-                return json.loads(REGISTRY_FILE.read_text(encoding="utf-8"))
+                data = json.loads(REGISTRY_FILE.read_text(encoding="utf-8"))
+                if isinstance(data, list):
+                    return {item.get("agent_id", str(i)): item for i, item in enumerate(data)}
+                if isinstance(data, dict):
+                    return data
             except Exception as e:
                 pass
         return {}

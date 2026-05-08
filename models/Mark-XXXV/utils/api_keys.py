@@ -1,4 +1,4 @@
-"""
+﻿"""
 Shared API key loader - reads from .env first, falls back to config JSON.
 """
 import os
@@ -69,9 +69,9 @@ def get_serper_api_key() -> str:
     if key and not key.startswith("ENV:"):
         return key
     
-    # Fallback to Omnis config.json
+    # Fallback to LAIS config.json
     config_paths = [
-        Path(__file__).resolve().parent.parent.parent / "Omnis" / "config.json",
+        Path(__file__).resolve().parent.parent / "ai_engine" / "config.json",
         Path(__file__).resolve().parent.parent / "config.json",
     ]
     for config_path in config_paths:
@@ -95,3 +95,4 @@ def has_api_key(name: str = "gemini") -> bool:
     elif name == "serper":
         return bool(get_serper_api_key())
     return False
+

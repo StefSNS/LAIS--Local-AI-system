@@ -260,7 +260,7 @@ class DesktopGUI(ctk.CTk):
             msg_frame,
             text="◯" if sender == "user" else "○",
             font=ctk.CTkFont(size=20),
-            text_color="#10a37f" if sender == "omnis" else "#e5e5e5",
+            text_color="#10a37f" if sender == "lais" else "#e5e5e5",
             width=30
         )
         avatar.pack(side="left", padx=(0, 10))
@@ -331,7 +331,7 @@ class DesktopGUI(ctk.CTk):
             r = f"Error: {str(e)}"
         
         self.after(0, self._hide_typing)
-        self.after(0, lambda: self._add_message("omnis", r))
+        self.after(0, lambda: self._add_message("lais", r))
     
     def _show_typing(self):
         self.typing_label = ctk.CTkLabel(

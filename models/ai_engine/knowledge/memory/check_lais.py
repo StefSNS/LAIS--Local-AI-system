@@ -1,6 +1,6 @@
 import sqlite3, os
 
-omnis_db = r'%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\unified_memory.db'
+omnis_db = r'str(Path(__file__).resolve().parent.parent.parent)\knowledge\memory\unified_memory.db'
 print("Omnis DB exists:", os.path.exists(omnis_db))
 
 conn = sqlite3.connect(omnis_db)

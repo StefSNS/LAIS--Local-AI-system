@@ -19,9 +19,9 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
 
-VAULT_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge")
-INGESTION_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\ingested")
-EXPANSION_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\expansion")
+VAULT_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge")
+INGESTION_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\ingested")
+EXPANSION_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\expansion")
 INGESTION_PATH.mkdir(parents=True, exist_ok=True)
 EXPANSION_PATH.mkdir(parents=True, exist_ok=True)
 

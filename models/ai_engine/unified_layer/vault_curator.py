@@ -11,8 +11,8 @@ from pathlib import Path
 from datetime import datetime
 from collections import Counter
 
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
-MEMORY_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory")
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+MEMORY_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory")
 CURATOR_LOG = MEMORY_DIR / "curator_log.json"
 FOLDER_ROUTING = {
     "10_Resources": ["python", "programming", "code", "software", "development", "algorithm", "api", "database", "web", "linux", "windows", "automation"],
@@ -24,7 +24,7 @@ FOLDER_ROUTING = {
 }
 
 AGENT_FOLDER_OWNERSHIP = {
-    "omnis": ["50_Memory", "00_Inbox", "40_System"],
+    "lais": ["50_Memory", "00_Inbox", "40_System"],
     "jarvis": ["50_Memory", "10_Resources", "30_Research"],
     "opencode": ["20_Skills", "30_Projects", "10_Resources"],
     "system": ["40_System", "00_Map_of_Content"],
@@ -32,7 +32,7 @@ AGENT_FOLDER_OWNERSHIP = {
 }
 
 AGENT_WRITE_DENY = {
-    "omnis": ["20_Skills", "30_Projects"],
+    "lais": ["20_Skills", "30_Projects"],
     "jarvis": ["20_Skills", "30_Projects"],
     "opencode": ["40_System"],
     "system": [],

@@ -13,7 +13,7 @@ from pathlib import Path
 from datetime import datetime
 from threading import Lock
 
-QUEUE_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\sync")
+QUEUE_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\sync")
 QUEUE_DIR.mkdir(parents=True, exist_ok=True)
 
 TASK_QUEUE_FILE = QUEUE_DIR / "task_queue.json"
@@ -22,7 +22,7 @@ DASHBOARD_FLAG_FILE = QUEUE_DIR / "dashboard_running.flag"
 LOCK = Lock()
 
 AGENT_CAPABILITIES = {
-    "omnis": ["research", "analysis", "writing", "planning", "general"],
+    "lais": ["research", "analysis", "writing", "planning", "general"],
     "jarvis": ["voice", "real-time", "scheduling", "communication", "system-control", "general"],
     "opencode": ["coding", "review", "refactor", "debug", "architecture", "general"]
 }
@@ -139,7 +139,7 @@ class TaskQueue:
         
         if scores:
             return max(scores, key=scores.get)
-        return "omnis"
+        return "lais"
     
     def claim_task(self, agent, task_id=None):
         """
@@ -260,7 +260,7 @@ if __name__ == "__main__":
     print(f"Completed: {status['completed']}")
     
     print("\n=== Test: Submit Tasks ===")
-    id1 = queue.submit_task("omnis", "Research Python async", "Find best practices for async Python", "research", "normal")
+    id1 = queue.submit_task("lais", "Research Python async", "Find best practices for async Python", "research", "normal")
     id2 = queue.submit_task("jarvis", "Schedule meeting", "Set up meeting for tomorrow 3pm", "scheduling", "high")
     id3 = queue.submit_task("opencode", "Refactor auth module", "Clean up authentication code", "coding", "urgent")
     

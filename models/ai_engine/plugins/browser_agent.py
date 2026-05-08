@@ -1,5 +1,5 @@
 """
-Browsegrab Plugin - Lightweight browser automation for Omnis
+Browsegrab Plugin - Lightweight browser automation for LAIS
 Uses browsegrab (Playwright + accessibility tree + MarkGrab) for token-efficient browser control.
 Optimized for 3GB RAM: headless Chromium, no GPU, minimal context.
 """
@@ -199,20 +199,20 @@ def run_browser_async(coro):
     return _loop.run_until_complete(coro)
 
 
-# ── Plugin interface for Omnis ────────────────────────────────────────────────
+# ── Plugin interface for LAIS ────────────────────────────────────────────────
 
 def get_plugin_info():
     return {
         "name": "browser_agent",
         "version": "1.0",
         "description": "Lightweight browser automation via browsegrab",
-        "author": "Omnis Team",
+        "author": "LAIS Team",
     }
 
 
 def execute(command: str, **kwargs) -> Dict[str, Any]:
     """
-    Execute browser command from Omnis plugin system.
+    Execute browser command from LAIS plugin system.
     
     Commands:
         navigate <url>     - Navigate to URL

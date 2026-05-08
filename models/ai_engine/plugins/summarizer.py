@@ -1,12 +1,12 @@
 import os
 import json
-from llm_engine import chat
 
 SUMMARY_FILE = "knowledge/chat_summary.json"
 
 def generate_summary(history_text):
+    from llm_engine import chat
     """Summarize the conversation so far."""
-    prompt = f"Summarize the key goals and facts from this conversation history so far. Keep it under 200 words:\\n\\n{history_text}"
+    prompt = f"Summarize the key goals and facts from this conversation history so far. Keep it under 200 words:\n\n{history_text}"
     summary = chat(prompt)
     
     data = {

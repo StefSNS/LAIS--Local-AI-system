@@ -7,9 +7,9 @@ Injects memory context (~180 tokens) for session continuity.
 import sys
 from pathlib import Path
 
-# Add Omnis to Python path
-OMNIS_PATH = Path("%USERPROFILE%/Desktop/AI projects/Projects/Omnis")
-sys.path.insert(0, str(OMNIS_PATH))
+# Add LAIS to Python path
+LAIS_PATH = Path("str(Path(__file__).resolve().parent)")
+sys.path.insert(0, str(LAIS_PATH))
 
 def execute_protocol():
     """Run this at session start to inject context."""

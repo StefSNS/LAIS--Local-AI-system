@@ -13,7 +13,7 @@ from typing import Dict, List, Any, Optional, Callable, Tuple
 from threading import Lock
 
 SKILLS_DIR = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\skills"
+    r"str(Path(__file__).resolve().parent.parent)\skills"
 )
 SKILLS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -396,7 +396,7 @@ def load_skill_engine() -> SkillEngine:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Skill Engine - Phase 4 ===\n")

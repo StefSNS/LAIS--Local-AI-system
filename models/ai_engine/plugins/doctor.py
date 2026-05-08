@@ -43,11 +43,11 @@ def _check_psutil():
         return False, "psutil not installed"
 
 
-def _check_omnis():
-    omnis = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
-    if not omnis.exists():
-        return False, "Omnis directory not found"
-    main = omnis / "unified_layer" / "orchestrator.py"
+def _check_lais():
+    lais_root = Path(__file__).resolve().parent.parent
+    if not lais_root.exists():
+        return False, "LAIS directory not found"
+    main = lais_root / "unified_layer" / "orchestrator.py"
     ok = main.exists()
     return ok, f"{'found' if ok else 'MISSING'}: {main.name}"
 
@@ -71,7 +71,7 @@ def _check_voice():
 
 
 def _check_vault():
-    vault = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+    vault = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
     if not vault.exists():
         return False, "Vault directory not found"
     notes = list(vault.rglob("*.md"))
@@ -79,7 +79,7 @@ def _check_vault():
 
 
 def _check_txtai_index():
-    idx = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\txtai_index")
+    idx = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\txtai_index")
     if not idx.exists():
         return False, "Txtai index not found"
     embeddings = idx / "embeddings"
@@ -88,8 +88,8 @@ def _check_txtai_index():
 
 
 def _check_embeddings():
-    emb = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\unified_layer\embeddings.py")
-    cache = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\vault_embeddings.json")
+    emb = Path(__file__).resolve().parent.parent / "unified_layer" / "embeddings.py"
+    cache = Path(__file__).resolve().parent.parent / "knowledge" / "memory" / "vault_embeddings.json"
     if not emb.exists():
         return False, "embeddings.py not found"
     if cache.exists():
@@ -108,10 +108,10 @@ def _check_skills_opencode():
     return True, f"{len(skill_dirs)} skills installed"
 
 
-def _check_skills_omnis():
-    skills = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\central_skills")
+def _check_skills_lais():
+    skills = Path(__file__).resolve().parent.parent / "knowledge" / "central_skills"
     if not skills.exists():
-        return False, "Omnis skills directory not found"
+        return False, "LAIS skills directory not found"
     skill_dirs = [d for d in skills.iterdir() if d.is_dir() and (d / "SKILL.md").exists()]
     return True, f"{len(skill_dirs)} skills installed"
 
@@ -139,9 +139,9 @@ def _check_hardware():
     try:
         import sys
         from pathlib import Path
-        omnis = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
-        if str(omnis) not in sys.path:
-            sys.path.insert(0, str(omnis))
+        lais_root = Path(__file__).resolve().parent.parent
+        if str(lais_root) not in sys.path:
+            sys.path.insert(0, str(lais_root))
         from plugins.hardware_detect import detect_hardware
         hw = detect_hardware()
         return True, f"{hw.cpu_brand} ({hw.cpu_count} cores), {hw.ram_gb:.1f}GB RAM, {hw.available_ram_gb:.1f}GB available"
@@ -155,14 +155,14 @@ def run_doctor():
         ("Python version", _check_python_version),
         ("System RAM", _check_psutil),
         ("Hardware detection", _check_hardware),
-        ("Omnis core", _check_omnis),
+        ("LAIS core", _check_lais),
         ("Jarvis core", _check_jarvis),
         ("Voice subsystem", _check_voice),
         ("Vault (Obsidian)", _check_vault),
         ("Txtai index", _check_txtai_index),
         ("Embeddings cache", _check_embeddings),
         ("Skills (OpenCode)", _check_skills_opencode),
-        ("Skills (Omnis)", _check_skills_omnis),
+        ("Skills (LAIS)", _check_skills_lais),
         ("Skills (Jarvis)", _check_skills_jarvis),
         ("Memory (long_term.json)", _check_memory),
     ]

@@ -2,8 +2,8 @@
 import sys
 from pathlib import Path
 
-OMNIS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
-sys.path.insert(0, str(OMNIS_PATH))
+LAIS_PATH = Path(r"str(Path(__file__).resolve().parent)")
+sys.path.insert(0, str(LAIS_PATH))
 
 results = []
 
@@ -24,8 +24,8 @@ unique_rows = len(cur.fetchall())
 test("Jarvis DB duplicates cleaned", total_rows == unique_rows, f"total={total_rows}, unique={unique_rows}")
 conn.close()
 
-# 2. Omnis unified memory has Jarvis entries
-conn = sqlite3.connect(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\unified_memory.db")
+# 2. LAIS unified memory has Jarvis entries
+conn = sqlite3.connect(r"str(Path(__file__).resolve().parent)\knowledge\memory\unified_memory.db")
 cur = conn.cursor()
 cur.execute("SELECT COUNT(*) FROM memory_entries")
 omnis_total = cur.fetchone()[0]
@@ -34,7 +34,7 @@ conn.close()
 
 # 3. Vault notes exist and are indexed
 from pathlib import Path
-vault_path = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+vault_path = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 user_profile = vault_path / "40_System" / "user_profile.md"
 project_states = vault_path / "40_System" / "project_states.md"
 agent_registry = vault_path / "40_System" / "agent_registry.md"

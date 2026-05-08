@@ -25,9 +25,9 @@ try:
     from .memory_sqlite import SQLiteMemory, load_sqlite_memory
     from .embeddings import EmbeddingSearch, load_embedding_search, semantic_search
 except ImportError:
-    omnis_path = str(Path(__file__).resolve().parent.parent)
-    if omnis_path not in sys.path:
-        sys.path.insert(0, omnis_path)
+    lais_path = str(Path(__file__).resolve().parent.parent)
+    if lais_path not in sys.path:
+        sys.path.insert(0, lais_path)
     from unified_layer.memory_sqlite import SQLiteMemory, load_sqlite_memory
     from unified_layer.embeddings import EmbeddingSearch, load_embedding_search, semantic_search
 
@@ -211,14 +211,14 @@ if __name__ == "__main__":
     import sys
     import importlib.util
     
-    omnis_path = r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
-    if omnis_path not in sys.path:
-        sys.path.insert(0, omnis_path)
+    lais_path = r"str(Path(__file__).resolve().parent.parent)"
+    if lais_path not in sys.path:
+        sys.path.insert(0, lais_path)
     
     # Load modules directly by path
     mem_spec = importlib.util.spec_from_file_location(
         "memory_sqlite",
-        Path(omnis_path) / "unified_layer" / "memory_sqlite.py"
+        Path(lais_path) / "unified_layer" / "memory_sqlite.py"
     )
     mem_mod = importlib.util.module_from_spec(mem_spec)
     mem_spec.loader.exec_module(mem_mod)
@@ -226,7 +226,7 @@ if __name__ == "__main__":
     
     emb_spec = importlib.util.spec_from_file_location(
         "embeddings",
-        Path(omnis_path) / "unified_layer" / "embeddings.py"
+        Path(lais_path) / "unified_layer" / "embeddings.py"
     )
     emb_mod = importlib.util.module_from_spec(emb_spec)
     emb_spec.loader.exec_module(emb_mod)

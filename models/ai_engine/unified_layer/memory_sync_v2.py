@@ -20,7 +20,7 @@ from datetime import datetime
 from threading import Lock
 from collections import defaultdict
 
-SYNC_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\sync")
+SYNC_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\sync")
 SYNC_DIR.mkdir(parents=True, exist_ok=True)
 
 SHARED_MEMORY_FILE = SYNC_DIR / "shared_memory.json"
@@ -28,11 +28,11 @@ AGENT_REGISTRY_FILE = SYNC_DIR / "agent_registry.json"
 SYNC_LOG_FILE = SYNC_DIR / "sync_log.json"
 SESSION_TRACE_DIR = SYNC_DIR / "session_traces"
 SESSION_TRACE_DIR.mkdir(parents=True, exist_ok=True)
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 
 LOCK = Lock()
 
-VALID_AGENTS = {"omnis", "jarvis", "opencode", "test"}
+VALID_AGENTS = {"lais", "jarvis", "opencode", "test"}
 
 PRIORITY_KEYWORDS = {
     "high": {
@@ -453,7 +453,7 @@ if __name__ == "__main__":
     print(f"Crystallized to vault: {status['crystallized_to_vault']}")
 
     print("\n=== Test: Store with Priority ===")
-    store.store("omnis", "urgent_fix", "Critical security patch needed", "alert", priority="high")
+    store.store("lais", "urgent_fix", "Critical security patch needed", "alert", priority="high")
     store.store("jarvis", "meeting_note", "Discussed project timeline", "context", priority="medium")
     store.store("opencode", "code_ref", "Use pattern X for Y", "reference", priority="low")
 

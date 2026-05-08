@@ -1,5 +1,5 @@
-[
-  {
+{
+  "omnis": {
     "agent_id": "omnis",
     "name": "Omnis Agent",
     "description": "AI agent: omnis",
@@ -11,9 +11,13 @@
       "memory_read",
       "visualization"
     ],
-    "registered_at": "2026-05-08T13:21:40.293949"
+    "registered_at": "2026-05-08T13:21:40.293949",
+    "first_seen": "2026-05-08T18:10:50.704814",
+    "last_active": "2026-05-08T18:10:50.737500",
+    "session_count": 2,
+    "skills_used": []
   },
-  {
+  "jarvis": {
     "agent_id": "jarvis",
     "name": "Jarvis Agent",
     "description": "AI agent: jarvis",
@@ -28,7 +32,7 @@
     ],
     "registered_at": "2026-05-06T08:14:05.331984"
   },
-  {
+  "opencode": {
     "agent_id": "opencode",
     "name": "Opencode Agent",
     "description": "AI agent: opencode",
@@ -43,7 +47,7 @@
     ],
     "registered_at": "2026-05-08T12:48:26.791428"
   },
-  {
+  "test": {
     "agent_id": "test",
     "name": "Test Agent",
     "description": "AI agent: test",
@@ -52,5 +56,11 @@
       "search"
     ],
     "registered_at": "2026-05-08T12:48:33.853567"
+  },
+  "lais": {
+    "first_seen": "2026-05-08T18:20:44.431081",
+    "last_active": "2026-05-08T18:21:31.130159",
+    "session_count": 4,
+    "skills_used": []
   }
-]
+}

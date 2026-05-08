@@ -14,7 +14,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 
 WATCH_LOG_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\ai_watch_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\ai_watch_log.json"
 )
 WATCH_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 

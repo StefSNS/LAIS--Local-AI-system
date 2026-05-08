@@ -13,7 +13,7 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 from datetime import datetime
 from io import BytesIO
 
-UNIFIED_LAYER_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+UNIFIED_LAYER_PATH = Path(r"str(Path(__file__).resolve().parent.parent)")
 sys.path.insert(0, str(UNIFIED_LAYER_PATH))
 
 DASHBOARD_PORT = 8888
@@ -32,7 +32,7 @@ def get_dashboard_data():
     
     # Agent statuses (static, fast)
     data["agents"] = {
-        "omnis": {
+        "lais": {
             "type": "GUI Assistant",
             "model": "Phi-3 (local)",
             "interface": "Desktop (customtkinter)",
@@ -54,7 +54,7 @@ def get_dashboard_data():
     
     # Vault stats (fast, no embeddings)
     try:
-        vault_path = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+        vault_path = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
         notes = list(vault_path.rglob("*.md"))
         folders = set(n.parent.name for n in notes)
         data["vault"] = {
@@ -282,7 +282,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
 def run_dashboard(port=DASHBOARD_PORT):
     """Start the dashboard server."""
-    flag_file = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\sync\dashboard_running.flag")
+    flag_file = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\sync\dashboard_running.flag")
     flag_file.parent.mkdir(parents=True, exist_ok=True)
     flag_file.write_text(datetime.now().isoformat(), encoding="utf-8")
     

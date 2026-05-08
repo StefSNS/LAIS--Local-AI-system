@@ -12,7 +12,7 @@ CENTRAL = SCRIPT_DIR.parent / "central_skills"
 _JARVIS_PATH = os.environ.get("JARVIS_PATH", str(SCRIPT_DIR.parent.parent.parent / "Mark-XXXV"))
 LOCAL_MAP = {
     "opencode": SCRIPT_DIR.parent / ".opencode" / "skills",
-    "omnis": SCRIPT_DIR.parent / "knowledge" / "skills",
+    "lais": SCRIPT_DIR.parent / "knowledge" / "skills",
     "jarvis": Path(_JARVIS_PATH) / "skills"
 }
 

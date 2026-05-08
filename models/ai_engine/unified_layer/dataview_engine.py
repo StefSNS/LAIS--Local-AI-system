@@ -363,6 +363,6 @@ def get_dataview_engine(vault_path: str = None) -> DataviewEngine:
     global _global_dataview
     if _global_dataview is None:
         if vault_path is None:
-            vault_path = str(Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain")))
+            vault_path = str(Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain")))
         _global_dataview = DataviewEngine(vault_path)
     return _global_dataview

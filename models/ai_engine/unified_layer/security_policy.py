@@ -27,10 +27,10 @@ class AutonomyLevel(Enum):
 
 
 CONFIG_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\config.json"
+    r"str(Path(__file__).resolve().parent.parent)\config.json"
 )
 RATE_LOG_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\rate_log.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\rate_log.json"
 )
 RATE_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -428,7 +428,7 @@ def load_security_policy(agent_name: str = "agent") -> SecurityPolicy:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Security Policy - Phase 2 ===\n")

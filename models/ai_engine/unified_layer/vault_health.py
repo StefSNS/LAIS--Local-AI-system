@@ -10,7 +10,7 @@ from datetime import datetime
 from collections import Counter, defaultdict
 
 
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 HEALTH_REPORT_DIR = VAULT_PATH / "40_System" / "health_reports"
 HEALTH_REPORT_DIR.mkdir(parents=True, exist_ok=True)
 

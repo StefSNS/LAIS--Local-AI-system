@@ -53,7 +53,7 @@ class HybridLLMEngine:
         import os
         from dotenv import load_dotenv
         
-        # Load .env from Omnis directory
+        # Load .env from LAIS directory
         env_path = Path(__file__).resolve().parent / ".env"
         if env_path.exists():
             load_dotenv(env_path, override=True)

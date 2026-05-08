@@ -7,8 +7,8 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-OMNIS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
-sys.path.insert(0, str(OMNIS_PATH))
+LAIS_PATH = Path(r"str(Path(__file__).resolve().parent)")
+sys.path.insert(0, str(LAIS_PATH))
 
 print("=" * 60)
 print("PHASES 5, 6, 7 INTEGRATION TEST")
@@ -92,8 +92,8 @@ try:
           f"Found {len(channels)} channels")
 
     # Test message routing
-    agent = gateway.route_message("omnis_gui", "test_session_1", "user", "Hello!")
-    test("Message routing", agent == "omnis", f"Routed to: {agent}")
+    agent = gateway.route_message("lais_gui", "test_session_1", "user", "Hello!")
+    test("Message routing", agent == "lais", f"Routed to: {agent}")
 
     # Test session tracking
     sessions = gateway.list_sessions()

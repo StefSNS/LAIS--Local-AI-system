@@ -14,8 +14,8 @@ from typing import List, Dict, Any, Optional
 
 from txtai import Embeddings
 
-VAULT_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge")
-INDEX_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\txtai_index")
+VAULT_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge")
+INDEX_PATH = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\txtai_index")
 INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 

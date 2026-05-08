@@ -15,10 +15,10 @@ from datetime import datetime
 import duckdb
 
 MEMORY_DB_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\unified_memory.db"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\unified_memory.db"
 )
 ANALYTICS_DB_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\analytics.db"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\analytics.db"
 )
 ANALYTICS_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -166,7 +166,7 @@ class AnalyticsEngine:
 
     def vault_file_stats(self, vault_path: Optional[Path] = None) -> Dict[str, Any]:
         """Get statistics about vault files."""
-        vault_path = vault_path or Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge")
+        vault_path = vault_path or Path(r"str(Path(__file__).resolve().parent.parent)\knowledge")
 
         if not vault_path.exists():
             return {"error": "Vault path not found"}
@@ -210,7 +210,7 @@ class AnalyticsEngine:
     def export_report(self, output_path: Optional[Path] = None) -> str:
         """Generate a comprehensive analytics report."""
         output_path = output_path or Path(
-            r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\analytics_report.json"
+            r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\analytics_report.json"
         )
 
         report = {

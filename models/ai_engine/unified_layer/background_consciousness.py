@@ -122,7 +122,7 @@ class SelfModel:
     """The agent's self-knowledge and identity."""
 
     def __init__(self):
-        self.name = "Omnis"
+        self.name = "LAIS"
         self.capabilities = []
         self.weaknesses = []
         self.preferences = {}

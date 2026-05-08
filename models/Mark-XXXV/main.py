@@ -12,10 +12,10 @@ from pathlib import Path
 # Add project root to path for utils import
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-# Add Omnis to path for unified layer integration
-OMNIS_PATH = Path(__file__).resolve().parent.parent.parent / "Omnis"
-if OMNIS_PATH.exists():
-    sys.path.insert(0, str(OMNIS_PATH))
+# Add ai_engine to path for unified layer integration
+AI_ENGINE_PATH = Path(__file__).resolve().parent.parent / "ai_engine"
+if AI_ENGINE_PATH.exists():
+    sys.path.insert(0, str(AI_ENGINE_PATH))
 
 def _get_api_key() -> str:
     """Get Gemini API key from .env or config."""
@@ -424,7 +424,7 @@ TOOL_DECLARATIONS = [
                     )
                 },
                 "key":   {"type": "STRING", "description": "Short snake_case key (e.g. name, favorite_food, sister_name)"},
-                "value": {"type": "STRING", "description": "Concise value in English (e.g. Alex, pizza, older sister)"},
+                "value": {"type": "STRING", "description": "Concise value in English (e.g. Fatih, pizza, older sister)"},
             },
             "required": ["category", "key", "value"]
         }
@@ -912,11 +912,11 @@ def main():
     def runner():
         ui.wait_for_api_key()
         
-        # Initialize unified layer connection to Omnis
+        # Initialize unified layer connection to LAIS
         try:
             from unified_layer import load_unified_layer
             jarvis_unified = load_unified_layer("jarvis")
-            print("[JARVIS] ✅ Connected to Omnis unified layer")
+            print("[JARVIS] ✅ Connected to AI Engine unified layer")
         except ImportError:
             print("[JARVIS] ⚠️ Unified layer not available, running standalone")
             jarvis_unified = None

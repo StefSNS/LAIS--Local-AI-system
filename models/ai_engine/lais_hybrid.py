@@ -1,5 +1,5 @@
-"""
-Omnis Hybrid LLM Engine
+﻿"""
+LAIS Hybrid LLM Engine
 Uses: Phi-4 Mini, Qwen2.5 Coder (local) + Gemini Flash 2 (cloud fallback)
 """
 import sys
@@ -27,7 +27,7 @@ try:
                 try:
                     task_type = self._detect_task(messages)
                     model = self._select_local_model(task_type)
-                    print(f"[Omnis] Using local: {model}")
+                    print(f"[LAIS] Using local: {model}")
                     return self.engine.chat_local(model, messages, **kwargs)
                 except Exception as e:
                     print(f"[WARN] Local failed: {e}")
@@ -50,7 +50,7 @@ try:
             if prefer_local:
                 try:
                     model = self._select_local_model(task_type)
-                    print(f"[Omnis] Using local: {model}")
+                    print(f"[LAIS] Using local: {model}")
                     return self.engine.generate_local(model, prompt, **kwargs)
                 except Exception as e:
                     print(f"[WARN] Local failed: {e}")
@@ -102,13 +102,13 @@ try:
             """Get status."""
             return self.engine.get_status()
     
-    _omnis_hybrid = None
+    _lais_hybrid = None
     
-    def get_omnis_hybrid():
-        global _omnis_hybrid
-        if _omnis_hybrid is None:
-            _omnis_hybrid = OmnisHybridLLM()
-        return _omnis_hybrid
+    def get_lais_hybrid():
+        global _lais_hybrid
+        if _lais_hybrid is None:
+            _lais_hybrid = OmnisHybridLLM()
+        return _lais_hybrid
 
 except ImportError as e:
     print(f"[WARN] Hybrid engine not available: {e}")
@@ -136,14 +136,14 @@ except ImportError as e:
         def get_status(self):
             return {'hybrid_available': False}
     
-    def get_omnis_hybrid():
+    def get_lais_hybrid():
         return OmnisHybridFallback()
 
 
 if __name__ == "__main__":
-    ollm = get_omnis_hybrid()
+    ollm = get_lais_hybrid()
     
-    print("=== Omnis Hybrid LLM Test ===")
+    print("=== LAIS Hybrid LLM Test ===")
     print(f"Status: {ollm.get_status()}")
     print()
     
@@ -163,3 +163,4 @@ if __name__ == "__main__":
     print("Test 2: Code task (should use Qwen2.5 Coder)")
     response = ollm.chat(messages, prefer_local=True, max_tokens=200)
     print(f"Response:\n{response}")
+

@@ -1,5 +1,5 @@
 """
-Cross-Agent Memory Sync - Shared memory between Omnis, Jarvis, and OpenCode
+Cross-Agent Memory Sync - Shared memory between LAIS, Jarvis, and OpenCode
 All agents read/write to a common store with timestamps and attribution.
 """
 
@@ -10,7 +10,7 @@ from pathlib import Path
 from datetime import datetime
 from threading import Lock
 
-SYNC_DIR = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\sync")
+SYNC_DIR = Path(r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\sync")
 SYNC_DIR.mkdir(parents=True, exist_ok=True)
 
 SHARED_MEMORY_FILE = SYNC_DIR / "shared_memory.json"
@@ -18,7 +18,7 @@ AGENT_REGISTRY_FILE = SYNC_DIR / "agent_registry.json"
 SYNC_LOG_FILE = SYNC_DIR / "sync_log.json"
 LOCK = Lock()
 
-VALID_AGENTS = {"omnis", "jarvis", "opencode", "test"}
+VALID_AGENTS = {"lais", "jarvis", "opencode", "test"}
 
 
 class SharedMemoryStore:
@@ -48,7 +48,7 @@ class SharedMemoryStore:
     def store(self, agent, key, value, category="general", ttl=None):
         """
         Store a memory entry.
-        agent: which agent is storing this (omnis/jarvis/opencode)
+        agent: which agent is storing this (lais/jarvis/opencode)
         key: unique identifier for this memory
         value: the actual content
         category: type of memory (preference/fact/project/context/insight)
@@ -201,7 +201,7 @@ if __name__ == "__main__":
     print(f"Categories: {status['categories']}")
     
     print("\n=== Test: Store Memories ===")
-    store.store("omnis", "user_pref_theme", "User prefers dark mode", "preference")
+    store.store("lais", "user_pref_theme", "User prefers dark mode", "preference")
     store.store("jarvis", "user_schedule", "User has meeting at 3pm", "context")
     store.store("opencode", "project_status", "Unified layer complete", "project")
     

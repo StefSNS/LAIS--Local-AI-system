@@ -30,10 +30,10 @@ try:
     draw.text((x, y), text, fill='#00d4ff', font=font)
     
     # Save as both PNG and ICO
-    img.save('C:\\Users\\stefa\\Desktop\\AI projects\\Projects\\Omnis\\icon.png', 'PNG')
+    img.save('C:\\Users\\stefa\\Desktop\\AI projects\\Projects\\LAIS\\icon.png', 'PNG')
     
     # Convert to ICO for shortcut
-    img.save('C:\\Users\\stefa\\Desktop\\AI projects\\Projects\\Omnis\\icon.ico', 'ICO', sizes=[(256, 256), (128, 128), (64, 64), (32, 32)])
+    img.save('C:\\Users\\stefa\\Desktop\\AI projects\\Projects\\LAIS\\icon.ico', 'ICO', sizes=[(256, 256), (128, 128), (64, 64), (32, 32)])
     
     print("[OK] Icon created: icon.png and icon.ico")
     

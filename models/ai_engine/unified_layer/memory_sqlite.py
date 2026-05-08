@@ -18,7 +18,7 @@ from threading import Lock
 from typing import List, Optional, Dict, Any
 
 DB_PATH = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\unified_memory.db"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\unified_memory.db"
 )
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -659,7 +659,7 @@ def load_sqlite_memory(db_path: Optional[Path] = None) -> SQLiteMemory:
 
 if __name__ == "__main__":
     import sys
-    sys.path.insert(0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+    sys.path.insert(0, r"str(Path(__file__).resolve().parent.parent)")
 
     mem = load_sqlite_memory()
 
@@ -673,7 +673,7 @@ if __name__ == "__main__":
 
     print("\n=== Test: Store Memories ===")
     mem.store_memory("opencode", "test_key", "This is a test memory entry about SQLite", "test")
-    mem.store_memory("omnis", "user_pref", "User prefers dark mode and casual tone", "preference")
+    mem.store_memory("lais", "user_pref", "User prefers dark mode and casual tone", "preference")
     mem.store_memory("jarvis", "session_note", "Discussed architecture evolution with Stef", "context")
 
     print("\n=== Test: FTS5 Search ===")

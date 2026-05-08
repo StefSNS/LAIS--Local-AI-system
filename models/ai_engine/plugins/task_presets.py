@@ -161,7 +161,7 @@ def get_preset(name: str) -> Optional[TaskPreset]:
 def run_preset(name: str, context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """Run a preset — returns the plan, doesn't execute it.
     
-    The caller (Omnis orchestrator or Jarvis) executes the steps.
+    The caller (LAIS orchestrator or Jarvis) executes the steps.
     """
     preset = PRESETS.get(name)
     if not preset:

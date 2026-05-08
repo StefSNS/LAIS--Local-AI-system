@@ -43,7 +43,7 @@ def get_page_text(url, timeout=10):
         return f"Could not scrape {url}: {e}"
 
 def summarize_text(text, topic, llm_func=None):
-    """Summarize scraped text using Omnis LLM."""
+    """Summarize scraped text using LAIS LLM."""
     if not text or len(text) < 50:
         return "No content to summarize."
     

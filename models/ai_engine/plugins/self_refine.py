@@ -144,7 +144,7 @@ def run_refinement(progress_callback=None):
     # =========== PHASE 4: SELF-CODE REVIEW ===========
     results.append("\n[PHASE 4] Self-Code Review")
     try:
-        core_files = ['main.py', 'llm_engine.py', 'memory_omnis.py', 'plugin_manager.py', 'config.json']
+        core_files = ['main.py', 'llm_engine.py', 'memory_lais.py', 'plugin_manager.py', 'config.json']
         for cf in core_files:
             cf_path = os.path.join(PROJECT_ROOT, cf)
             if os.path.exists(cf_path):
@@ -205,3 +205,4 @@ def run_refinement(progress_callback=None):
         pass
 
     return "\n".join(results)
+

@@ -1,7 +1,7 @@
 """
-OpenCode Integration - Bridge between Omnis/Jarvis and OpenCode CLI agent.
+OpenCode Integration - Bridge between LAIS/Jarvis and OpenCode CLI agent.
 Provides vault-aware context injection, crystallization, and local LLM access
-for the OpenCode CLI agent in the 3-agent system (Omnis + Jarvis + OpenCode).
+for the OpenCode CLI agent in the 3-agent system (LAIS + Jarvis + OpenCode).
 """
 
 import json
@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-UNIFIED_LAYER_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis")
+UNIFIED_LAYER_PATH = Path(r"str(Path(__file__).resolve().parent.parent)")
 if str(UNIFIED_LAYER_PATH) not in sys.path:
     sys.path.insert(0, str(UNIFIED_LAYER_PATH))
 

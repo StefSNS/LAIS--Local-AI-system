@@ -13,17 +13,17 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'unified_layer'))
 
 try:
     from unified_layer import load_unified_layer
-    unified = load_unified_layer("omnis")
+    unified = load_unified_layer("lais")
 except Exception as e:
     print(f"[llm_engine] Error loading unified layer: {e}")
     unified = None
 
 try:
     from unified_memory import UnifiedMemory, load_memory
-    mem = load_memory("omnis")
+    mem = load_memory("lais")
 except Exception as e:
     print(f"[llm_engine] Error loading unified memory: {e}")
-    from memory_omnis import DCTPMemory
+    from memory_lais import DCTPMemory
     mem = DCTPMemory()
 
 llamafile_path = os.path.join(BASE_DIR, "models", "llamafile.exe")
@@ -53,7 +53,7 @@ _server_process = None
 _server_port = 8080
 _server_ready = False
 
-OMNIS_IDENTITY = """You are Omnis, a highly capable and thoughtful AI assistant.
+OMNIS_IDENTITY = """You are LAIS, a highly capable and thoughtful AI assistant.
 
 PERSONALITY:
 - Be warm, conversational, and natural in your responses
@@ -279,7 +279,7 @@ def chat(p):
         response = requests.post(
             f"http://127.0.0.1:{_server_port}/v1/chat/completions",
             json={
-                "model": "omnis",
+                "model": "lais",
                 "messages": messages,
                 "temperature": 0.7,
                 "max_tokens": 1024,
@@ -299,7 +299,7 @@ def chat(p):
     
     try:
         from chat_history import save_message
-        save_message("omnis", r)
+        save_message("lais", r)
         if hasattr(mem, 'add_message'):
             mem.add_message("assistant", r)
         

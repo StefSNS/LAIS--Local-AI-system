@@ -1,6 +1,6 @@
 ﻿"""
 MemPalace Integration â€” Bridges Knowledge Graph, Memory Stack, Contradiction Detection,
-Tunnels, and Palace Miner into a unified memory palace for JARVIS/Omnis.
+Tunnels, and Palace Miner into a unified memory palace for JARVIS/LAIS.
 
 Provides:
 - Smart context injection (uses Memory Stack L0-L3)
@@ -10,6 +10,7 @@ Provides:
 - Natural language palace queries
 """
 
+import os
 import json
 import threading
 from datetime import datetime
@@ -18,7 +19,7 @@ from typing import Optional, List, Dict, Any
 
 # Paths
 UNIFIED_LAYER = Path(__file__).parent
-VAULT_PATH = Path(os.environ.get("OMNIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain"))
 PROJECTS_PATH = Path(r"%USERPROFILE%\Desktop\AI projects\Projects")
 DATA_DIR = UNIFIED_LAYER / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)

@@ -17,10 +17,10 @@ from typing import Dict, List, Any, Optional, Callable
 from threading import Lock
 
 TASKS_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\scheduled_tasks.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\scheduled_tasks.json"
 )
 CLOUD_TASKS_FILE = Path(
-    r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis\knowledge\memory\cloud_tasks.json"
+    r"str(Path(__file__).resolve().parent.parent)\knowledge\memory\cloud_tasks.json"
 )
 TASKS_FILE.parent.mkdir(parents=True, exist_ok=True)
 LOCK = Lock()
@@ -732,7 +732,7 @@ def load_scheduler(cloud_webhook: str = "") -> TaskScheduler:
 if __name__ == "__main__":
     import sys
     sys.path.insert(
-        0, r"%USERPROFILE%\Desktop\AI projects\Projects\Omnis"
+        0, r"str(Path(__file__).resolve().parent.parent)"
     )
 
     print("=== Task Scheduler - Phase 3 ===\n")
@@ -760,7 +760,7 @@ if __name__ == "__main__":
         "Vault Cleanup",
         "vault_cleanup",
         "daily at 02:00",
-        agent="omnis",
+        agent="lais",
     )
     print(f"  Added: {t1.name} - next run: {t1.next_run}")
 
@@ -784,7 +784,7 @@ if __name__ == "__main__":
         "Weekly Report",
         "vault_cleanup",
         "weekly on sunday at 20:00",
-        agent="omnis",
+        agent="lais",
     )
     print(f"  Added: {t4.name} - next run: {t4.next_run}")
 
