@@ -28,6 +28,31 @@ dependencies = [
     "PyQt6",
 ]
 
+[project.optional-dependencies]
+telegram = ["python-telegram-bot"]
+discord = ["discord.py"]
+messaging = ["python-telegram-bot", "discord.py", "aiohttp"]
+all = [
+    "python-telegram-bot",
+    "discord.py",
+    "aiohttp",
+    "playwright",
+    "duckduckgo-search",
+    "beautifulsoup4",
+    "opencv-python",
+    "mss",
+    "pyautogui",
+    "pyperclip",
+    "pygetwindow",
+    "pywinauto",
+    "comtypes",
+    "pycaw",
+    "win10toast",
+    "send2trash",
+    "youtube-transcript-api",
+]
+
 [project.urls]
 Homepage = "https://github.com/StefSNS/LAIS"
 Repository = "https://github.com/StefSNS/LAIS"
+Documentation = "https://github.com/StefSNS/LAIS/tree/main/docs"

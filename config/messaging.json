@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "enabled": false,
+    "token": "YOUR_TELEGRAM_BOT_TOKEN"
+  },
+  "discord": {
+    "enabled": false,
+    "token": "YOUR_DISCORD_BOT_TOKEN"
+  },
+  "whatsapp": {
+    "enabled": false,
+    "webhook_url": "http://localhost:9090/webhook"
+  },
+  "routing": {
+    "default_agent": "ai_engine",
+    "agent_map": {
+      "jarvis": ["telegram"],
+      "ai_engine": ["discord", "whatsapp"],
+      "opencode": []
+    }
+  },
+  "broadcast_targets": {
+    "telegram": [],
+    "discord": [],
+    "whatsapp": []
+  }
+}
