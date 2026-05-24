@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "models": {
+    "mark-xxxix": {
+      "path": "models/Mark-XXXIX",
+      "entry": "main.py",
+      "description": "Voice AI assistant (Gemini Live)"
+    },
+    "ai_engine": {
+      "path": "models/ai_engine",
+      "entry": "main.py",
+      "description": "Desktop GUI orchestrator with 40+ plugins"
+    }
+  },
+  "vault": {
+    "path": "vault"
+  },
+  "a2a": {
+    "port": 8020,
+    "enabled": true
+  },
+  "cocomm": {
+    "enabled": true,
+    "ws_port": 8765,
+    "a2a_port": 8020
+  },
+  "memory": {
+    "layers": ["hot", "warm", "cold", "crystallized"],
+    "hot_retention": 1.0,
+    "warm_retention": 0.6,
+    "cold_retention": 0.2,
+    "crystallized_retention": 0.9
+  },
+  "session_continuity": {
+    "enabled": true,
+    "auto_execute": true
+  },
+  "token_optimization": {
+    "enabled": true,
+    "claw_compactor": true,
+    "llmlingua": true,
+    "tokenpruner": true,
+    "shekel": true,
+    "response_cache": true
+  }
+}

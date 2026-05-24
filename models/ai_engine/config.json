@@ -1,0 +1,21 @@
+{
+  "models": {
+    "qwen3.5": {
+      "path": "..\\Qwen3.5-4B-Q4_K_M.gguf",
+      "context_size": 4096
+    },
+    "phi4": {
+      "path": "..\\microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+      "context_size": 8192
+    },
+    "qwen3": {
+      "path": "..\\Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+      "context_size": 32768
+    }
+  },
+  "active_model": "qwen3.5",
+  "model_path": "..\\Qwen3.5-4B-Q4_K_M.gguf",
+  "n_ctx": 4096,
+  "n_threads": 4,
+  "model_type": "qwen"
+}

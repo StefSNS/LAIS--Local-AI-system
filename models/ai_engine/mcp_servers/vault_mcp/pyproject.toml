@@ -1,0 +1,15 @@
+[project]
+name = "lais-vault-mcp"
+version = "0.1.0"
+description = "LAIS Vault MCP Server - Obsidian vault sync and search"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+]
+
+[project.scripts]
+lais-vault-mcp = "lais_vault_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

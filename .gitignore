@@ -1,0 +1,56 @@
+# LAIS .gitignore
+
+# API keys
+models/Mark-XXXIX/config/api_keys.json
+**/api_keys.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.env.local
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models (too large for git)
+models/ai_engine/local_llm/*.gguf
+models/ai_engine/local_llm/llama.cpp/
+*.bin
+
+# Memory (user-specific)
+models/ai_engine/knowledge/memory/*.db
+models/ai_engine/knowledge/memory/*.json
+
+# Vault (created by install.py)
+vault/
+
+# Logs
+*.log
+
+# Pocketbase (large binary + databases)
+addons/pocketbase/pocketbase.exe
+addons/pocketbase/pocketbase
+**/pb_data/
+**/pb_migrations/
+
+# Large generated indexes
+**/vault_index_cache.json

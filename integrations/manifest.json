@@ -1,0 +1,212 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-19",
+  "integrations": {
+    "workflow": {
+      "gsd": {
+        "name": "Get Stuff Done",
+        "version": "1.43.x",
+        "path": "workflow/gsd",
+        "status": "integrated",
+        "install": "npx get-shit-done-cc@latest",
+        "description": "Meta-prompting framework for long AI sessions with phase-based workflow"
+      },
+      "gsd2": {
+        "name": "GSD 2 (Autonomous)",
+        "version": "standalone",
+        "path": "workflow/gsd2",
+        "status": "integrated",
+        "install": "npx gsd-cc@latest",
+        "description": "Standalone CLI autonomous agent with state machine"
+      }
+    },
+    "memory": {
+      "mempalace": {
+        "name": "MemPalace",
+        "version": "latest",
+        "path": "memory/mempalace",
+        "status": "integrated",
+        "install": "pip install memp",
+        "description": "96.6% recall memory system, local execution, MIT licensed"
+      },
+      "evermemos": {
+        "name": "EverMemOS",
+        "version": "latest",
+        "path": "memory/evermemos",
+        "status": "integrated",
+        "install": "See GitHub",
+        "description": "Long-term agent memory with hybrid retrieval"
+      }
+    },
+    "agent_core": {
+      "pi_mono": {
+        "name": "pi-mono",
+        "version": "latest",
+        "path": "agent_core/pi-mono",
+        "status": "integrated",
+        "install": "npm packages",
+        "description": "Unified LLM API + agent runtime + TUI/web UI"
+      }
+    },
+    "skills": {
+      "superpowers": {
+        "name": "Superpowers",
+        "version": "latest",
+        "path": "skills/superpowers",
+        "status": "integrated",
+        "install": "npx skills add obra/superpowers",
+        "description": "20+ battle-tested development skills"
+      },
+      "ui_ux_pro_max": {
+        "name": "UI UX Pro Max",
+        "version": "2.5.0",
+        "path": "skills/ui-ux-pro-max",
+        "status": "integrated",
+        "install": "npx uipro-cli init --ai claude",
+        "description": "67+ UI styles, 161 color palettes, 99 UX guidelines"
+      },
+
+    "roles": {
+      "agency_agents": {
+        "name": "Agency Agents",
+        "version": "latest",
+        "path": "roles/agency-agents",
+        "status": "integrated",
+        "install": "cp -r agency-agents/* ~/.claude/agents/",
+        "description": "147+ specialized AI agent roles"
+      }
+    },
+    "orchestration": {
+      "ruflo": {
+        "name": "Ruflo",
+        "version": "latest",
+        "path": "orchestration/ruflo",
+        "status": "integrated",
+        "install": "See GitHub",
+        "description": "60+ multi-agent orchestration with swarm coordination"
+      }
+    },
+    "tools": {
+      "gitingest": {
+        "name": "gitingest",
+        "version": "latest",
+        "path": "tools/gitingest",
+        "status": "integrated",
+        "install": "pip install gitingest",
+        "description": "Repository ingestion for LLMs with MCP server"
+      },
+      "botasaurus": {
+        "name": "Botasaurus",
+        "version": "latest",
+        "path": "tools/botasaurus",
+        "status": "integrated",
+        "install": "pip install botasaurus",
+        "description": "Anti-detect web scraping framework"
+      },
+      "stirling_pdf": {
+        "name": "Stirling-PDF",
+        "version": "latest",
+        "path": "tools/stirling-pdf",
+        "status": "integrated",
+        "install": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf",
+        "description": "60+ PDF tools with REST API"
+      },
+      "gstack": {
+        "name": "gstack",
+        "version": "latest",
+        "path": "tools/gstack",
+        "status": "integrated",
+        "install": "git clone to ~/.claude/skills/gstack",
+        "description": "23 slash commands for coding workflows"
+      },
+      "codeburn": {
+        "name": "codeburn",
+        "version": "latest",
+        "path": "tools/codeburn",
+        "status": "integrated",
+        "install": "npm install -g codeburn",
+        "description": "Cost/usage tracking across 18+ AI tools"
+      }
+    },
+    "design": {
+      "huashu_design": {
+        "name": "Huashu Design",
+        "version": "latest",
+        "path": "design/huashu-design",
+        "status": "integrated",
+        "install": "npx skills add alchaincyf/huashu-design",
+        "description": "HTML-native design skill for prototypes, slides, motion"
+      }
+    },
+    "document": {
+      "claude_video": {
+        "name": "Claude Video",
+        "version": "latest",
+        "path": "document/claude-video",
+        "status": "integrated",
+        "install": "See GitHub",
+        "description": "Video watch/understand capability"
+      }
+    },
+    "research": {
+      "learn_claude_code": {
+        "name": "Learn Claude Code",
+        "version": "s01-s12",
+        "path": "research/learn-claude-code",
+        "status": "integrated",
+        "install": "See GitHub",
+        "description": "12 progressive sessions to build AI coding agents"
+      },
+      "council_of_5": {
+        "name": "Council of 5",
+        "version": "latest",
+        "path": "research/council-of-5",
+        "status": "integrated",
+        "install": "See GitHub",
+        "description": "Multi-advisor decision synthesis framework"
+      }
+    },
+    "reference": {
+      "n8n_mcp": {
+        "name": "n8n-MCP",
+        "version": "latest",
+        "path": "reference/n8n-mcp",
+        "status": "integrated",
+        "install": "npm install -g n8n-mcp",
+        "description": "n8n workflow automation knowledge base"
+      },
+      "awesome_claude_code": {
+        "name": "Awesome Claude Code",
+        "version": "latest",
+        "path": "reference/awesome-claude-code",
+        "status": "integrated",
+        "install": "git clone",
+        "description": "Curated resource collection"
+      },
+      "developer_roadmap": {
+        "name": "Developer Roadmap",
+        "version": "latest",
+        "path": "reference/developer-roadmap",
+        "status": "integrated",
+        "install": "https://roadmap.sh",
+        "description": "Interactive learning paths"
+      },
+      "public_apis": {
+        "name": "Public APIs",
+        "version": "latest",
+        "path": "reference/public-apis",
+        "status": "integrated",
+        "install": "https://github.com/public-apis/public-apis",
+        "description": "1400+ free API directory"
+      },
+      "awesome_python": {
+        "name": "Awesome Python",
+        "version": "latest",
+        "path": "reference/awesome-python",
+        "status": "integrated",
+        "install": "https://github.com/vinta/awesome-python",
+        "description": "542 Python frameworks and libraries"
+      }
+    }
+  }
+}
