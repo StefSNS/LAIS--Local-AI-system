@@ -16,16 +16,22 @@ import json, os, subprocess, sys, time, urllib.request, zipfile
 from pathlib import Path
 
 SELF_DIR = Path(__file__).resolve().parent
+IS_WINDOWS = sys.platform == "win32"
+IS_LINUX = sys.platform == "linux"
+IS_MAC = sys.platform == "darwin"
+
 REQUIREMENTS = [
     "customtkinter", "pillow", "psutil", "requests",
     "beautifulsoup4", "duckduckgo-search", "pyautogui",
     "pyperclip", "opencv-python", "numpy", "mss",
     "google-genai", "google-generativeai",
-    "sounddevice", "PyQt6", "playwright",
-    "pywinauto", "pygetwindow", "python-pptx",
-    "comtypes", "pycaw", "win10toast", "send2trash",
-    "youtube-transcript-api", "psutil",
+    "playwright", "python-pptx", "send2trash",
+    "youtube-transcript-api",
 ]
+if IS_WINDOWS:
+    REQUIREMENTS += ["sounddevice", "PyQt6", "pywinauto", "pygetwindow", "comtypes", "pycaw", "win10toast"]
+elif IS_LINUX:
+    REQUIREMENTS += ["sounddevice", "pygetwindow"]
 
 def step(msg): print(f"\n  >>> {msg}\n  " + "="*60)
 def ok(msg): print(f"  [OK] {msg}")
@@ -49,6 +55,14 @@ def phase_system_check():
     pip_ok, _, _ = run([sys.executable, "-m", "pip", "--version"])
     if not pip_ok: return fail("pip not found")
     ok("pip found")
+    os_name = {"win32": "Windows", "linux": "Linux", "darwin": "macOS"}.get(sys.platform, sys.platform)
+    ok(f"Platform: {os_name}")
+    if IS_WINDOWS:
+        ok("Full feature support (JARVIS voice AI, AI Engine GUI, CLI)")
+    elif IS_LINUX:
+        warn("Linux: GUI features require display (X11/Wayland). Headless services (A2A, vault, API) work fine.")
+    elif IS_MAC:
+        warn("macOS: Limited testing. Some Windows-specific features unavailable.")
     return True
 
 def phase_install_deps():
