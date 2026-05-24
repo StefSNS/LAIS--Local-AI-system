@@ -1,0 +1,30 @@
+name: Python Syntax Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Check Python syntax
+      run: |
+        $errors = 0
+        Get-ChildItem -Recurse -Filter "*.py" | Where-Object { $_.FullName -notmatch "__pycache__" } | ForEach-Object {
+          try {
+            python -c "compile(open('$($_.FullName)', encoding='utf-8', errors='ignore').read(), '$($_.Name)', 'exec')" 2>$null
+          } catch {
+            Write-Host "SYNTAX ERROR: $($_.Name)" -ForegroundColor Red
+            $errors++
+          }
+        }
+        if ($errors -gt 0) { exit 1 }
+        Write-Host "All Python files pass syntax check" -ForegroundColor Green

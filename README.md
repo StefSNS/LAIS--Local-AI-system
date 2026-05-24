@@ -275,8 +275,9 @@ opt.get_report()  # Full token usage + savings report
 - [x] 9-agent security grid
 - [x] Obsidian vault sync
 
-### v2.1 — Coming Soon
-- [ ] Messaging gateway (Telegram, Discord, WhatsApp)
+### v2.1 — Current Release
+
+- [x] Messaging gateway (Telegram, Discord, WhatsApp) — `pip install lais-ai[messaging]`
 - [ ] One-line pip install (`pip install lais-ai`)
 - [ ] Docker deployment
 - [ ] Linux native support
