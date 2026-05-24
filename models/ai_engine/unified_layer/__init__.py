@@ -21,7 +21,8 @@ from threading import Lock
 from typing import Optional
 
 # Vault path: can override via LAIS_VAULT_PATH env variable
-VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", os.path.expandvars(r"%USERPROFILE%\Desktop\AI projects\Obsidian\Unified Brain")))
+_LAIS_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+VAULT_PATH = Path(os.environ.get("LAIS_VAULT_PATH", _LAIS_ROOT / "vault"))
 # Project knowledge paths (relative to this file's project root)
 _UL_BASE = Path(__file__).resolve().parent.parent
 LAIS_KNOWLEDGE = _UL_BASE / "knowledge"
