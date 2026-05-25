@@ -1,0 +1,70 @@
+name: Docker Hub
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Image tag (default: latest)"
+        required: false
+        default: "latest"
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ secrets.DOCKER_USERNAME }}/lais-ai
+          tags: |
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push A2A server
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          target: a2a-server
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/lais-ai:a2a-${{ steps.meta.outputs.version }}
+
+      - name: Build and push API server
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          target: api-server
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/lais-ai:api-${{ steps.meta.outputs.version }}
+
+      - name: Build and push vault server
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          target: vault-server
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/lais-ai:vault-${{ steps.meta.outputs.version }}
+
+      - name: Build and push all-in-one
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          target: all-in-one
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
