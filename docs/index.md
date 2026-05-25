@@ -19,7 +19,6 @@ LAIS is a multi-agent AI operating system that runs three autonomous agents simu
 - [Memory Architecture](memory.md) — 4-layer hot/warm/cold/crystallized memory
 - [CoComm Protocol](cocomm.md) — Cross-agent communication with 18 modules
 - [Token Optimization](token-optimizer.md) — Multi-library compression pipeline
-- [Docker Deployment](docker.md) — Containerized headless services
 
 ## Key Features
 
@@ -44,7 +43,6 @@ LAIS is a multi-agent AI operating system that runs three autonomous agents simu
 | Cross-Agent Protocol | ✅ 18 modules | ❌ | ❌ | ❌ |
 | 9-Agent Security | ✅ | ❌ | ❌ | ❌ |
 | Messaging Gateway | ✅ TG/DC/WA | ✅ TG | ❌ | ❌ |
-| Docker Support | ✅ | ✅ | ❌ | ✅ |
 | Platform | Windows/Linux | Cross | Cross | Cross |
 
 ## Install
@@ -57,13 +55,6 @@ powershell -c "irm https://raw.githubusercontent.com/StefSNS/LAIS--Local-AI-syst
 **Linux/macOS:**
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/StefSNS/LAIS--Local-AI-system/main/install.sh)
-```
-
-**Docker:**
-```bash
-docker compose up -d
-```
-
-## License
+```\n\n## License
 
 CC BY-NC 4.0 — Free for non-commercial use.

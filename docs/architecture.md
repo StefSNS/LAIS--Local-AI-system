@@ -121,10 +121,7 @@ LAIS/
 │   └── system.json          # Shared config
 ├── addons/
 │   └── token-optimizer/     # v1.0.0 pipeline
-├── docker/
 │   └── api_server.py        # Headless REST API
-├── Dockerfile               # Multi-stage build
-├── docker-compose.yml       # Service orchestration
 ├── install.ps1              # Windows one-liner
 ├── install.sh               # Linux/macOS installer
 └── install.py               # 7-phase Python installer

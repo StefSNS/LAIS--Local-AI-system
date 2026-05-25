@@ -37,17 +37,6 @@ cd LAIS--Local-AI-system
 python install.py
 ```
 
-## Docker Deployment
-
-```bash
-docker compose up -d
-```
-
-This starts three headless services:
-- `lais-a2a` — A2A communication server (port 8020)
-- `lais-vault` — Vault MCP server (port 8000)
-- `lais-api` — REST API (port 8080)
-
 ## Configure API Keys
 
 Edit `models/Mark-XXXIX/config/api_keys.json`:
@@ -74,17 +63,14 @@ Desktop orchestrator with 40+ plugins.
 
 ### Headless REST API
 ```bash
-docker compose up lais-api
 ```
 Or directly:
 ```bash
-python docker/api_server.py
 ```
 
 ## Next Steps
 
 - Read the [Architecture Overview](architecture.md)
 - Configure [Messaging Gateways](messaging.md) (Telegram/Discord)
-- Deploy with [Docker](docker.md)
 - Learn about [Memory Architecture](memory.md)
 - Explore [CoComm Protocol](cocomm.md)
