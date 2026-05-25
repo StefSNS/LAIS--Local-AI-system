@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://pypi.org/project/lais-ai/"><img src="https://img.shields.io/pypi/v/lais-ai?color=blue" alt="PyPI"></a>
   <a href="#"><img src="https://img.shields.io/badge/Python-3.11%2B-blue" alt="Python 3.11+"></a>
   <a href="#"><img src="https://img.shields.io/badge/Platform-Windows_10%2F11-blue" alt="Windows"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey" alt="License"></a>
@@ -125,21 +126,21 @@ While OpenClaw and Hermes target Linux/Mac, LAIS is **born on Windows 11** with 
 - **Python 3.11+**
 - **~2GB free disk space** (source code only; models require additional)
 
-### One-Line Install
-```powershell
-powershell -c "irm https://raw.githubusercontent.com/StefSNS/LAIS/main/install.ps1 | iex"
-```
-
-### Or via pip
+### Install via pip
 ```bash
 pip install lais-ai
-lais install
+python -c "from install import main; main()"
+```
+
+### One-Line Install (Windows)
+```powershell
+powershell -c "irm https://raw.githubusercontent.com/StefSNS/LAIS--Local-AI-system/main/install.ps1 | iex"
 ```
 
 ### Manual Install
 ```bash
-git clone https://github.com/StefSNS/LAIS.git
-cd LAIS
+git clone https://github.com/StefSNS/LAIS--Local-AI-system.git
+cd LAIS--Local-AI-system
 python install.py
 ```
 
