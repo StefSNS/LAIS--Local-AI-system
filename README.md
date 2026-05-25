@@ -279,7 +279,7 @@ opt.get_report()  # Full token usage + savings report
 ### v2.1 — Current Release
 
 - [x] Messaging gateway (Telegram, Discord, WhatsApp) — `pip install lais-ai[messaging]`
-- [ ] One-line pip install (`pip install lais-ai`)
+- [x] One-line pip install (`pip install lais-ai`)
 - [ ] Docker deployment
 - [ ] Linux native support
 - [ ] Self-improving skills engine
