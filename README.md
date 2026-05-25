@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/banner.png" alt="LAIS Banner" width="600"/>
+  <!-- banner placeholder -->
 </p>
 
 <h1 align="center">LAIS — Local AI System</h1>
@@ -14,8 +14,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Platform-Windows_10%2F11-blue" alt="Windows"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/Agents-3-brightgreen" alt="3 Agents"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Plugins-40%2B-orange" alt="40+ Plugins"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Skills-30%2B-yellow" alt="30+ Skills"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Plugins-Hot--Load-orange" alt="Hot-Load Plugins"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Skills-34-blue" alt="34 Skills"></a>
   <a href="#"><img src="https://img.shields.io/badge/Memory_Architecture-v3.0-purple" alt="Memory v3"></a>
 </p>
 
@@ -28,7 +28,7 @@ LAIS is a **multi-agent AI operating system** that runs three autonomous agents 
 | Agent | Interface | Purpose |
 |-------|-----------|---------|
 | **JARVIS** (Mark XXXIX) | Voice + Vision | Real-time voice AI via Gemini Live, screen/webcam analysis, desktop control, security grid |
-| **AI Engine** | Desktop GUI | Plugin orchestrator with 40+ hot-loaded plugins, RAG pipeline, local LLM inference, multi-agent routing |
+| **AI Engine** | Desktop GUI | Plugin orchestrator with hot-loaded plugin system, RAG pipeline, local LLM inference, multi-agent routing |
 | **OpenCode** | CLI Terminal | 30+ coding skills: TDD, refactoring, code review, research, debugging |
 
 All three agents share a **unified memory layer** — JARVIS remembers what OpenCode did, AI Engine orchestrates complex multi-step workflows, and OpenCode handles precise code operations. They communicate through the **CoComm cross-agent protocol** with A2A server, WebSocket messaging, shared memory, trust scoring, and consensus.
@@ -184,7 +184,7 @@ lais_opencode.py                      # OpenCode launcher
 | **Knowledge Vault** | Obsidian sync | None | None | None |
 | **Per-Agent Budgeting** | shekel enforcement | None | None | None |
 | **Self-Improving Skills** | Manual | Auto (Hermes) | Auto | Limited |
-| **Messaging Platforms** | None | 14+ providers | 14+ providers | None |
+| **Messaging Platforms** | TG/DC/WA (gateway) | 14+ providers | 14+ providers | None |
 | **Windows Native** | Yes | Secondary | WSL2 | Secondary |
 | **GitHub Stars** | New | 374K | 140K | 150K |
 
@@ -217,7 +217,7 @@ LAIS/
 │   └── ai_engine/                 # AI Engine orchestrator
 │       ├── main.py                # CustomTkinter GUI
 │       ├── llm_engine.py          # LLM inference gateway
-│       ├── plugin_manager.py      # Hot-loads 40+ plugins
+│       ├── plugin_manager.py      # Hot-loads plugins from directory
 │       ├── plugins/               # Plugin modules
 │       ├── unified_layer/         # 60 integration modules
 │       │   ├── token_optimizer.py
